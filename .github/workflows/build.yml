@@ -19,6 +19,10 @@ jobs:
       - name: Clone repo
         uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: |
+          pip3 install -r src/requirements.txt
+
       - name: Lint
         run: |
           sudo apt-get install -y pylint3

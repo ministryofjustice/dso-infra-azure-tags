@@ -68,6 +68,7 @@ jobs:
             # manual trigger - take params from inputs
             checkflag="${{ github.event.inputs.checkflag }}"
             environments="${{ github.event.inputs.environments }}"
+            environments=""
           elif [[ "${GITHUB_EVENT_NAME}" == "push" && ( "${branch}" == "master" || "${branch}" == "main" ) ]]; then
             # push to master/main - deploy for real
             checkflag="false"
