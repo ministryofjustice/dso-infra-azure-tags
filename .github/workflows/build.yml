@@ -1,0 +1,27 @@
+name: lint-and-test
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - src/**
+  pull_request:
+    branches:
+      - master
+    paths:
+      - src/**
+jobs:
+  lint-and-test:
+    runs-on:
+      - ubuntu-latest
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v2
+
+      - name: Lint
+        run: |
+          pylint --rcfile=src/.pylintrc src/*.py
+
+      - name: Test
+        run: |
+          src/test/test.sh src/test/expected_output.txt

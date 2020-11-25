@@ -1,0 +1,182 @@
+Downloading tag-support from https://raw.githubusercontent.com/tfitzmac/resource-capabilities/master/tag-support.csv
+Parsing 2 tag file(s)
+  Parsed src/test/test1.csv; inherit=False; 8 id(s); 4 tag type(s)
+  Parsed src/test/test2.csv; inherit=False; 3 id(s); 4 tag type(s)
+Loading azure resources
+EXISTING TAGS
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testRG1/providers/Microsoft.ContainerService/managedClusters/test1
+  Service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+      env: existing_env_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test2
+  service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test3
+  service: existing_service_tag
+      app: existing_app_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test4
+  service: existing_service_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test5
+    other: existing_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test1
+  service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+      env: existing_env_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test2
+  service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg3/providers/Microsoft.ContainerService/managedClusters/test1
+  service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+      env: existing_env_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg4/providers/Microsoft.ContainerService/managedClusters/test1
+  service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+      env: existing_env_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg4/providers/Microsoft.ContainerService/managedClusters/test2
+  service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test1
+  service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+      env: existing_env_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test2
+  service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test1
+  service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+      env: existing_env_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test2
+  service: existing_service_tag
+      app: existing_app_tag
+     tier: existing_tier_tag
+    other: existing_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1
+  service: existing_rg_service_tag
+      app: existing_rg_app_tag
+    other: existing_rg_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2
+  service: existing_rg_service_tag
+      app: existing_rg_app_tag
+    other: existing_rg_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg3
+  service: existing_rg_service_tag
+      app: existing_rg_app_tag
+    other: existing_rg_other_tag
+  RESOURCE /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg4
+  service: existing_rg_service_tag
+      app: existing_rg_app_tag
+    other: existing_rg_other_tag
+  RESOURCE /subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg1
+  service: existing_rg_service_tag
+      app: existing_rg_app_tag
+    other: existing_rg_other_tag
+  RESOURCE /subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg2
+  service: existing_rg_service_tag
+      app: existing_rg_app_tag
+    other: existing_rg_other_tag
+  TAG tags.Service: 1 id(s)
+  TAG tags.app    : 18 id(s)
+  TAG tags.tier   : 11 id(s)
+  TAG tags.env    : 6 id(s)
+  TAG tags.other  : 20 id(s)
+  TAG tags.service: 18 id(s)
+SKIPPING subscription resource ID: /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73
+SKIPPING subscription resource ID: /subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26
+SUB /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73
+  ID /resourceGroups/testrg1
+    UPDATE [rg]  tags.service: new_rg_service_tag1 [from existing_rg_service_tag]
+    UPDATE [rg]  tags.app    : new_sub_app_tag1 [from existing_rg_app_tag]
+    ADD    [rg]  tags.tier   : new_rg_tier_tag1
+    LEAVE        tags.other  : existing_rg_other_tag
+  ID /resourceGroups/testrg2
+    UPDATE [rg]  tags.service: new_rg_service_tag1 [from existing_rg_service_tag]
+    UPDATE [rg]  tags.app    : new_sub_app_tag1 [from existing_rg_app_tag]
+    ADD    [rg]  tags.tier   : new_rg_tier_tag1
+    LEAVE        tags.other  : existing_rg_other_tag
+  ID /resourceGroups/testrg3
+    UPDATE [rg]  tags.service: new_rg_service_tag2 [from existing_rg_service_tag]
+    UPDATE [rg]  tags.app    : new_sub_app_tag2 [from existing_rg_app_tag]
+    ADD    [rg]  tags.tier   : new_rg_tier_tag2
+    LEAVE        tags.other  : existing_rg_other_tag
+  ID /resourceGroups/testRG1/providers/Microsoft.ContainerService/managedClusters/test1
+    ADD    [8]   tags.service: new_service_tag1
+    UPDATE [8]   tags.app    : new_sub_app_tag1 [from existing_app_tag]
+    UPDATE [8]   tags.tier   : new_rg_tier_tag1 [from existing_tier_tag]
+    ADD    [8]   tags.Env    : new_rg_env_tag1
+    SWAP         tags.Service: existing_service_tag
+    SWAP         tags.env    : existing_env_tag
+    LEAVE        tags.other  : existing_other_tag
+  ID /resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test2
+    UPDATE [8]   tags.service: new_service_tag1 [from existing_service_tag]
+    UPDATE [8]   tags.app    : new_sub_app_tag1 [from existing_app_tag]
+    UPDATE [8]   tags.tier   : new_rg_tier_tag1 [from existing_tier_tag]
+    ADD    [8]   tags.Env    : new_rg_env_tag1
+    LEAVE        tags.other  : existing_other_tag
+  ID /resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test1
+    UPDATE [8]   tags.service: new_service_tag1 [from existing_service_tag]
+    UPDATE [8]   tags.app    : new_sub_app_tag1 [from existing_app_tag]
+    UPDATE [8]   tags.tier   : new_rg_tier_tag1 [from existing_tier_tag]
+    ADD    [8]   tags.Env    : new_rg_env_tag1
+    SWAP         tags.env    : existing_env_tag
+    LEAVE        tags.other  : existing_other_tag
+  ID /resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test3
+    UPDATE [8]   tags.service: new_service_tag2 [from existing_service_tag]
+    UPDATE [8]   tags.app    : new_sub_app_tag2 [from existing_app_tag]
+    ADD    [8]   tags.tier   : new_rg_tier_tag2
+    ADD    [8]   tags.Env    : new_rg_env_tag2
+    LEAVE        tags.other  : existing_other_tag
+  SUMMARY    7 id(s) to update; 9 tag(s) to add; 16 tag(s) to update; 7 tag(s) to leave; 3 tag(s) to swap
+SUB /subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26
+  ID /resourceGroups/testrg1
+    UPDATE [rg]  tags.service: new_rg_service_tag1 [from existing_rg_service_tag]
+    UPDATE [rg]  tags.app    : new_sub_app_tag1 [from existing_rg_app_tag]
+    ADD    [rg]  tags.tier   : new_rg_tier_tag1
+    LEAVE        tags.other  : existing_rg_other_tag
+  ID /resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test1
+    UPDATE [8]   tags.service: new_service_tag1 [from existing_service_tag]
+    UPDATE [8]   tags.app    : new_sub_app_tag1 [from existing_app_tag]
+    UPDATE [8]   tags.tier   : new_rg_tier_tag1 [from existing_tier_tag]
+    UPDATE [8]   tags.env    : new_rg_env_tag1 [from existing_env_tag]
+    LEAVE        tags.other  : existing_other_tag
+  SUMMARY    2 id(s) to update; 1 tag(s) to add; 6 tag(s) to update; 2 tag(s) to leave
+TOTAL: 2 id(s) skipped; 9 id(s) to update; 10 tag(s) to add; 22 tag(s) to update; 9 tag(s) to leave; 3 tag(s) to swap
+
+Updating tags for subscription 9a0603fd-3eaa-4a63-b4e5-21b606119c73
+  Executing: az account set -s 9a0603fd-3eaa-4a63-b4e5-21b606119c73
+[1/9] az resource tag --is-incremental --ids /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1 --tags service=new_rg_service_tag1 app=new_sub_app_tag1 tier=new_rg_tier_tag1
+[2/9] az resource tag --is-incremental --ids /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2 --tags service=new_rg_service_tag1 app=new_sub_app_tag1 tier=new_rg_tier_tag1
+[3/9] az resource tag --is-incremental --ids /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg3 --tags service=new_rg_service_tag2 app=new_sub_app_tag2 tier=new_rg_tier_tag2
+[4/9] az resource tag --ids /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testRG1/providers/Microsoft.ContainerService/managedClusters/test1 --tags app=new_sub_app_tag1 tier=new_rg_tier_tag1 other=existing_other_tag
+[4/9] az resource tag --is-incremental --ids /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testRG1/providers/Microsoft.ContainerService/managedClusters/test1 --tags service=new_service_tag1 app=new_sub_app_tag1 tier=new_rg_tier_tag1 Env=new_rg_env_tag1
+[5/9] az resource tag --is-incremental --ids /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test2 --tags service=new_service_tag1 app=new_sub_app_tag1 tier=new_rg_tier_tag1 Env=new_rg_env_tag1
+[6/9] az resource tag --ids /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test1 --tags service=new_service_tag1 app=new_sub_app_tag1 tier=new_rg_tier_tag1 other=existing_other_tag
+[6/9] az resource tag --is-incremental --ids /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test1 --tags service=new_service_tag1 app=new_sub_app_tag1 tier=new_rg_tier_tag1 Env=new_rg_env_tag1
+[7/9] az resource tag --is-incremental --ids /subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test3 --tags service=new_service_tag2 app=new_sub_app_tag2 tier=new_rg_tier_tag2 Env=new_rg_env_tag2
+Updating tags for subscription 5d8bf94e-f520-4d04-b9c5-a3a9f4735a26
+  Executing: az account set -s 5d8bf94e-f520-4d04-b9c5-a3a9f4735a26
+[8/9] az resource tag --is-incremental --ids /subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg1 --tags service=new_rg_service_tag1 app=new_sub_app_tag1 tier=new_rg_tier_tag1
+[9/9] az resource tag --is-incremental --ids /subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test1 --tags service=new_service_tag1 app=new_sub_app_tag1 tier=new_rg_tier_tag1 env=new_rg_env_tag1

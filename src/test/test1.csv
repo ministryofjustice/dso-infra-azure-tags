@@ -1,0 +1,9 @@
+id,foo,tags.service,tags.app,tags.tier,tags.Env
+/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73,fooA,new_sub_service_tag1,new_sub_app_tag1,,
+/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1,fooB,new_rg_service_tag1,new_sub_app_tag1,new_rg_tier_tag1,
+/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2,fooB,new_rg_service_tag1,new_sub_app_tag1,new_rg_tier_tag1,
+/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg3,fooB,new_rg_service_tag2,new_sub_app_tag2,new_rg_tier_tag2,
+/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test1,fooB,new_service_tag1,new_sub_app_tag1,new_rg_tier_tag1,new_rg_env_tag1
+/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test2,fooB,new_service_tag1,new_sub_app_tag1,new_rg_tier_tag1,new_rg_env_tag1
+/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test3,fooB,new_service_tag2,new_sub_app_tag2,new_rg_tier_tag2,new_rg_env_tag2
+/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test1,fooB,new_service_tag1,new_sub_app_tag1,new_rg_tier_tag1,new_rg_env_tag1

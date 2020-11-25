@@ -1,0 +1,142 @@
+[
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testRG1/providers/Microsoft.ContainerService/managedClusters/test1",
+    "tags": {
+      "Service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "env": "existing_env_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test2",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test3",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test4",
+    "tags": {
+      "service": "existing_service_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test5",
+    "tags": {
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test1",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "env": "existing_env_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test2",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg3/providers/Microsoft.ContainerService/managedClusters/test1",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "env": "existing_env_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg4/providers/Microsoft.ContainerService/managedClusters/test1",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "env": "existing_env_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg4/providers/Microsoft.ContainerService/managedClusters/test2",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test1",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "env": "existing_env_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg1/providers/Microsoft.ContainerService/managedClusters/test2",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test1",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "env": "existing_env_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg2/providers/Microsoft.ContainerService/managedClusters/test2",
+    "tags": {
+      "service": "existing_service_tag",
+      "app": "existing_app_tag",
+      "tier": "existing_tier_tag",
+      "other": "existing_other_tag"
+    },
+    "type": "Microsoft.ContainerService/managedClusters"
+  }
+]

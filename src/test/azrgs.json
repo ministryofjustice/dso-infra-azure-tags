@@ -1,0 +1,56 @@
+[
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg1",
+    "tags": {
+      "service": "existing_rg_service_tag",
+      "app": "existing_rg_app_tag",
+      "other": "existing_rg_other_tag"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg2",
+    "tags": {
+      "service": "existing_rg_service_tag",
+      "app": "existing_rg_app_tag",
+      "other": "existing_rg_other_tag"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg3",
+    "tags": {
+      "service": "existing_rg_service_tag",
+      "app": "existing_rg_app_tag",
+      "other": "existing_rg_other_tag"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/9a0603fd-3eaa-4a63-b4e5-21b606119c73/resourceGroups/testrg4",
+    "tags": {
+      "service": "existing_rg_service_tag",
+      "app": "existing_rg_app_tag",
+      "other": "existing_rg_other_tag"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg1",
+    "tags": {
+      "service": "existing_rg_service_tag",
+      "app": "existing_rg_app_tag",
+      "other": "existing_rg_other_tag"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/testrg2",
+    "tags": {
+      "service": "existing_rg_service_tag",
+      "app": "existing_rg_app_tag",
+      "other": "existing_rg_other_tag"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  }
+]
