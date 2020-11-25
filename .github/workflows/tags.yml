@@ -31,7 +31,7 @@ jobs:
     runs-on:
       - ubuntu-latest
     outputs:
-      apply_tags: ${{ steps.setupenv.parseinput.apply_tags }}
+      apply_tags: ${{ steps.parseinput.outputs.apply_tags }}
       aztagscli_args: ${{ steps.setupargs.outputs.aztagscli_args }}
       env_matrix: ${{ steps.setupenv.outputs.env_matrix }}
     steps:
