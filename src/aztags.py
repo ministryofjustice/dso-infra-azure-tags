@@ -341,7 +341,7 @@ class AzTags:
         tags = [header for header in headers if header.startswith('tags.')]
 
         # check expected column headers exist
-        if 'id' not in headers or not tags:
+        if 'id' not in headers:
             raise Exception(
                 'badly formatted CSV.  Could not find id in CSV header {}'.
                 format(headers))
@@ -811,7 +811,7 @@ class AzTags:
             return None
         value = self.__get_csv_tagvalue(self.__tag_dict[resource_id][tag])
         tag_change = self.__get_tag_change_type(resource_id, tag)
-        if tag_change and tag_change in self.__change_types:
+        if not tag_change or tag_change in self.__change_types:
             return value
         return None
 

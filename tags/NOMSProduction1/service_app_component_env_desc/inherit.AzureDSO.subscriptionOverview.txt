@@ -1,0 +1,2 @@
+id|tags.service|tags.application|tags.environment_name
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b|NOMIS|Uncategorised|prod
