@@ -1,0 +1,19 @@
+[
+  {
+    "id": "9a0603fd-3eaa-4a63-b4e5-21b606119c73",
+    "tags": {
+      "service": "existing_sub_service_tag",
+      "other": "existing_sub_other_tag"
+    }
+  },
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "747381f4-e81f-4a43-bf68-ced6a1e14edf",
+    "id": "5d8bf94e-f520-4d04-b9c5-a3a9f4735a26",
+    "isDefault": false,
+    "managedByTenants": [],
+    "name": "HMPPS PoC Evaluation Sandpit",
+    "state": "Enabled",
+    "tenantId": "747381f4-e81f-4a43-bf68-ced6a1e14edf"
+  }
+]
