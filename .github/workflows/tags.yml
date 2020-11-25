@@ -39,12 +39,14 @@ jobs:
 
       - name: Get list of committed files
         id: files
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         uses: jitterbit/get-changed-files@v1
         with:
           format: 'json'
 
       - name: Figure out updated environments
         id: envs
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         run: |
           echo "Updated files: ${{ steps.files.outputs.all }}"
           envs=
