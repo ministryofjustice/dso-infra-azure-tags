@@ -3,12 +3,12 @@ name: tags
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - tags/**
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - tags/**
   workflow_dispatch:
@@ -18,9 +18,9 @@ on:
         required: true
         default: 'true'
       environments:
-        description: 'run against given environments.  Space separated.  devtest and/or prod'
+        description: 'run against given environments.  Space separated, e.g. NOMSDevTestEnvironments'
         required: true
-        default: 'devtest prod'
+        default: 'NOMSDevTestEnvironments'
 
 jobs:
   # This workflow can be triggered multiple ways,
@@ -128,4 +128,4 @@ jobs:
       - name: Check or apply tags
         run: |
           cd tags
-          echo ./aztagscli-helper.sh ${{ matrix.environment }} ${{ prepare-tags.outputs.aztagscli_args }}
+          echo ./aztagscli-helper.sh ${{ matrix.environment }} ${{ needs.prepare-tags.outputs.aztagscli_args }}
