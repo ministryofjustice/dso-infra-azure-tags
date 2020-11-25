@@ -33,10 +33,10 @@ the tag name.  Any other columns within the CSV are ignored.
 Example usage:
 
     # dry run with plenty of debug
-    aztagscli -vvv -d tags1.csv tags2.csv
+    aztagscli -vv -d tags1.txt tags2.txt
 
     # actual apply without interaction
-    aztagscli -vv -y -a tags1.csv tags2.csv
+    aztagscli -y -a tags1.txt tags2.txt
 """
 
 import argparse
@@ -111,14 +111,10 @@ parser.add_argument('--changetypes',
                           'inc = incremental (add/updates only). '
                           'all = all changes.  Or any combination of '
                           'ADD UPDATE DEL, e.g. ADD,UPDATE'))
-
-parser.add_argument(
-    'tagfile',
-    nargs='+',
-    help=
-    ('csv file with id and any number of tags.x, tags.y, tags.z headers,'
-     'where x, y and z are tag name')
-)
+parser.add_argument('tagfile',
+                    nargs='+',
+                    help=('csv file with id and any number of tags.x, tags.y, '
+                          'tags.z headers, where x, y and z are tag name'))
 
 args = parser.parse_args()
 
