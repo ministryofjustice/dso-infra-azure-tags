@@ -129,7 +129,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r src/requirements.txt
 
       - name: Check or apply tags
         run: |
