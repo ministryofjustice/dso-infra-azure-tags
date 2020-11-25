@@ -131,3 +131,4 @@ jobs:
         run: |
           cd tags
           echo ./aztagscli-helper.sh ${{ matrix.environment }} ${{ needs.prepare-tags.outputs.aztagscli_args }}
+          ./aztagscli-helper.sh ${{ matrix.environment }} ${{ needs.prepare-tags.outputs.aztagscli_args }}
