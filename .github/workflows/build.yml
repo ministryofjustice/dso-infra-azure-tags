@@ -22,7 +22,7 @@ jobs:
       - name: Lint
         run: |
           sudo apt-get install -y pylint3
-          pylint --rcfile=src/.pylintrc src/*.py
+          pylint3 --rcfile=src/.pylintrc src/*.py
 
       - name: Test
         run: |

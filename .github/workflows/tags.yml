@@ -71,11 +71,11 @@ jobs:
           elif [[ "${GITHUB_EVENT_NAME}" == "push" && ( "${branch}" == "master" || "${branch}" == "main" ) ]]; then
             # push to master/main - deploy for real
             checkflag="false"
-            environments=steps.envs.outputs.envs
+            environments="${{ steps.envs.outputs.envs }}"
           else
             # any other push - deploy with check flag set
             checkflag="true"
-            environments=steps.envs.outputs.envs
+            environments="${{ steps.envs.outputs.envs }}"
           fi
           echo "::set-output name=environments::${environments}"
           echo "::set-output name=checkflag::${checkflag}"
