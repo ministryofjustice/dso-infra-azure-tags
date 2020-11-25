@@ -31,6 +31,7 @@ jobs:
     runs-on:
       - ubuntu-latest
     outputs:
+      apply_tags: ${{ steps.setupenv.parseinput.apply_tags }}
       aztagscli_args: ${{ steps.setupargs.outputs.aztagscli_args }}
       env_matrix: ${{ steps.setupenv.outputs.env_matrix }}
     steps:
@@ -79,6 +80,8 @@ jobs:
             checkflag="true"
             environments="${{ steps.envs.outputs.envs }}"
           fi
+          [[ -z ${environments} ]] && apply_tags='false' || apply_tags='true'
+          echo "::set-output name=apply_tags::${applytags}"
           echo "::set-output name=environments::${environments}"
           echo "::set-output name=checkflag::${checkflag}"
 
@@ -116,6 +119,7 @@ jobs:
     # Iterate through each environment and trigger the generic
     # ansible-playbook repository dispatch workflow
     needs: prepare-tags
+    if: ${{ needs.prepare-tags.outputs.apply_tags == 'true' }}
     strategy:
       matrix: ${{ fromJson(needs.prepare-tags.outputs.env_matrix) }}
       fail-fast: false

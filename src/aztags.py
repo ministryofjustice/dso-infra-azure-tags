@@ -1048,7 +1048,7 @@ class AzTags:
                 incremental_mode = False
                 change_types += [TAG_NO_UPDATE, TAG_LEAVE]
         taglist = self.__get_update_tag_list_for_resource(
-        sub_id, case_sensitive_id, change_types, True)
+            sub_id, case_sensitive_id, change_types, True)
         return self.__az_update_tag(case_sensitive_id, taglist,
                                     incremental_mode, dryrun, debugprefix)
 
