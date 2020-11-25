@@ -51,7 +51,8 @@ jobs:
           echo "Updated files: ${{ steps.files.outputs.all }}"
           envs=
           for file in ${{ steps.files.outputs.all }}; do
-              envs=$(echo "$envs"; echo $file | egrep -o '^tags/[^\/]+/[^\/]+' | cut -d\/ -f2-)
+              dir=$(dirname $file)
+              envs=$(echo "$envs"; echo $dir | egrep -o '^tags/[^\/]+/[^\/]+' | cut -d\/ -f2,3)
           done
           envs=$(echo "$envs" | sort -u | grep -v -e '^$' || true)
           echo List of environments [${envs}]

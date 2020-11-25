@@ -1050,7 +1050,7 @@ class AzTags:
         taglist = self.__get_update_tag_list_for_resource(
         sub_id, case_sensitive_id, change_types, True)
         return self.__az_update_tag(case_sensitive_id, taglist,
-                                        incremental_mode, dryrun, debugprefix)
+                                    incremental_mode, dryrun, debugprefix)
 
     def update_all_tags(self, dryrun, max_failed_updates=10):
         ''' Use az cli to implement all proposed tag changes '''
