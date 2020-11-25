@@ -52,6 +52,7 @@ jobs:
           envs=
           for file in ${{ steps.files.outputs.all }}; do
               envs=$(echo "$envs"; echo file | egrep -o '/tags/[^\/]+/[^\/]+' | cut -d\/ -f3-)
+          done
           envs=$(echo "$envs" | sort -u | grep -v -e '^$')
           echo List of environments [${envs}]
           echo ::set-output name=envs::${envs}
