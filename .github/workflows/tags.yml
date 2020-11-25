@@ -38,10 +38,12 @@ jobs:
       - name: Clone repo
         uses: actions/checkout@v2
 
+      # since this is a public repo, use specific version of this action
+      # to ensure it can't be used to steal secrets
       - name: Get list of committed files
         id: files
         if: ${{ github.event_name != 'workflow_dispatch' }}
-        uses: jitterbit/get-changed-files@v1
+        uses: jitterbit/get-changed-files@b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42
         with:
           format: 'space-delimited'
 
@@ -70,7 +72,6 @@ jobs:
             # manual trigger - take params from inputs
             checkflag="${{ github.event.inputs.checkflag }}"
             environments="${{ github.event.inputs.environments }}"
-            environments=""
           elif [[ "${GITHUB_EVENT_NAME}" == "push" && ( "${branch}" == "master" || "${branch}" == "main" ) ]]; then
             # push to master/main - deploy for real
             checkflag="false"
@@ -81,7 +82,7 @@ jobs:
             environments="${{ steps.envs.outputs.envs }}"
           fi
           [[ -z ${environments} ]] && apply_tags='false' || apply_tags='true'
-          echo "::set-output name=apply_tags::${applytags}"
+          echo "::set-output name=apply_tags::${apply_tags}"
           echo "::set-output name=environments::${environments}"
           echo "::set-output name=checkflag::${checkflag}"
 

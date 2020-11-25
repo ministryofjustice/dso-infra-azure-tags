@@ -65,7 +65,7 @@ else
 fi
 
 if [[ -e $SOURCE_DIR/"$SOURCE_RESFILE" ]]; then
-  cat $SOURCE_DIR/"$SOURCE_RESFILE" | cut  -f2,10,11,12,13,14 | sed -e $'s/\t/|/g' | grep -v '||||' > $RESFILE
+  cat $SOURCE_DIR/"$SOURCE_RESFILE" | cut  -f2,11,12,13,14,15 | sed -e $'s/\t/|/g' | grep -v '||||' > $RESFILE
   dos2unix $RESFILE
   filter_all $RESFILE
 else
