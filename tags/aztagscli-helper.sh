@@ -13,14 +13,26 @@ if [[ ! -e $dir ]]; then
   exit 1
 fi
 
-excludeids=
-if [[ -e $dir/exclude-ids.csv ]]; then
-  excludeids="--excludeids $dir/exclude-ids.csv"
+get_file() {
+  local dir=$1
+  local file=$2
+  while [[ $dir != '.' ]]; do
+    if [ -e $dir/$file ]; then
+      echo $dir/$file
+      return
+    fi
+    dir=$(dirname $dir)
+  done
+}
+
+excludeids=$(get_file "$dir" exclude-ids.csv)
+if [[ ! -z $excludeids ]]; then
+  excludeids="--excludeids $excludeids"
 fi
 
-tagsupport=
-if [[ -e tag-support.csv ]]; then
-  tagsupport="--tagsupport tag-support.csv"
+tagsupport=$(get_file "$dir" tag-support.csv)
+if [[ ! -z $tagsupport ]]; then
+  tagsupport="--tagsupport $tagsupport"
 fi
 
 files=$(find $dir -name '*.txt')

@@ -158,9 +158,11 @@ class AzTags:
         if not change_types_str:
             return (False, 'at least one change type must be specified')
         if change_types_str.lower() == 'all':
-            return (True, [TAG_ADD, TAG_UPDATE, TAG_DEL, TAG_SWAP])
+            return (True, [TAG_ADD, TAG_UPDATE, TAG_NO_UPDATE,
+                           TAG_DEL, TAG_SWAP])
         elif change_types_str.lower() == 'inc':
-            return (True, [TAG_ADD, TAG_UPDATE, TAG_LEAVE, TAG_SWAP])
+            return (True, [TAG_ADD, TAG_UPDATE, TAG_NO_UPDATE,
+                           TAG_LEAVE, TAG_SWAP])
         else:
             change_types = []
             change_type_strs = change_types_str.split(',')

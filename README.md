@@ -13,16 +13,76 @@ Contains github action workflows for deployment of tag changes.
 See src/ directory.  Use `pydoc aztags` for documentation on code or 
 `aztagscli --help` for command line usage.
 
-## Resources 
-
-List of resource types that support tags is downloaded from 
-[here](https://raw.githubusercontent.com/tfitzmac/resource-capabilities/master/tag-support.csv)
-
-## Tag Changes
-
-Desired tags are defined under tags/ directory. 
-
 ## Usage
+
+Tag definitions are grouped by subscription under the tags/ directory.  For example
+tags/NOMSProduction1/service_app_component_env_desc/ contains definitions for
+`service`, `application`, `component`, `environment_name` and `description` tags.
+
+Each directory can have:
+
+### exclude-ids.csv
+
+Optional list of IDs that are explicitly excluded from tag updates.  For example, if they
+persistently fail to update via az cli!  Alternatively, this can be stored at the top-level
+subscription directory.
+
+### tag-support.csv
+
+A list of resource types that support tagging.  If not present, this will be downloaded
+automatically from [here](https://raw.githubusercontent.com/tfitzmac/resource-capabilities/master/tag-support.csv)
+
+### inherit.*.txt
+
+Pipe separated file.  Column headers should include "id" and any number of tags.x columns,
+where x would be the tag name, e.g. tag.service.  The ID column can represent either a 
+subscription (/subscriptions/xyz), a resource group, or a resource. The tags.x columns
+should contain the associated tag value. Leave the column blank if you don't want to
+set the tag for this particular resource. Use `:novalue:` if you want to set a blank
+tag value.
+
+Tags are inherited to child resources.  The most specific tag definition is used.
+For example, you can define default subscription and resourcegroup tag values which are
+used if a resource isn't defined.
+
+### *.txt
+
+Exactly the same format as the inherit files EXCEPT the tags are not inherited
+to child resources.
+
+### Example usage
+
+Compares existing NOMSProduction tags with those specified in the
+service_app_component_env_desc/ files.  If user enters "yes", the
+changes will be applied via az cli.  Incrementally (i.e. tags not
+defined will be left alone)
+
+```
+cd tags
+./aztagscli-helper NOMSProduction1/service_app_component_env_desc -a
+```
+
+Remove an existing tag from all resources
+
+```
+cd tags
+mkdir NOMSProduction1/tmp
+
+# At least one resource must be specified
+cp NOMSProduction1/subscription.txt NOMSProduction1/tmp/
+
+# Download all existing tags
+./generate-from-existing-tags.sh NOMSProduction1/tmp
+
+# Delete a tag
+rm NOMSProduction1/tmp/tags.resourceGroup.txt
+
+# Apply the changes
+./aztagscli-helper NOMSProduction1/tmp -a
+```
+
+
+## PyDoc
 
 ```
 Help on module aztags:

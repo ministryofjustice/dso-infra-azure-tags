@@ -92,8 +92,7 @@ jobs:
           checkflag: ${{ steps.parseinput.outputs.checkflag }}
         run: |
           echo "Set aztagscli cmdline args [checkflag=${checkflag}]"
-          # use verbose output and non-interactive mode
-          args="-v -a -y"
+          args="-a -y"
           # add dryrun if checkflag is set
           if [[ "${checkflag}" != "false" ]]; then
             args="${args} -d"

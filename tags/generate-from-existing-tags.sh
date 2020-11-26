@@ -35,5 +35,5 @@ else
   filename=${filename}.txt
 fi
 
-./aztagscli-helper.sh $dir --changetypes "all" -v --savetagsfile "$filename" $savetags --
+./aztagscli-helper.sh $dir --changetypes "$MODE" -v --savetagsfile "$filename" $savetags --
 
