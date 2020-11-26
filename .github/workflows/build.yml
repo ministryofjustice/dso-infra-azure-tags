@@ -2,14 +2,15 @@ name: lint-and-test
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - src/**
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - src/**
+  workflow_dispatch:
 jobs:
   lint-and-test:
     runs-on:
@@ -18,9 +19,14 @@ jobs:
       - name: Clone repo
         uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: |
+          pip3 install -r src/requirements.txt
+
       - name: Lint
         run: |
-          pylint --rcfile=src/.pylintrc src/*.py
+          sudo apt-get install -y pylint3
+          pylint3 --rcfile=src/.pylintrc src/*.py
 
       - name: Test
         run: |

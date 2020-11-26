@@ -1,0 +1,14 @@
+id
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-LogAnalytics/providers/Microsoft.Automation/automationAccounts/omsproduser/runbooks/AzureAutomationTutorial
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-LogAnalytics/providers/Microsoft.Automation/automationAccounts/omsproduser/runbooks/AzureAutomationTutorialScript
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-LogAnalytics/providers/Microsoft.Automation/automationAccounts/omsproduser/runbooks/AzureClassicAutomationTutorial
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-LogAnalytics/providers/Microsoft.Automation/automationAccounts/omsproduser/runbooks/AzureClassicAutomationTutorialScript
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-LogAnalytics/providers/Microsoft.Automation/automationAccounts/omsproduser/runbooks/AzureSAIngestionChild-MS-Mgmt-SA
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-LogAnalytics/providers/Microsoft.Automation/automationAccounts/omsproduser/runbooks/AzureSAIngestionParent-MS-Mgmt-SA
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-LogAnalytics/providers/Microsoft.Automation/automationAccounts/omsproduser/runbooks/AzureStorageMetricsEnabler-MS-Mgmt-SA
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-LogAnalytics/providers/Microsoft.Automation/automationAccounts/omsproduser/runbooks/CleanSolution-MS-Mgmt-SA
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-LogAnalytics/providers/Microsoft.Automation/automationAccounts/omsproduser/runbooks/CreateSchedules-MS-Mgmt-SA
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/virtualMachines/PDOWL00030/extensions/VMSnapshotLinux
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/virtualMachines/PDOWL00031/extensions/VMSnapshotLinux
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/virtualMachines/PDOWL00032/extensions/VMSnapshotLinux
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/virtualMachines/PDOWL00033/extensions/VMSnapshotLinux

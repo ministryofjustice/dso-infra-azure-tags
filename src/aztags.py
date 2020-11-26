@@ -158,9 +158,11 @@ class AzTags:
         if not change_types_str:
             return (False, 'at least one change type must be specified')
         if change_types_str.lower() == 'all':
-            return (True, [TAG_ADD, TAG_UPDATE, TAG_DEL, TAG_SWAP])
+            return (True, [TAG_ADD, TAG_UPDATE, TAG_NO_UPDATE,
+                           TAG_DEL, TAG_SWAP])
         elif change_types_str.lower() == 'inc':
-            return (True, [TAG_ADD, TAG_UPDATE, TAG_LEAVE, TAG_SWAP])
+            return (True, [TAG_ADD, TAG_UPDATE, TAG_NO_UPDATE,
+                           TAG_LEAVE, TAG_SWAP])
         else:
             change_types = []
             change_type_strs = change_types_str.split(',')
@@ -1026,6 +1028,7 @@ class AzTags:
     def __update_tag_by_resource(self, sub_id, case_sensitive_id,
                                  dryrun, debugprefix=''):
         ''' Update tags for given resource '''
+        incremental_mode = True
         # check if a tag name's casing has changed, e.g. "env" to "ENV"
         # if so, we must update in two parts.  Firstly all changes apart
         # from the tag with the casing change.  And then add the casing change
@@ -1037,11 +1040,15 @@ class AzTags:
             self.__az_update_tag(case_sensitive_id, taglist,
                                  False, dryrun, debugprefix)
 
-        change_types = [TAG_ADD, TAG_UPDATE]
-        incremental_mode = True
-        if TAG_DEL in self.__change_types:
-            incremental_mode = False
-            change_types += [TAG_NO_UPDATE, TAG_LEAVE]
+            change_types = [TAG_ADD, TAG_UPDATE, TAG_LEAVE]
+            if TAG_DEL in self.__change_types:
+                incremental_mode = False
+                change_types += [TAG_NO_UPDATE]
+        else:
+            change_types = [TAG_ADD, TAG_UPDATE]
+            if TAG_DEL in self.__change_types:
+                incremental_mode = False
+                change_types += [TAG_NO_UPDATE, TAG_LEAVE]
         taglist = self.__get_update_tag_list_for_resource(
             sub_id, case_sensitive_id, change_types, True)
         return self.__az_update_tag(case_sensitive_id, taglist,
@@ -1059,7 +1066,8 @@ class AzTags:
         for sub_id in self.__resources_to_update:
             if self.__resources_to_update[sub_id]:
                 print('Updating tags for subscription {}'.format(sub_id))
-                self.__az_account_set(sub_id)
+                if not dryrun:
+                    self.__az_account_set(sub_id)
                 for resource_id in self.__resources_to_update[sub_id]:
                     debugprefix = '{}/{}'.format(i, n)
                     if not self.__update_tag_by_resource(sub_id, resource_id,

@@ -1,7 +1,0 @@
-id|tags.service|tags.application|tags.component|tags.environment_name
-/subscriptions/b9aa011b-7a41-46e1-8088-4a32e4bd92e0/resourceGroups/loadtesting-nomis|FixNGo|Management||devtest
-/subscriptions/b9aa011b-7a41-46e1-8088-4a32e4bd92e0/resourceGroups/terraform-states|FixNGo|Management||devtest
-/subscriptions/b9aa011b-7a41-46e1-8088-4a32e4bd92e0/resourceGroups/NetworkWatcherRG|FixNGo|Management||devtest
-/subscriptions/b9aa011b-7a41-46e1-8088-4a32e4bd92e0/resourceGroups/manual-permastorage|FixNGo|Management||devtest
-/subscriptions/b9aa011b-7a41-46e1-8088-4a32e4bd92e0/resourceGroups/DefaultResourceGroup-SUK|FixNGo|Management||devtest
-/subscriptions/b9aa011b-7a41-46e1-8088-4a32e4bd92e0/resourceGroups/loadtesting-nomis-storage|FixNGo|Management||devtest

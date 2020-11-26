@@ -3,12 +3,12 @@ name: tags
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - tags/**
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - tags/**
   workflow_dispatch:
@@ -18,9 +18,9 @@ on:
         required: true
         default: 'true'
       environments:
-        description: 'run against given environments.  Space separated.  devtest and/or prod'
+        description: 'run against given environments.  Space separated, e.g. NOMSDevTestEnvironments'
         required: true
-        default: 'devtest prod'
+        default: 'NOMSDevTestEnvironments'
 
 jobs:
   # This workflow can be triggered multiple ways,
@@ -31,26 +31,33 @@ jobs:
     runs-on:
       - ubuntu-latest
     outputs:
+      apply_tags: ${{ steps.parseinput.outputs.apply_tags }}
       aztagscli_args: ${{ steps.setupargs.outputs.aztagscli_args }}
       env_matrix: ${{ steps.setupenv.outputs.env_matrix }}
     steps:
       - name: Clone repo
         uses: actions/checkout@v2
 
+      # since this is a public repo, use specific version of this action
+      # to ensure it can't be used to steal secrets
       - name: Get list of committed files
         id: files
-        uses: jitterbit/get-changed-files@v1
+        if: ${{ github.event_name != 'workflow_dispatch' }}
+        uses: jitterbit/get-changed-files@b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42
         with:
-          format: 'json'
+          format: 'space-delimited'
 
       - name: Figure out updated environments
         id: envs
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         run: |
           echo "Updated files: ${{ steps.files.outputs.all }}"
           envs=
           for file in ${{ steps.files.outputs.all }}; do
-              envs=$(echo "$envs"; echo file | egrep -o '/tags/[^\/]+/[^\/]+' | cut -d\/ -f3-)
-          envs=$(echo "$envs" | sort -u | grep -v -e '^$')
+              dir=$(dirname $file)
+              envs=$(echo "$envs"; echo $dir | egrep -o '^tags/[^\/]+/[^\/]+' | cut -d\/ -f2,3)
+          done
+          envs=$(echo "$envs" | sort -u | grep -v -e '^$' || true)
           echo List of environments [${envs}]
           echo ::set-output name=envs::${envs}
 
@@ -68,12 +75,14 @@ jobs:
           elif [[ "${GITHUB_EVENT_NAME}" == "push" && ( "${branch}" == "master" || "${branch}" == "main" ) ]]; then
             # push to master/main - deploy for real
             checkflag="false"
-            environments=steps.envs.outputs.envs
+            environments="${{ steps.envs.outputs.envs }}"
           else
             # any other push - deploy with check flag set
             checkflag="true"
-            environments=steps.envs.outputs.envs
+            environments="${{ steps.envs.outputs.envs }}"
           fi
+          [[ -z ${environments} ]] && apply_tags='false' || apply_tags='true'
+          echo "::set-output name=apply_tags::${apply_tags}"
           echo "::set-output name=environments::${environments}"
           echo "::set-output name=checkflag::${checkflag}"
 
@@ -83,8 +92,7 @@ jobs:
           checkflag: ${{ steps.parseinput.outputs.checkflag }}
         run: |
           echo "Set aztagscli cmdline args [checkflag=${checkflag}]"
-          # use verbose output and non-interactive mode
-          args="-v -a -y"
+          args="-a -y"
           # add dryrun if checkflag is set
           if [[ "${checkflag}" != "false" ]]; then
             args="${args} -d"
@@ -111,6 +119,7 @@ jobs:
     # Iterate through each environment and trigger the generic
     # ansible-playbook repository dispatch workflow
     needs: prepare-tags
+    if: ${{ needs.prepare-tags.outputs.apply_tags == 'true' }}
     strategy:
       matrix: ${{ fromJson(needs.prepare-tags.outputs.env_matrix) }}
       fail-fast: false
@@ -125,7 +134,12 @@ jobs:
         with:
           creds: ${{secrets.AZURE_CREDENTIALS}}
 
+      - name: Install dependencies
+        run: |
+          pip3 install -r src/requirements.txt
+
       - name: Check or apply tags
         run: |
           cd tags
-          echo ./aztagscli-helper.sh ${{ matrix.environment }} ${{ prepare-tags.outputs.aztagscli_args }}
+          echo ./aztagscli-helper.sh ${{ matrix.environment }} ${{ needs.prepare-tags.outputs.aztagscli_args }}
+          ./aztagscli-helper.sh ${{ matrix.environment }} ${{ needs.prepare-tags.outputs.aztagscli_args }}

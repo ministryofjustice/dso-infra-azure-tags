@@ -3,6 +3,11 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/LSPDL0071-DISK21|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/PPPDL00016-DISK22|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/PPPDL00017-DISK21|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Compute/availabilitySets/DRODLOASOD-as|OASys|OASys|data|DR|OASys Audit Vault
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Compute/availabilitySets/DROMLOABIP-as|OASys|OASys|mid|DR|OASys BI Publisher
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Compute/availabilitySets/DROWLOASHA1-as|OASys|OASys|web|DR|OASys HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Compute/availabilitySets/DROWLOASHA2-as|OASys|ONR|web|DR|ONR HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Compute/availabilitySets/DROWLOASWS-as|OASys|OASys|web|DR|OASys Web Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Compute/disks/DRODL10006-DISK1|OASys|OASys|data|DR|OASys Audit Vault
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Compute/disks/DRODL10006-DISK2|OASys|OASys|data|DR|OASys Audit Vault
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Compute/disks/DRODL10006-DISK20|OASys|OASys|data|DR|OASys Audit Vault
@@ -71,6 +76,34 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Compute/virtualMachines/DROWL10032|OASys|ONR|web|DR|ONR HA Proxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Compute/virtualMachines/DROWL10033|OASys|ONR|web|DR|ONR HA Proxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/loadBalancers/PD-DR-OASYS-LB001|OASys|OASys|web|DR|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DRODL10006-nic|OASys|OASys|data|DR|OASys Audit Vault
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DRODL10007-nic|OASys|OASys|data|DR|OASys Oracle DBMS
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROML10005-nic|OASys|OASys|mid|DR|OASys BI Publisher
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10001-nic|OASys|OASys|web|DR|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10002-nic|OASys|OASys|web|DR|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10003-nic|OASys|OASys|web|DR|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10004-nic|OASys|OASys|web|DR|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10030-nic|OASys|OASys|web|DR|OASys HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10031-nic|OASys|OASys|web|DR|OASys HA Proxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10032-nic|OASys|ONR|web|DR|ONR HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10033-nic|OASys|ONR|web|DR|ONR HA Proxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPDLPNDB1-as|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPDLPNDB2-as|NOMIS|NDH|data|DR|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPDWPNWFS-as|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Migrated to Azure Storage
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPMLBOEMI-as|NOMIS|MIS|mid|DR|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPMLBOEOR-as|NOMIS|OR|mid|DR|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPMLNDHAP-as|NOMIS|NDH|mid|DR|NDH Admin Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPMLNDHEM-as|NOMIS|NDH|mid|DR|NDH EMS Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPMWBODMI-as|NOMIS|MIS|mid|DR|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPMWNDHDS-as|NOMIS|NDH|mid|DR|NDH Windows Distribution Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPWLCNOMA-as|NOMIS|NOMIS|web|DR|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPWLDMMIS-as|NOMIS|OR|web|DR|OR ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPWLDMOR-as|NOMIS|MIS|web|DR|MIS ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPWLMISAP-as|NOMIS|MIS|web|DR|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPWLORAPP-as|NOMIS|OR|web|DR|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPWLPNOMHA1-as|NOMIS|NOMIS|web|DR|C-NOMIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPWLPNOMHA2-as|NOMIS|MIS|web|DR|MIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/availabilitySets/DRPWLPNOMHA3-as|NOMIS|OR|web|DR|OR HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-15|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-16|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-17|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
@@ -270,6 +303,66 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/loadBalancers/DR-PrisonNOMIS-MIS-LB1|NOMIS|MIS|web|DR|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/loadBalancers/DR-PrisonNOMIS-NOMIS-LB1|NOMIS|NOMIS|web|DR|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/loadBalancers/DR-PrisonNOMIS-OR-LB1|NOMIS|OR|web|DR|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDL10036-nic|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDL10037-nic|NOMIS|MIS|data|DR|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDL10038-nic|NOMIS|NDH|data|DR|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDW10046-nic|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Migrated to Azure Storage
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDW10057-nic|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Migrated to Azure Storage
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPML10025-nic|NOMIS|NDH|mid|DR|NDH Admin Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPML10026-nic|NOMIS|NDH|mid|DR|NDH Admin Tibco Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPML10027-nic|NOMIS|NDH|mid|DR|NDH EMS Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPML10028-nic|NOMIS|NDH|mid|DR|NDH EMS Tibco Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPML10031-nic|NOMIS|OR|mid|DR|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPML10032-nic|NOMIS|OR|mid|DR|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPML10034-nic|NOMIS|MIS|mid|DR|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPML10035-nic|NOMIS|MIS|mid|DR|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPMW10033-nic|NOMIS|MIS|mid|DR|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPMW10050-nic|NOMIS|NDH|mid|DR|NDH Windows Distribution Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10001-nic|NOMIS|NOMIS|web|DR|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10002-nic|NOMIS|NOMIS|web|DR|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10003-nic|NOMIS|NOMIS|web|DR|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10004-nic|NOMIS|NOMIS|web|DR|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10005-nic|NOMIS|NOMIS|web|DR|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10006-nic|NOMIS|NOMIS|web|DR|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10007-nic|NOMIS|NOMIS|web|DR|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10008-nic|NOMIS|NOMIS|web|DR|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10009-nic|NOMIS|OR|web|DR|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10010-nic|NOMIS|OR|web|DR|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10011-nic|NOMIS|OR|web|DR|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10012-nic|NOMIS|OR|web|DR|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10013-nic|NOMIS|OR|web|DR|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10014-nic|NOMIS|OR|web|DR|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10015-nic|NOMIS|OR|web|DR|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10016-nic|NOMIS|OR|web|DR|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10017-nic|NOMIS|MIS|web|DR|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10018-nic|NOMIS|MIS|web|DR|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10019-nic|NOMIS|MIS|web|DR|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10020-nic|NOMIS|MIS|web|DR|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10042-nic|NOMIS|OR|web|DR|OR ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10043-nic|NOMIS|MIS|web|DR|MIS ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10051-nic|NOMIS|NOMIS|web|DR|C-NOMIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10052-nic|NOMIS|NOMIS|web|DR|C-NOMIS HAProxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10053-nic|NOMIS|MIS|web|DR|MIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10054-nic|NOMIS|MIS|web|DR|MIS HAProxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10055-nic|NOMIS|OR|web|DR|OR HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10056-nic|NOMIS|OR|web|DR|OR HAProxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/cafm.service.justice.gov.uk|CAFM|CAFM||prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/csr.service.justice.gov.uk|CSR|CSR||prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/nomis.service.justice.gov.uk|NOMIS|NOMIS||prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/oasys.service.justice.gov.uk|OASys|OASys||prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPDLPNDB1-as|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPDLPNDB2-as|NOMIS|NDH|data|lsast|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPMLBOEMI-as|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPMLBOEOR-as|NOMIS|OR|mid|lsast|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPMLNDHAP-as|NOMIS|NDH|mid|lsast|NDH Admin Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPMLNDHEM-as|NOMIS|NDH|mid|lsast|NDH EMS Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPMWBODMI-as|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPWLCNOMA-as|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPWLMISAP-as|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPWLORAPP-as|NOMIS|OR|web|lsast|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPWLPNOMHA1-as|NOMIS|NOMIS|web|lsast|C-NOMIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPWLPNOMHA2-as|NOMIS|MIS|web|lsast|MIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPWLPNOMHA3-as|NOMIS|OR|web|lsast|OR HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/disks/LSPDL00070-NEWDISK-10|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/disks/LSPDL00070-NEWDISK-11|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/disks/LSPDL00070-NEWDISK-12|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
@@ -345,75 +438,123 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/loadBalancers/LS-PrisonNOMIS-MIS-LB1-v2|NOMIS|MIS|web|lsast|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/loadBalancers/LS-PrisonNOMIS-NOMIS-LB1-v2|NOMIS|NOMIS|web|lsast|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/loadBalancers/LS-PrisonNOMIS-OR-LB1-v2|NOMIS|OR|web|lsast|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-DataDisk-0|NOMIS|NOMIS|web|lsast/BOEUpgrade|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-DataDisk-1|NOMIS|NOMIS|web|lsast/BOEUpgrade|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-OSDisk|NOMIS|NOMIS|web|lsast/BOEUpgrade|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/virtualMachines/LSPWLBSKGZG0001|NOMIS|NOMIS|web|lsast/BOEUpgrade|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPDL00070-nic|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPDL00071-nic|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPDL00072-nic|NOMIS|NDH|data|lsast|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPML00040-nic|NOMIS|NDH|mid|lsast|NDH Admin Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPML00042-nic|NOMIS|NDH|mid|lsast|NDH EMS Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPML00050-nic|NOMIS|OR|mid|lsast|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPML00052-nic|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPMW00060-nic|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPWL00011-nic|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPWL00021-nic|NOMIS|OR|web|lsast|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPWL00031-nic|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPWL00061-nic|NOMIS|NOMIS|web|lsast|C-NOMIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPWL00063-nic|NOMIS|MIS|web|lsast|MIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPWL00065-nic|NOMIS|OR|web|lsast|OR HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/availabilitySets/LSPWLBSKGZG-AV|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-DataDisk-0|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-DataDisk-1|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-OSDisk|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/virtualMachines/LSPWLBSKGZG0001|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Network/networkInterfaces/LSPWLBSKGZG0001-nic|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Storage/storageAccounts/lspwlbskgzgbootdiags|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Compute/availabilitySets/MOJOAWSTGW-as|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Compute/disks/MOJ-Azure-FW01A_OsDisk_1_be737aa73944414a80a60056149ae707|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Compute/disks/MOJ-Azure-FW01B_OsDisk_1_bdd57e7655a0494c8da8efec997a0950|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Compute/virtualMachines/MOJ-Azure-FW01A|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Compute/virtualMachines/MOJ-Azure-FW01B|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-0|NOMIS|MIS|data|lsast/BOEUpgrade|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-1|NOMIS|MIS|data|lsast/BOEUpgrade|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-2|NOMIS|MIS|data|lsast/BOEUpgrade|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-OSDisk|NOMIS|MIS|data|lsast/BOEUpgrade|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-DataDisk-0|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-DataDisk-1|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-OSDisk|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0002-DataDisk-0|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0002-DataDisk-1|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0002-OSDisk|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0003-DataDisk-0|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0003-DataDisk-1|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0003-OSDisk|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0004-DataDisk-0|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0004-DataDisk-1|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0004-OSDisk|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0005-DataDisk-0|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0005-DataDisk-1|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0005-OSDisk|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0006-DataDisk-0|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0006-DataDisk-1|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0006-OSDisk|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0001-DataDisk-0|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BODS SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0001-DataDisk-1|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BODS SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0001-OSDisk|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BODS SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0002-DataDisk-0|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BODS SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0002-DataDisk-1|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BODS SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0002-OSDisk|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BODS SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPRWRFDBP80001-DataDisk-0|NOMIS|NOMIS|test|lsast/BOEUpgrade|Client Access Testing
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPRWRFDBP80001-DataDisk-1|NOMIS|NOMIS|test|lsast/BOEUpgrade|Client Access Testing
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPRWRFDBP80001-OSDisk|NOMIS|NOMIS|test|lsast/BOEUpgrade|Client Access Testing
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-DataDisk-0|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-DataDisk-1|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-OSDisk|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0002-DataDisk-0|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0002-DataDisk-1|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0002-OSDisk|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0003-DataDisk-0|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0003-DataDisk-1|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0003-OSDisk|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0004-DataDisk-0|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0004-DataDisk-1|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0004-OSDisk|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0005-DataDisk-0|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0005-DataDisk-1|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0005-OSDisk|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPDLHQX33I0001|NOMIS|MIS|data|lsast/BOEUpgrade|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0001|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0002|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0003|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0004|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0005|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0006|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMWRZ10YV0001|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BODS SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMWRZ10YV0002|NOMIS|MIS|mid|lsast/BOEUpgrade|MIS BODS SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPRWRFDBP80001|NOMIS|NOMIS|test|lsast/BOEUpgrade|Client Access Testing
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0001|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0002|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0003|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0004|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0005|NOMIS|MIS|web|lsast/BOEUpgrade|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Network/networkInterfaces/INT-MOJ-Azure-FW01A-Management|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Network/networkInterfaces/INT-MOJ-Azure-FW01A-Trust|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Network/networkInterfaces/INT-MOJ-Azure-FW01A-Untrust|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Network/networkInterfaces/INT-MOJ-Azure-FW01B-Management|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Network/networkInterfaces/INT-MOJ-Azure-FW01B-Trust|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Network/networkInterfaces/INT-MOJ-Azure-FW01B-Untrust|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Network/publicIPAddresses/NOMS-PROD-UNTRUST-FW01A|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Network/publicIPAddresses/NOMS-PROD-UNTRUST-FW01B|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPDLHQX33I-AV|NOMIS|MIS|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPMLIA64CU-AV|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPMWRZ10YV-AV|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPRWRFDBP8-AV|NOMIS|NOMIS|test|lsast|Client Access Testing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPWLJZ5Q4L-AV|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-0|NOMIS|MIS|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-1|NOMIS|MIS|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-2|NOMIS|MIS|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-OSDisk|NOMIS|MIS|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-DataDisk-0|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-DataDisk-1|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-OSDisk|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0002-DataDisk-0|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0002-DataDisk-1|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0002-OSDisk|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0003-DataDisk-0|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0003-DataDisk-1|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0003-OSDisk|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0004-DataDisk-0|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0004-DataDisk-1|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0004-OSDisk|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0005-DataDisk-0|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0005-DataDisk-1|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0005-OSDisk|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0006-DataDisk-0|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0006-DataDisk-1|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0006-OSDisk|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0001-DataDisk-0|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0001-DataDisk-1|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0001-OSDisk|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0002-DataDisk-0|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0002-DataDisk-1|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0002-OSDisk|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPRWRFDBP80001-DataDisk-0|NOMIS|NOMIS|test|lsast|Client Access Testing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPRWRFDBP80001-DataDisk-1|NOMIS|NOMIS|test|lsast|Client Access Testing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPRWRFDBP80001-OSDisk|NOMIS|NOMIS|test|lsast|Client Access Testing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-DataDisk-0|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-DataDisk-1|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-OSDisk|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0002-DataDisk-0|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0002-DataDisk-1|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0002-OSDisk|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0003-DataDisk-0|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0003-DataDisk-1|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0003-OSDisk|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0004-DataDisk-0|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0004-DataDisk-1|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0004-OSDisk|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0005-DataDisk-0|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0005-DataDisk-1|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0005-OSDisk|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPDLHQX33I0001|NOMIS|MIS|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0001|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0002|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0003|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0004|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0005|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0006|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMWRZ10YV0001|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMWRZ10YV0002|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPRWRFDBP80001|NOMIS|NOMIS|test|lsast|Client Access Testing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0001|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0002|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0003|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0004|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0005|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPDLHQX33I0001-nic|NOMIS|MIS|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0001-nic|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0002-nic|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0003-nic|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0004-nic|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0005-nic|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0006-nic|NOMIS|MIS|mid|lsast|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMWRZ10YV0001-nic|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMWRZ10YV0002-nic|NOMIS|MIS|mid|lsast|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPRWRFDBP80001-nic|NOMIS|NOMIS|test|lsast|Client Access Testing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0001-nic|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0002-nic|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0003-nic|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0004-nic|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0005-nic|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Storage/storageAccounts/lspdlhqx33ibootdiags|NOMIS|MIS|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Storage/storageAccounts/lsprwrfdbp8bootdiags|NOMIS|NOMIS|test|lsast|Client Access Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Compute/disks/PCMCL00041_data001|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Compute/disks/PCMCL00041_data002|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Compute/disks/PCMCL00041_data003|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
@@ -421,10 +562,22 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Compute/disks/PCMCL00041_root001|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Compute/virtualMachines/PCMCL00041|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Compute/virtualMachines/PCMCW0051|FixNGo|Management|utility|prod|SMTP gateway server (for Offloc)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Network/networkInterfaces/PCMCL00041-nic|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Network/networkInterfaces/pcmcw0051365|FixNGo|Management|utility|prod|SMTP gateway server (for Offloc)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live-dr/providers/Microsoft.Compute/availabilitySets/DRMCLOEM1-as|FixNGo|Management|misc|DR|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live-dr/providers/Microsoft.Compute/disks/DRMCL10029data001|FixNGo|Management|misc|DR|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live-dr/providers/Microsoft.Compute/disks/DRMCL10029data002|FixNGo|Management|misc|DR|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live-dr/providers/Microsoft.Compute/disks/DRMCL10029root001|FixNGo|Management|misc|DR|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-LIVE-DR/providers/Microsoft.Compute/virtualMachines/DRMCL10029|FixNGo|Management|misc|DR|Oracle OEM Server monitoring
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live-dr/providers/Microsoft.Network/networkInterfaces/DRMCL10029-nic|FixNGo|Management|misc|DR|Oracle OEM Server monitoring
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-LIVE-DR/providers/Microsoft.Storage/storageAccounts/drmcl10029bootdiag|FixNGo|Management|misc|DR|Oracle OEM Server monitoring
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/availabilitySets/PCM-AD-AS1|FixNGo|Management|domaincontroller|prod|AD Server 2; NTP Source
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/availabilitySets/PDMNLD-as|FixNGo|Transit|utility|prod|Fortinet syslog forwarder
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/availabilitySets/PDMOLdevops-as|FixNGo|Management|cicd|prod|Jenkins
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/availabilitySets/PDMOLO11Y-as|FixNGo|Management|monitoring|prod|Prometheus
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/availabilitySets/PDMR2WD-as|FixNGo|Management|access|prod|RD jump server (NOMIS IE & Java)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/availabilitySets/PDMRLR-as|FixNGo|Management|access|prod|jumpbox ssh Bastion primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/availabilitySets/PDMRWD-as|FixNGo|Management|access|prod|RD jump server 2 (DXC access 1)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/disks/PCMCW0000_OsDisk_1_d842ad2130d0442c808b84943b4abbb9|FixNGo|Management|access|prod|Unknown
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/disks/PCMCW0011-APP-DISK1|FixNGo|Management|domaincontroller|prod|AD Server 1; NTP Source
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/disks/PCMCW0011_BKUP|FixNGo|Management|domaincontroller|prod|AD Server 1; NTP Source
@@ -501,6 +654,36 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMRW0004|FixNGo|Management|access|prod|RD licensing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMRW0100|FixNGo|Management|access|prod|remote access CAFM TS server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMRW0101|FixNGo|Management|access|prod|remote access NonCoreApps TS server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pcmcw0000853|FixNGo|Management|access|prod|Unknown
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pcmcw001163|FixNGo|Management|domaincontroller|prod|AD Server 1; NTP Source
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pcmcw0012231|FixNGo|Management|domaincontroller|prod|AD Server 2; NTP Source
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMNL00028-nic|FixNGo|Transit|utility|prod|Fortinet syslog forwarder
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pdmnw0030106|FixNGo|Management|utility|prod|wsus reachback facing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pdmnw0041369|FixNGo|Management|utility|prod|wsus internal facing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMOL00114-nic|FixNGo|Management|monitoring|prod|Prometheus
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMOL00115-nic|FixNGo|Management|monitoring|prod|Prometheus Blackbox Exporter
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMOL00120-nic|FixNGo|Management|cicd|prod|Jenkins
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMOL00121-nic|FixNGo|Management|cicd|prod|Jenkins Slave
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMR2W00010-nic|FixNGo|Management|access|prod|RD jump server (NOMIS IE & Java)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMR2W00011-nic|FixNGo|Management|access|prod|RD jump server 5 (HMPS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMR2W00012-nic|FixNGo|Management|access|prod|RD jump server 6 (HMPS2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMR2W00014-nic|FixNGo|Management|access|prod|RD jump server 8 (NART Interface Access)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMRL00109-nic|FixNGo|Management|access|prod|jumpbox ssh Bastion primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMRW00007-nic|FixNGo|Management|access|prod|RD jump server 2 (DXC access 1)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMRW00008-nic|FixNGo|Management|access|prod|RD jump server 3 (DXC access 2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMRW00009-nic|FixNGo|Management|access|prod|RD jump server 4 (DBA)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pdmrw0001235|FixNGo|Management|access|prod|RD gateway server and web access
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pdmrw0002256|FixNGo|Management|access|prod|RD session host
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pdmrw0003639|FixNGo|Management|access|prod|RD connection broker
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pdmrw0004908|FixNGo|Management|access|prod|RD licensing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pdmrw0100102|FixNGo|Management|access|prod|remote access CAFM TS server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pdmrw0101540|FixNGo|Management|access|prod|remote access NonCoreApps TS server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Storage/storageAccounts/pdmol00120botdiag|FixNGo|Management|cicd|prod|Jenkins
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/availabilitySets/DRMRWRDJPS-as|FixNGo|Management|access|DR|RD jump server 2 (DXC access 1)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/availabilitySets/DRMRWRDSCB-as|FixNGo|Management|access|DR|RD connection broker
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/availabilitySets/DRMRWRDSGW-AS1|FixNGo|Management|access|DR|RD gateway server and web access
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/availabilitySets/DRMRWRDSLS-as|FixNGo|Management|access|DR|RD licensing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/availabilitySets/DRMRWRDSSSH-as|FixNGo|Management|access|DR|RD session host
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/disks/DRMRW10001-restore-20171026|FixNGo|Management|access|DR|RD gateway server and web access
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/disks/DRMRW10001data1-restore-20171026|FixNGo|Management|access|DR|RD gateway server and web access
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/disks/DRMRW10001data2-restore-20171026|FixNGo|Management|access|DR|RD gateway server and web access
@@ -528,6 +711,16 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/virtualMachines/DRMRW10010|FixNGo|Management|access|DR|RD jump server 3 (DXC access 3)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/virtualMachines/pcmcw1011|FixNGo|Management|domaincontroller|DR|AD Server 3; NTP Source
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/virtualMachines/pcmcw1012|FixNGo|Management|domaincontroller|DR|AD Server 4; NTP Source
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Network/networkInterfaces/DRMRW10001-nic|FixNGo|Management|access|DR|RD gateway server and web access
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Network/networkInterfaces/DRMRW10002-nic|FixNGo|Management|access|DR|RD session host
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Network/networkInterfaces/DRMRW10003-nic|FixNGo|Management|access|DR|RD connection broker
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Network/networkInterfaces/DRMRW10004-nic|FixNGo|Management|access|DR|RD licensing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Network/networkInterfaces/DRMRW10007-nic|FixNGo|Management|access|DR|RD jump server 2 (DXC access 1)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Network/networkInterfaces/DRMRW10008-nic|FixNGo|Management|access|DR|RD jump server 3 (DXC access 2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Network/networkInterfaces/DRMRW10010-nic|FixNGo|Management|access|DR|RD jump server 3 (DXC access 3)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Network/networkInterfaces/pcmcw101154|FixNGo|Management|domaincontroller|DR|AD Server 3; NTP Source
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Network/networkInterfaces/pcmcw1012787|FixNGo|Management|domaincontroller|DR|AD Server 4; NTP Source
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Storage/storageAccounts/nomslivemgmtdrcore|FixNGo|Management|domaincontroller|DR|AD Server 3; NTP Source
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-restores/providers/Microsoft.Compute/disks/PDRDW0030-appstorage-restore-20171026|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-restores/providers/Microsoft.Compute/disks/PDRDW0030-backup-restore-20171026|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-restores/providers/Microsoft.Compute/disks/PDRDW0030-datastoragebsf-restore-20171026|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
@@ -538,30 +731,68 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-restores/providers/Microsoft.Compute/disks/PDRDW0030-tempdb-restore-20171026|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-restores/providers/Microsoft.Compute/disks/PDRDW0030-transpins-restore-20171026|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-restores/providers/Microsoft.Compute/disks/PDRDW0030-transprisonretail-restore-20171026|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-devtest-fw/providers/Microsoft.Compute/availabilitySets/PDMLX0055AvailSet|FixNGo|Transit|network|prod|fortinet NGFW devtest reach back
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-devtest-fw/providers/Microsoft.Compute/disks/PDMLX0055_disk2_08636b57cd874d16b49170d9ca7d965b|FixNGo|Transit|network|prod|fortinet NGFW devtest reach back
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-devtest-fw/providers/Microsoft.Compute/disks/PDMLX0055_OsDisk_1_6c410b69fe89436199e71511d94d9902|FixNGo|Transit|network|prod|fortinet NGFW devtest reach back
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-devtest-fw/providers/Microsoft.Compute/virtualMachines/PDMLX0055|FixNGo|Transit|network|prod|fortinet NGFW devtest reach back
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-devtest-fw/providers/Microsoft.Network/networkInterfaces/PDMLX0055Nic0|FixNGo|Transit|network|prod|fortinet NGFW devtest reach back
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-devtest-fw/providers/Microsoft.Network/networkInterfaces/PDMLX0055Nic1|FixNGo|Transit|network|prod|fortinet NGFW devtest reach back
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-devtest-fw/providers/Microsoft.Network/publicIPAddresses/PDMLX0055-PIP2|FixNGo|Transit|network|prod|fortinet NGFW devtest reach back
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-devtest-fw/providers/Microsoft.Network/publicIPAddresses/publicip-fortigate|FixNGo|Transit|network|prod|fortinet NGFW devtest reach back
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw/providers/Microsoft.Compute/virtualMachines/DRNNW0003|Unknown|Unknown|utility|DR|Fortinet utility
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw/providers/Microsoft.Network/networkInterfaces/drnnw0003343|Unknown|Unknown|utility|DR|Fortinet utility
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw/providers/Microsoft.Network/publicIPAddresses/DRNNW0003-ip|Unknown|Unknown|utility|DR|Fortinet utility
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw/providers/Microsoft.Storage/storageAccounts/nomstransitdrerfwdiag854|Unknown|Unknown|utility|DR|Fortinet utility
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw2/providers/Microsoft.Compute/availabilitySets/DRMLX0051AvailSet|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute secondary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw2/providers/Microsoft.Compute/disks/DRMLX0051_disk2_e2afd84500f0422194b91203d917e808|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute secondary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw2/providers/Microsoft.Compute/disks/DRMLX0051_OsDisk_1_a89bd8c35ff0431e88a4123930fe0c54|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute secondary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw2/providers/Microsoft.Compute/virtualMachines/DRMLX0051|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute secondary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw2/providers/Microsoft.Network/networkInterfaces/DRMLX0051Nic0|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute secondary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw2/providers/Microsoft.Network/networkInterfaces/DRMLX0051Nic1|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute secondary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw2/providers/Microsoft.Network/publicIPAddresses/publicip-fortigate|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute secondary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Compute/availabilitySets/DRMLX0050AvailSet|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Compute/disks/DRMLX0050_disk2_07a1258709ba4762959c1aec590375e0|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Compute/disks/DRMLX0050_OsDisk_1_a35df255e2664a3896b7448b8a9251b7|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Compute/virtualMachines/DRMLX0050|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Network/networkInterfaces/DRMLX0050Nic0|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Network/networkInterfaces/DRMLX0050Nic1|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Network/publicIPAddresses/publicip-fortigate|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-proxy-fw/providers/Microsoft.Compute/availabilitySets/DRMLX0052AvailSet|FixNGo|Transit|network|DR|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-proxy-fw/providers/Microsoft.Compute/disks/DRMLX0052_disk2_28af855312fa4bbe84c8105e2548bfc8|FixNGo|Transit|network|DR|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-proxy-fw/providers/Microsoft.Compute/disks/DRMLX0052_OsDisk_1_07bbd26909514718b6716955bab9f373|FixNGo|Transit|network|DR|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-proxy-fw/providers/Microsoft.Compute/virtualMachines/DRMLX0052|FixNGo|Transit|network|DR|fortinet NGFW internet proxy 
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-proxy-fw/providers/Microsoft.Network/networkInterfaces/DRMLX0052Nic0|FixNGo|Transit|network|DR|fortinet NGFW internet proxy 
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-proxy-fw/providers/Microsoft.Network/networkInterfaces/DRMLX0052Nic1|FixNGo|Transit|network|DR|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw/providers/Microsoft.Compute/virtualMachines/PDNNW0003|Unknown|Unknown|utility|prod|Fortinet utility
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw/providers/Microsoft.Compute/virtualMachines/PDNNW0004|Unknown|Unknown|utility|prod|Fortinet utility
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw/providers/Microsoft.Network/networkInterfaces/pdnnw0003983|Unknown|Unknown|utility|prod|Fortinet utility
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw/providers/Microsoft.Network/networkInterfaces/pdnnw0004927|Unknown|Unknown|utility|prod|Fortinet utility
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw/providers/Microsoft.Network/publicIPAddresses/ipconfig1|Unknown|Unknown|utility|prod|Fortinet utility
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw/providers/Microsoft.Network/publicIPAddresses/PDNNW0004-ip|Unknown|Unknown|utility|prod|Fortinet utility
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw2/providers/Microsoft.Compute/availabilitySets/PDMLX0051AvailSet|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute secondary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw2/providers/Microsoft.Compute/disks/PDMLX0051_disk2_ea5e5d1d8c6e4a59b065f2860ce4b8b7|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute secondary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw2/providers/Microsoft.Compute/disks/PDMLX0051_OsDisk_1_7762310c948e4476a2a0260de668f22e|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute secondary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw2/providers/Microsoft.Compute/virtualMachines/PDMLX0051|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute secondary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw2/providers/Microsoft.Network/networkInterfaces/PDMLX0051Nic0|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute secondary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw2/providers/Microsoft.Network/networkInterfaces/PDMLX0051Nic1|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute secondary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw-fortinet/providers/Microsoft.Compute/availabilitySets/PDMLX0050AvailSet|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw-fortinet/providers/Microsoft.Compute/disks/PDMLX0050_disk2_949b59f8967645ae892b715e6930876f|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw-fortinet/providers/Microsoft.Compute/disks/PDMLX0050_OsDisk_1_dca0da5e87e44a42b4b975361a83f803|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw-fortinet/providers/Microsoft.Compute/virtualMachines/PDMLX0050|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw-fortinet/providers/Microsoft.Network/networkInterfaces/PDMLX0050Nic0|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw-fortinet/providers/Microsoft.Network/networkInterfaces/PDMLX0050Nic1|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-er-fw-fortinet/providers/Microsoft.Network/publicIPAddresses/publicip-fortigate|FixNGo|Transit|network|prod|fortinet NGFW ExpressRoute primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-proxy-fw/providers/Microsoft.Compute/availabilitySets/PDMLX0052AvailSet|FixNGo|Transit|network|prod|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-proxy-fw/providers/Microsoft.Compute/disks/PDMLX0052_disk2_ace08503728445668d43afe89363cab3|FixNGo|Transit|network|prod|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-proxy-fw/providers/Microsoft.Compute/disks/PDMLX0052_OsDisk_1_fdc229fcd25e4c548baf179a682b267e|FixNGo|Transit|network|prod|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-proxy-fw/providers/Microsoft.Compute/virtualMachines/PDMLX0052|FixNGo|Transit|network|prod|fortinet NGFW internet proxy 
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-proxy-fw/providers/Microsoft.Network/networkInterfaces/PDMLX0052Nic0|FixNGo|Transit|network|prod|fortinet NGFW internet proxy 
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-proxy-fw/providers/Microsoft.Network/networkInterfaces/PDMLX0052Nic1|FixNGo|Transit|network|prod|fortinet NGFW internet proxy 
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-proxy-fw/providers/Microsoft.Network/publicIPAddresses/publicip-fortigate|FixNGo|Transit|network|prod|fortinet NGFW internet proxy 
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/availabilitySets/PDFWW3QCP66-AV|CAFM|CAFMTraining|web|prod|CAFM Web Training VM
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/availabilitySets/PDFWWCAFMHA-as|CAFM|CAFMAssetMgmt|web|prod|CAFM Asset Management
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/availabilitySets/PDFWWCFMWP-as|CAFM|CAFMPlanetFM|web|prod|CAFM Web Portal Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/availabilitySets/PDFWWCFMWS-as|CAFM|CAFMInternal|web|prod|RDS Web Access Server / RDS Gateway Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/disks/Application-Storage-CAFM|CAFM|CAFM|data|prod|SQL Resilient Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/disks/Application-Storage-restore-20171101|CAFM|CAFM|data|prod|SQL Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/disks/Backup-CAFM|CAFM|CAFM|data|prod|SQL Resilient Server
@@ -611,6 +842,31 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/loadBalancers/PDFLX0001-v2|CAFM|CAFMInternal|web|prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/loadBalancers/PDFLX0040-v2|CAFM|CAFMPlanetFM|web|prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/loadBalancers/PDFLX0041-v2|CAFM|CAFMAssetMgmt|web|prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfaw0010372|CAFM|CAFM|app|prod|RDS Session Host and CAFM App Server/PFME Licence Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfaw0011391|CAFM|CAFM|app|prod|RDS Session Host and CAFM App Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfaw0012642|CAFM|CAFM|app|prod|RDS Session Host and CAFM App Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfaw0013909|CAFM|CAFM|app|prod|RDS Session Host and CAFM App Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfaw0014678|CAFM|CAFM|app|prod|RDS Session Host and CAFM App Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfaw0015970|CAFM|CAFM|app|prod|RDS Session Broker / RDS Licence Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfdw0030889|CAFM|CAFM|data|prod|SQL Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfdw0031254|CAFM|CAFM|data|prod|SQL Resilient Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfww0002736|CAFM|CAFMInternal|web|prod|RDS Web Access Server / RDS Gateway Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/PDFWW00036-nic|CAFM|CAFMAssetMgmt|web|prod|CAFM Asset Management
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfww0003793|CAFM|CAFMInternal|web|prod|RDS Web Access Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/PDFWW00037-nic|CAFM|CAFMAssetMgmt|web|prod|CAFM Asset Management
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfww0004556|CAFM|CAFMInternal|web|prod|RDS Web Access Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfww000597|CAFM|CAFMPlanetFM|web|prod|CAFM Web Portal Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/pdfww0006186|CAFM|CAFMPlanetFM|web|prod|CAFM Web Portal Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/networkInterfaces/PDFWW3QCP660001-nic|CAFM|CAFMTraining|web|prod|CAFM Web Training VM
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Storage/storageAccounts/pdfww3qcp66bootdiags|CAFM|CAFMTraining|web|prod|CAFM Web Training VM
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/availabilitySets/PDCAWC12AS-as|CSR|CSR|app|prod|Application Server (Region 1)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/availabilitySets/PDCAWC34AS-as|CSR|CSR|app|prod|Application Server (Region 3)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/availabilitySets/PDCAWC56AS-as|CSR|CSR|app|prod|Application Server (Region 5)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/availabilitySets/PDCDLCSRDS-as|CSR|CSR|data|prod|Oracle Database 1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/availabilitySets/PDCNWCanary-as|CSR|CSR|network|prod|Utility Server (Query)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/availabilitySets/PDCWWC12WS-as|CSR|CSR|web|prod|Web Server (Region1+2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/availabilitySets/PDCWWC34WS-as|CSR|CSR|web|prod|Web Server (Region3+4)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/availabilitySets/PDCWWC56WS-as|CSR|CSR|web|prod|Web Server (Region5+6)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/disks/PDCAW00007_data001|CSR|CSR|app|prod|Application Server (Region 1)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/disks/PDCAW00007_data002|CSR|CSR|app|prod|Application Server (Region 1)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Compute/disks/PDCAW00007_root001|CSR|CSR|app|prod|Application Server (Region 1)
@@ -682,6 +938,24 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/loadBalancers/PD-CSR-LB0001-v2|CSR|CSR|web|prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/loadBalancers/PD-CSR-LB0002-v2|CSR|CSR|web|prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/loadBalancers/PD-CSR-LB0003-v2|CSR|CSR|web|prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCAW00007-nic|CSR|CSR|app|prod|Application Server (Region 1)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCAW00008-nic|CSR|CSR|app|prod|Application Server (Region 2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCAW00009-nic|CSR|CSR|app|prod|Application Server (Region 3)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCAW00010-nic|CSR|CSR|app|prod|Application Server (Region 4)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCAW00011-nic|CSR|CSR|app|prod|Application Server (Region 5)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCAW00012-nic|CSR|CSR|app|prod|Application Server (Region 6)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCDL00013-nic|CSR|CSR|data|prod|Oracle Database 1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCDL00014-nic|CSR|CSR|data|prod|Oracle Database 2 (High Availability / Data Guard)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCNW00003-nic|CSR|CSR|network|prod|Utility Server (Query)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCWW00001-nic|CSR|CSR|web|prod|Web Server (Region1+2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCWW00002-nic|CSR|CSR|web|prod|Web Server (Region1+2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCWW00003-nic|CSR|CSR|web|prod|Web Server (Region3+4)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCWW00004-nic|CSR|CSR|web|prod|Web Server (Region3+4)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCWW00005-nic|CSR|CSR|web|prod|Web Server (Region5+6)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCWW00006-nic|CSR|CSR|web|prod|Web Server (Region5+6)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/availabilitySets/PDRDLNCADB-as|NonCore|NonCore|data|prod|Offloc file transfer processing node
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/availabilitySets/PDRDWNCADB-as|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/availabilitySets/PDRWLNCAHA1-as|NonCore|NonCore|web|prod|HA Proxy reverse proxy for offloc
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDL00013data001|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDL00013data002|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDL00013root001|NonCore|NonCore|data|prod|Offloc file transfer processing node
@@ -696,6 +970,23 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/virtualMachines/PDRDW00011|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/virtualMachines/PDRDW0030|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/virtualMachines/PDRWL00014|NonCore|NonCore|web|prod|HA Proxy reverse proxy for offloc
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/PDRDL00013-nic|NonCore|NonCore|data|prod|Offloc file transfer processing node
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/PDRDW00011-nic|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/pdrdw003051|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/PDRWL00014-nic|NonCore|NonCore|web|prod|HA Proxy reverse proxy for offloc
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDODLOASOD-as|OASys|OASys|data|prod|OASys Audit Vault
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDODLOASODTP-as|OASys|OASys|data|prod|Training & Practice DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDODWOAWFS-as|OASys|OASys|data|prod|Windows File Share (BOE Data)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDOMLOABIP-as|OASys|OASys|mid|prod|OASys BI Publisher
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDOMLOABOE-as|OASys|OASys|mid|prod|BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDOMWOABOD-as|OASys|OASys|mid|prod|BODS Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDOWLOASHA1-as|OASys|ONR|web|prod|ONR HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDOWLOASHA2-as|OASys|OASys|web|prod|OASys HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDOWLOASHA4-as|OASys|OASys|web|prod|Training HA Proxy Node
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDOWLOASHA5-as|OASys|OASys|web|prod|Practice HA Proxy Node
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDOWLOASWS-as|OASys|OASys|web|prod|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDOWLOASWSTP-as|OASys|OASys|web|prod|Training Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDOWLOAWSO-as|OASys|ONR|web|prod|ONR Web Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/disks/PDODL00010-DISK1|OASys|OASys|data|prod|OASys Audit Vault
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/disks/PDODL00010-DISK2|OASys|OASys|data|prod|OASys Audit Vault
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/disks/PDODL00010-DISK20|OASys|OASys|data|prod|OASys Audit Vault
@@ -858,6 +1149,53 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/virtualMachines/PDOWL00036|OASys|OASys|web|prod|Practice HA Proxy Node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/loadBalancers/PD-OASYS-LB001-v2|OASys|OASys|web|prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/loadBalancers/PD-OASYS-ONR-LB0001-v2|OASys|ONR|web|prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDODL00010-nic|OASys|OASys|data|prod|OASys Audit Vault
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDODL00011-nic|OASys|OASys|data|prod|OASys Oracle DBMS
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDODL00012-nic|OASys|ONR|data|prod|ONR Oracle DBMS
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDODL00019-nic|OASys|OASys|data|prod|Training & Practice DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDODW00026-nic|OASys|OASys|data|prod|Windows File Share (BOE Data)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDODW00027-nic|OASys|OASys|data|prod|Windows File Share (BOE Data)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOML00007-nic|OASys|OASys|mid|prod|BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOML00008-nic|OASys|OASys|mid|prod|BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOML00009-nic|OASys|OASys|mid|prod|OASys BI Publisher
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOMW00013-nic|OASys|OASys|mid|prod|BODS Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOMW00014-nic|OASys|OASys|mid|prod|BODS Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00001-nic|OASys|OASys|web|prod|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00002-nic|OASys|OASys|web|prod|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00003-nic|OASys|OASys|web|prod|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00004-nic|OASys|OASys|web|prod|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00005-nic|OASys|ONR|web|prod|ONR Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00006-nic|OASys|ONR|web|prod|ONR Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00016-nic|OASys|OASys|web|prod|Training Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00017-nic|OASys|OASys|web|prod|Practice Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00018-nic|OASys|OASys|web|prod|Practice Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00030-nic|OASys|ONR|web|prod|ONR HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00031-nic|OASys|ONR|web|prod|ONR HA Proxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00032-nic|OASys|OASys|web|prod|OASys HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00033-nic|OASys|OASys|web|prod|OASys HA Proxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00035-nic|OASys|OASys|web|prod|Training HA Proxy Node
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00036-nic|OASys|OASys|web|prod|Practice HA Proxy Node
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Storage/storageAccounts/pdowl00017bootdiag|OASys|OASys|web|prod|Practice Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Storage/storageAccounts/pdowl00031bootdiag2|OASys|ONR|web|prod|ONR HA Proxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Storage/storageAccounts/pdowl00032bootdiag|OASys|OASys|web|prod|OASys HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Storage/storageAccounts/pdowl00036bootdiag|OASys|OASys|web|prod|Practice HA Proxy Node
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPDLPNDB1-as|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPDLPNDB2-as|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPDWPNWFS-as|NOMIS|NOMIS|data|prod|Windows File Share Server (BOE Data) - Offloc - Migrated to Azure Storage
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPMLBOEMI-as|NOMIS|MIS|mid|prod|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPMLBOEOR-as|NOMIS|OR|mid|prod|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPMLNDHAP-as|NOMIS|NDH|mid|prod|NDH Admin Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPMLNDHEM-as|NOMIS|NDH|mid|prod|NDH EMS Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPMWBODMI-as|NOMIS|MIS|mid|prod|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPMWNDHDS-as|NOMIS|NDH|mid|prod|NDH Windows Distribution Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPWLCNOMA-as|NOMIS|NOMIS|web|prod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPWLDMMIS-as|NOMIS|OR|web|prod|OR ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPWLDMOR-as|NOMIS|MIS|web|prod|MIS ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPWLMISAP-as|NOMIS|MIS|web|prod|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPWLORAPP-as|NOMIS|OR|web|prod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPWLPNOMHA1-as|NOMIS|NOMIS|web|prod|C-NOMIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPWLPNOMHA2-as|NOMIS|MIS|web|prod|MIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/availabilitySets/PDPWLPNOMHA3-as|NOMIS|OR|web|prod|OR HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/disks/nomis-binary-fixed-disk|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/disks/PDPDL00035-DISK21|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/disks/PDPDL00035-DISK22|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
@@ -1093,6 +1431,52 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/loadBalancers/PD-PrisonNOMIS-MIS-LB1-v2|NOMIS|MIS|web|prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/loadBalancers/PD-PrisonNOMIS-NOMIS-LB1-v2|NOMIS|NOMIS|web|prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/loadBalancers/PD-PrisonNOMIS-OR-LB1-v2|NOMIS|OR|web|prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00035-nic|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00036-nic|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00037-nic|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00038-nic|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00062-nic|NOMIS|NOMIS|data|prod|C-NOMIS DB High-Availability/DataGuard
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDW00057-nic|NOMIS|NOMIS|data|prod|Windows File Share Server (BOE Data) - Offloc - Migrated to Azure Storage
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPML00025-nic|NOMIS|NDH|mid|prod|NDH Admin Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPML00027-nic|NOMIS|NDH|mid|prod|NDH EMS Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPML00028-nic|NOMIS|NDH|mid|prod|NDH EMS Tibco Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPML00029-nic|NOMIS|OR|mid|prod|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPML00030-nic|NOMIS|OR|mid|prod|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPML00033-nic|NOMIS|MIS|mid|prod|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPML00034-nic|NOMIS|MIS|mid|prod|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPMW00031-nic|NOMIS|MIS|mid|prod|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPMW00032-nic|NOMIS|MIS|mid|prod|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPMW00050-nic|NOMIS|NDH|mid|prod|NDH Windows Distribution Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00001-nic|NOMIS|NOMIS|web|prod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00002-nic|NOMIS|NOMIS|web|prod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00003-nic|NOMIS|NOMIS|web|prod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00004-nic|NOMIS|NOMIS|web|prod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00005-nic|NOMIS|NOMIS|web|prod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00006-nic|NOMIS|NOMIS|web|prod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00007-nic|NOMIS|NOMIS|web|prod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00008-nic|NOMIS|NOMIS|web|prod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00009-nic|NOMIS|OR|web|prod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00010-nic|NOMIS|OR|web|prod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00011-nic|NOMIS|OR|web|prod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00012-nic|NOMIS|OR|web|prod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00013-nic|NOMIS|OR|web|prod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00014-nic|NOMIS|OR|web|prod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00015-nic|NOMIS|OR|web|prod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00016-nic|NOMIS|OR|web|prod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00017-nic|NOMIS|MIS|web|prod|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00018-nic|NOMIS|MIS|web|prod|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00019-nic|NOMIS|MIS|web|prod|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00020-nic|NOMIS|MIS|web|prod|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00042-nic|NOMIS|OR|web|prod|OR ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00043-nic|NOMIS|MIS|web|prod|MIS ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00051-nic|NOMIS|NOMIS|web|prod|C-NOMIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00052-nic|NOMIS|NOMIS|web|prod|C-NOMIS HAProxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00053-nic|NOMIS|MIS|web|prod|MIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00054-nic|NOMIS|MIS|web|prod|MIS HAProxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00055-nic|NOMIS|OR|web|prod|OR HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPWL00056-nic|NOMIS|OR|web|prod|OR HAProxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Compute/availabilitySets/ppfwwcfmwp-as|CAFM|CAFMPlanetFM|web|preprod|CAFM Web Portal Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Compute/availabilitySets/ppfwwcfmws-as|CAFM|CAFMInternal|web|preprod|RDS Web Access Server / RDS Gateway Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Compute/disks/Application-Storage-restore-20171101|CAFM|CAFM|data|preprod|SQL Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Compute/disks/Backup-restore-20171101|CAFM|CAFM|data|preprod|SQL Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Compute/disks/Data-Storage-restore-20171101|CAFM|CAFM|data|preprod|SQL Server
@@ -1116,6 +1500,26 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Compute/virtualMachines/PPFWW0005|CAFM|CAFMPlanetFM|web|preprod|CAFM Web Portal Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Network/loadBalancers/PPFLX0001-v2|CAFM|CAFMInternal|web|preprod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Network/loadBalancers/PPFLX0040-v2|CAFM|CAFMPlanetFM|web|preprod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Network/networkInterfaces/ppfaw0010405|CAFM|CAFM|app|preprod|RDS Session Host and CAFM App Server/PFME Licence Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Network/networkInterfaces/ppfaw0011874|CAFM|CAFM|app|preprod|RDS Session Host and CAFM App Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Network/networkInterfaces/ppfaw0012872|CAFM|CAFM|app|preprod|RDS Session Broker / RDS Licence Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Network/networkInterfaces/ppfdw0030325|CAFM|CAFM|data|preprod|SQL Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Network/networkInterfaces/ppfww0002847|CAFM|CAFMInternal|web|preprod|RDS Web Access Server / RDS Gateway Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Network/networkInterfaces/ppfww0003942|CAFM|CAFMInternal|web|preprod|RDS Web Access Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Network/networkInterfaces/ppfww0004346|CAFM|CAFMPlanetFM|web|preprod|CAFM Web Portal Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-cafm/providers/Microsoft.Network/networkInterfaces/ppfww0005755|CAFM|CAFMPlanetFM|web|preprod|CAFM Web Portal Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCAWC56AS-as|CSR|CSR|app|preprod|Application Server (Region 5)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCAWCPPAS-as|CSR|CSR|app|preprod|Application Server (Region 1)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCAWCPUAS-as|CSR|CSR|app|preprod|Application Server (Region 2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCAWCTAAS-as|CSR|CSR|app|preprod|Application Server (Training A)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCAWCTBAS-as|CSR|CSR|app|preprod|Application Server (Training B)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCAWCTCAS-as|CSR|CSR|app|preprod|Application Server (Region 3)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCAWCTDAS-as|CSR|CSR|app|preprod|Application Server (Region 4)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCDLCSRDS-as|CSR|CSR|data|preprod|Oracle Database 1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCWWCPUWS-as|CSR|CSR|web|preprod|Web Server (Region1+2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCWWCSRWS-as|CSR|CSR|web|preprod|Web Server (Region5+6)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCWWCTABWS-as|CSR|CSR|web|preprod|Web Server (Training A+B)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/availabilitySets/PPCWWCTCDWS-as|CSR|CSR|web|preprod|Web Server (Region3+4)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/disks/PPCAW00002data001|CSR|CSR|app|preprod|Application Server (Region 5)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/disks/PPCAW00002data002|CSR|CSR|app|preprod|Application Server (Region 5)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Compute/disks/PPCAW00002root001|CSR|CSR|app|preprod|Application Server (Region 5)
@@ -1196,6 +1600,32 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/loadBalancers/PP-CSR-LB0002-v2|CSR|CSR|web|preprod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/loadBalancers/PP-CSR-LB0003-v2|CSR|CSR|web|preprod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/loadBalancers/PP-CSR-LB0004-v2|CSR|CSR|web|preprod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCAW00002-nic|CSR|CSR|app|preprod|Application Server (Region 5)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCAW00003-nic|CSR|CSR|app|preprod|Application Server (Region 6)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCAW00013-nic|CSR|CSR|app|preprod|Application Server (Region 1)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCAW00014-nic|CSR|CSR|app|preprod|Application Server (Region 2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCAW00015-nic|CSR|CSR|app|preprod|Application Server (Training A)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCAW00016-nic|CSR|CSR|app|preprod|Application Server (Training B)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCAW00017-nic|CSR|CSR|app|preprod|Application Server (Region 3)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCAW00018-nic|CSR|CSR|app|preprod|Application Server (Region 4)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCDL00019-nic|CSR|CSR|data|preprod|Oracle Database 1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/ppcww00001624|CSR|CSR|web|preprod|Web Server (Region1+2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/ppcww00002963|CSR|CSR|web|preprod|Web Server (Region1+2)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/ppcww00003860|CSR|CSR|web|preprod|Web Server (Training A+B)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/ppcww00004406|CSR|CSR|web|preprod|Web Server (Training A+B)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/ppcww00005298|CSR|CSR|web|preprod|Web Server (Region3+4)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/ppcww00006867|CSR|CSR|web|preprod|Web Server (Region3+4)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCWW00007-nic|CSR|CSR|web|preprod|Web Server (Region5+6)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-csr/providers/Microsoft.Network/networkInterfaces/PPCWW00008-nic|CSR|CSR|web|preprod|Web Server (Region5+6)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/availabilitySets/PPODLOASOD-as|OASys|OASys|data|preprod|OASys Oracle DBMS
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/availabilitySets/PPODWOAWFS-as|OASys|OASys|data|preprod|Windows File Share (BOE Data)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/availabilitySets/PPOMLOABIP-as|OASys|OASys|mid|preprod|OASys BI Publisher
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/availabilitySets/PPOMLOABOE-as|OASys|OASys|mid|preprod|BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/availabilitySets/PPOMWOABOD-as|OASys|OASys|mid|preprod|BODS Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/availabilitySets/PPOWLOASATWS-as|OASys|ONR|web|preprod|ONR Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/availabilitySets/PPOWLOASHA1-as|OASys|OASys|web|preprod|OASys HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/availabilitySets/PPOWLOASHA2-as|OASys|ONR|web|preprod|ONR HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/availabilitySets/PPOWLOASSFWS-as|OASys|OASys|web|preprod|OASys Web Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/disks/PPODL00009-DISK1|OASys|OASys|data|preprod|OASys Oracle DBMS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/disks/PPODL00009-DISK2|OASys|OASys|data|preprod|OASys Oracle DBMS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/disks/PPODL00009-DISK3|OASys|OASys|data|preprod|OASys Oracle DBMS
@@ -1261,6 +1691,35 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Compute/virtualMachines/PPOWL00033|OASys|ONR|web|preprod|ONR HA Proxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/loadBalancers/PP-OASYS-LB0001-v2|OASys|OASys|web|preprod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/loadBalancers/PP-OASYS-ONR-LB0001-v2|OASys|ONR|web|preprod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPODL00009-nic|OASys|OASys|data|preprod|OASys Oracle DBMS
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPODW00011-nic|OASys|OASys|data|preprod|Windows File Share (BOE Data)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOML00006-nic|OASys|OASys|mid|preprod|BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOML00007-nic|OASys|OASys|mid|preprod|OASys BI Publisher
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOMW00005-nic|OASys|OASys|mid|preprod|BODS Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00001-nic|OASys|OASys|web|preprod|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00002-nic|OASys|OASys|web|preprod|OASys Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00003-nic|OASys|ONR|web|preprod|ONR Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00004-nic|OASys|ONR|web|preprod|ONR Web Server
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00030-nic|OASys|OASys|web|preprod|OASys HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00031-nic|OASys|OASys|web|preprod|OASys HA Proxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00032-nic|OASys|ONR|web|preprod|ONR HA Proxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00033-nic|OASys|ONR|web|preprod|ONR HA Proxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPDLPNDB1-as|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPDLPNDB2-as|NOMIS|NDH|data|preprod|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPDWPNWFS-as|NOMIS|NOMIS|data|preprod|Windows File Share Server (BOE Data) - Offloc - Migrated to Azure Storage
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPMLBOEMI-as|NOMIS|MIS|mid|preprod|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPMLBOEOR-as|NOMIS|OR|mid|preprod|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPMLNDHAP-as|NOMIS|NDH|mid|preprod|NDH Admin Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPMLNDHEM-as|NOMIS|NDH|mid|preprod|NDH EMS Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPMWBODMI-as|NOMIS|MIS|mid|preprod|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPWLCNOMA-as|NOMIS|NOMIS|web|preprod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPWLDMMIS-as|NOMIS|OR|web|preprod|OR ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPWLDMOR-as|NOMIS|MIS|web|preprod|MIS ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPWLMISAP-as|NOMIS|MIS|web|preprod|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPWLORAPP-as|NOMIS|OR|web|preprod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPWLPNOMHA1-as|NOMIS|NOMIS|web|preprod|C-NOMIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPWLPNOMHA2-as|NOMIS|MIS|web|preprod|MIS HAProxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/availabilitySets/PPPWLPNOMHA3-as|NOMIS|OR|web|preprod|OR HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/disks/PPPDL00016-DISK21|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/disks/PPPDL00016-NEWDISK-11|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/disks/PPPDL00016-NEWDISK-13|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
@@ -1388,3 +1847,29 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/loadBalancers/PP-PrisonNOMIS-MIS-LB1-v2|NOMIS|MIS|web|preprod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/loadBalancers/PP-PrisonNOMIS-NOMIS-LB1-v2|NOMIS|NOMIS|web|preprod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/loadBalancers/PP-PrisonNOMIS-OR-LB1-v2|NOMIS|OR|web|preprod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPDL00016-nic|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPDL00017-nic|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPDL00018-nic|NOMIS|NDH|data|preprod|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPDL00019-nic|NOMIS|NOMIS|data|preprod|Audit (CNMAUDP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPDW00029-nic|NOMIS|NOMIS|data|preprod|Windows File Share Server (BOE Data) - Offloc - Migrated to Azure Storage
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPML00007-nic|NOMIS|NDH|mid|preprod|NDH Admin Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPML00009-nic|NOMIS|NDH|mid|preprod|NDH EMS Tibco Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPML00010-nic|NOMIS|NDH|mid|preprod|NDH EMS Tibco Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPML00011-nic|NOMIS|OR|mid|preprod|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPML00012-nic|NOMIS|OR|mid|preprod|OR BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPML00013-nic|NOMIS|MIS|mid|preprod|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPML00014-nic|NOMIS|MIS|mid|preprod|MIS BOE SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPMW00015-nic|NOMIS|MIS|mid|preprod|MIS BODS SAP
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00001-nic|NOMIS|NOMIS|web|preprod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00002-nic|NOMIS|NOMIS|web|preprod|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00003-nic|NOMIS|OR|web|preprod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00004-nic|NOMIS|OR|web|preprod|OR AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00005-nic|NOMIS|MIS|web|preprod|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00006-nic|NOMIS|MIS|web|preprod|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00023-nic|NOMIS|OR|web|preprod|OR ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00024-nic|NOMIS|MIS|web|preprod|MIS ADMIN (weblogic and BOE domain management)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00051-nic|NOMIS|NOMIS|web|preprod|C-NOMIS HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00052-nic|NOMIS|NOMIS|web|preprod|C-NOMIS HAProxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00054-nic|NOMIS|MIS|web|preprod|MIS HAProxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00055-nic|NOMIS|OR|web|preprod|OR HAProxy Node1
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPWL00056-nic|NOMIS|OR|web|preprod|OR HAProxy Node2
