@@ -77,8 +77,8 @@ cp NOMSProduction1/subscription.txt NOMSProduction1/tmp/
 # Delete a tag
 rm NOMSProduction1/tmp/tags.resourceGroup.txt
 
-# Apply the changes
-./aztagscli-helper NOMSProduction1/tmp -a
+# Apply the changes (non-incrementally, i.e. delete missing tags)
+./aztagscli-helper NOMSProduction1/tmp -a --changetypes all
 ```
 
 
