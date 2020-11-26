@@ -1,6 +1,0 @@
-id|tags.service|tags.application|tags.component|tags.environment_name|tags.description
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/cafm-preprod/providers/Microsoft.Network/applicationGateways/cafm-preprod|CAFM|CAFMPlanetFM|web|preprod|
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/cafm-prod/providers/Microsoft.Network/applicationGateways/cafm-prod|CAFM|CAFMPlanetFM|web|prod|
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/checkmydiary-preprod/providers/Microsoft.Network/applicationGateways/checkmydiary-preprod|CSR|CheckMyDiaryAPI|web|preprod|
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/checkmydiary-prod/providers/Microsoft.Network/applicationGateways/checkmydiary-prod|CSR|CheckMyDiaryAPI|web|prod|
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/ndelius-prod/providers/Microsoft.Network/applicationGateways/ndelius-prod|Misc|NDelius|web|prod|
