@@ -55,7 +55,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-NonCoreApps|NonCore|NonCore||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-PD-OASys|OASys|OASys||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-OASys|OASys|OASys||prod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ITHC-Mgmt-Live|Unknown|Unknown||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-PD-DR-CSR|CSR|CSR||DR
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR|FixNGo|Management||DR
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Live-DR|FixNGo|Management||DR
@@ -94,3 +93,5 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-PP-NonCore|NonCore|NonCore||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-PP-OASys|OASys|OASys||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-OASys|OASys|OASys||preprod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-preprod-ukwest-appgw-rg|FixNGo|Transit||preprod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-uksouth-appgw-rg|FixNGo|Transit||DR
