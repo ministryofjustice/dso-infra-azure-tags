@@ -77,7 +77,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS|NOMIS|NOMIS||lsast
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS-TRAINING|NOMIS|NOMIS||lsast
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-LS-PrisonNOMIS|NOMIS|NOMIS||lsast
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast|NOMIS|NOMIS||lsast
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast|NOMIS|MIS||lsast
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/book-a-secure-move-preprod|Misc|BookASecureMove||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-PP-CAFM|CAFM|CAFM||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-CAFM|CAFM|CAFM||preprod
@@ -95,3 +95,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-OASys|OASys|OASys||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-preprod-ukwest-appgw-rg|FixNGo|Transit||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-uksouth-appgw-rg|FixNGo|Transit||DR
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs|FixNGo|Management||prod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-terraform-state|FixNGo|Management||prod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-automation-sendgrid|FixNGo|Management||prod
