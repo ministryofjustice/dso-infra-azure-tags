@@ -350,6 +350,10 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/csr.service.justice.gov.uk|CSR|CSR||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/nomis.service.justice.gov.uk|NOMIS|NOMIS||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/oasys.service.justice.gov.uk|OASys|OASys||prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-preprod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-preprod-ukwest-appgw1|FixNGo|Transit|web|preprod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-preprod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-preprod-ukwest-appgw2|FixNGo|Transit|web|preprod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-uksouth-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-uksouth-appgw1|FixNGo|Transit|web|DR|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-uksouth-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-uksouth-appgw2|FixNGo|Transit|web|DR|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPDLPNDB1-as|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPDLPNDB2-as|NOMIS|NDH|data|lsast|NDH Oracle DB (NDHP,TRDATP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPMLBOEMI-as|NOMIS|MIS|mid|lsast|MIS BOE SAP
@@ -538,6 +542,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0003|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0004|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0005|NOMIS|MIS|web|lsast|MIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/applicationGateways/nomis-bip4_3-webapps-lsast|NOMIS|MIS|web|lsast|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPDLHQX33I0001-nic|NOMIS|MIS|data|lsast|NOMIS BIP Oracle DB
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0001-nic|NOMIS|MIS|mid|lsast|MIS BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0002-nic|NOMIS|MIS|mid|lsast|MIS BOE SAP
