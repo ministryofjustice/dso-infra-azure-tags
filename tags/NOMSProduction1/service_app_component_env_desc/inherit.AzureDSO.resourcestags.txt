@@ -346,14 +346,19 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10054-nic|NOMIS|MIS|web|DR|MIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10055-nic|NOMIS|OR|web|DR|OR HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10056-nic|NOMIS|OR|web|DR|OR HAProxy Node2
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.ManagedIdentity/userAssignedIdentities/hmpps-devtest-ukwest-appgw-managed-identity|FixNGo|Transit||devtest|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.ManagedIdentity/userAssignedIdentities/hmpps-preprod-ukwest-appgw-managed-identity|FixNGo|Transit||preprod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.ManagedIdentity/userAssignedIdentities/hmpps-prod-ukwest-appgw-managed-identity|FixNGo|Transit||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/cafm.service.justice.gov.uk|CAFM|CAFM||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/csr.service.justice.gov.uk|CSR|CSR||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/nomis.service.justice.gov.uk|NOMIS|NOMIS||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/oasys.service.justice.gov.uk|OASys|OASys||prod|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-preprod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-preprod-ukwest-appgw1|FixNGo|Transit|web|preprod|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-preprod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-preprod-ukwest-appgw2|FixNGo|Transit|web|preprod|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-uksouth-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-uksouth-appgw1|FixNGo|Transit|web|DR|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-uksouth-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-uksouth-appgw2|FixNGo|Transit|web|DR|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-preprod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-preprod-ukwest-appgw1|FixNGo|Transit||preprod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-preprod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-preprod-ukwest-appgw2|FixNGo|Transit||preprod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-uksouth-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-uksouth-appgw1|FixNGo|Transit||DR|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-uksouth-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-uksouth-appgw2|FixNGo|Transit||DR|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-ukwest-appgw1|FixNGo|Transit||prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-ukwest-appgw2|FixNGo|Transit||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPDLPNDB1-as|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPDLPNDB2-as|NOMIS|NDH|data|lsast|NDH Oracle DB (NDHP,TRDATP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/availabilitySets/LSPMLBOEMI-as|NOMIS|MIS|mid|lsast|MIS BOE SAP
@@ -456,13 +461,13 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPWL00061-nic|NOMIS|NOMIS|web|lsast|C-NOMIS HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPWL00063-nic|NOMIS|MIS|web|lsast|MIS HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPWL00065-nic|NOMIS|OR|web|lsast|OR HAProxy Node1
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/availabilitySets/LSPWLBSKGZG-AV|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-DataDisk-0|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-DataDisk-1|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS-TRAINING/providers/Microsoft.Compute/availabilitySets/LSPWLBSKGZG-AV|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS-TRAINING/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-DataDisk-0|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS-TRAINING/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-DataDisk-1|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/disks/LSPWLBSKGZG0001-OSDisk|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Compute/virtualMachines/LSPWLBSKGZG0001|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Network/networkInterfaces/LSPWLBSKGZG0001-nic|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis-training/providers/Microsoft.Storage/storageAccounts/lspwlbskgzgbootdiags|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS-TRAINING/providers/Microsoft.Compute/virtualMachines/LSPWLBSKGZG0001|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS-TRAINING/providers/Microsoft.Network/networkInterfaces/LSPWLBSKGZG0001-nic|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS-TRAINING/providers/Microsoft.Storage/storageAccounts/lspwlbskgzgbootdiags|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Compute/availabilitySets/MOJOAWSTGW-as|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Compute/disks/MOJ-Azure-FW01A_OsDisk_1_be737aa73944414a80a60056149ae707|FixNGo|Transit|network|prod|Palo Alto FW - PTTP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw/providers/Microsoft.Compute/disks/MOJ-Azure-FW01B_OsDisk_1_bdd57e7655a0494c8da8efec997a0950|FixNGo|Transit|network|prod|Palo Alto FW - PTTP

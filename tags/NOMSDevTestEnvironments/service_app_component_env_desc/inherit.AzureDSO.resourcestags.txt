@@ -50,35 +50,35 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-syscon/providers/Microsoft.Compute/virtualMachines/T3PALFZ8K2Y0002|NOMIS|NOMIS|web|T3|General Purpose Weblogic Test Server (Syscon)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-syscon/providers/Microsoft.Network/networkInterfaces/T3PALFZ8K2Y0001-nic|NOMIS|NOMIS|web|T3|General Purpose Weblogic Test Server (Syscon)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-syscon/providers/Microsoft.Network/networkInterfaces/T3PALFZ8K2Y0002-nic|NOMIS|NOMIS|web|T3|General Purpose Weblogic Test Server (Syscon)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/hmpps-devtest-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-devtest-ukwest-appgw1|FixNGo|Transit|web|devtest|
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/hmpps-devtest-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-devtest-ukwest-appgw2|FixNGo|Transit|web|devtest|
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/availabilitySets/T1PDLZ4QE9C-AV|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/availabilitySets/T1PRWUXT5N9-AV|NOMIS|NOMIS|test|T1|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/availabilitySets/T1PWL1KW5M1-AV|NOMIS|MIS|mid|T1|MIS BODS SAP
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/availabilitySets/T1PWL1NTVQX-AV|NOMIS|MIS|web|T1|MIS AppServer Weblogic
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PDLZ4QE9C0001-DataDisk-0|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PDLZ4QE9C0001-DataDisk-1|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PDLZ4QE9C0001-DataDisk-2|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/hmpps-devtest-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-devtest-ukwest-appgw1|FixNGo|Transit||devtest|
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/hmpps-devtest-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-devtest-ukwest-appgw2|FixNGo|Transit||devtest|
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/availabilitySets/T1PDLZ4QE9C-AV|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/availabilitySets/T1PRWUXT5N9-AV|NOMIS|NOMIS|test|T1|Client Access Testing
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/availabilitySets/T1PWL1KW5M1-AV|NOMIS|MIS|mid|T1|MIS BODS SAP
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/availabilitySets/T1PWL1NTVQX-AV|NOMIS|MIS|web|T1|MIS AppServer Weblogic
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/disks/T1PDLZ4QE9C0001-DataDisk-0|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/disks/T1PDLZ4QE9C0001-DataDisk-1|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/disks/T1PDLZ4QE9C0001-DataDisk-2|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PDLZ4QE9C0001-OSDisk|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PRWUXT5N90001-DataDisk-0|NOMIS|NOMIS|test|T1|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PRWUXT5N90001-DataDisk-1|NOMIS|NOMIS|test|T1|Client Access Testing
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/disks/T1PRWUXT5N90001-DataDisk-0|NOMIS|NOMIS|test|T1|Client Access Testing
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/disks/T1PRWUXT5N90001-DataDisk-1|NOMIS|NOMIS|test|T1|Client Access Testing
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PRWUXT5N90001-OSDisk|NOMIS|NOMIS|test|T1|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PWL1KW5M10001-DataDisk-0|NOMIS|MIS|mid|T1|MIS BODS SAP
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/disks/T1PWL1KW5M10001-DataDisk-0|NOMIS|MIS|mid|T1|MIS BODS SAP
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PWL1KW5M10001-OSDisk|NOMIS|MIS|mid|T1|MIS BODS SAP
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PWL1NTVQX0001-DataDisk-0|NOMIS|MIS|web|T1|MIS AppServer Weblogic
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/disks/T1PWL1NTVQX0001-DataDisk-0|NOMIS|MIS|web|T1|MIS AppServer Weblogic
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/disks/T1PWL1NTVQX0001-OSDisk|NOMIS|MIS|web|T1|MIS AppServer Weblogic
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/virtualMachines/T1PDLZ4QE9C0001|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/virtualMachines/T1PDLZ4QE9C0001|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/virtualMachines/T1PRWUXT5N90001|NOMIS|NOMIS|test|T1|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/virtualMachines/T1PWL1KW5M10001|NOMIS|MIS|mid|T1|MIS BODS SAP
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Compute/virtualMachines/T1PWL1NTVQX0001|NOMIS|MIS|web|T1|MIS AppServer Weblogic
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Network/networkInterfaces/T1PDLZ4QE9C0001-nic|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Network/networkInterfaces/T1PRWUXT5N90001-nic|NOMIS|NOMIS|test|T1|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Network/networkInterfaces/T1PWL1KW5M10001-nic|NOMIS|MIS|mid|T1|MIS BODS SAP
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Network/networkInterfaces/T1PWL1NTVQX0001-nic|NOMIS|MIS|web|T1|MIS AppServer Weblogic
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Storage/storageAccounts/t1pdlz4qe9cbootdiags|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Storage/storageAccounts/t1prwuxt5n9bootdiags|NOMIS|NOMIS|test|T1|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Storage/storageAccounts/t1pwl1kw5m1bootdiags|NOMIS|MIS|mid|T1|MIS BODS SAP
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-t1/providers/Microsoft.Storage/storageAccounts/t1pwl1ntvqxbootdiags|NOMIS|MIS|web|T1|MIS AppServer Weblogic
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/virtualMachines/T1PWL1KW5M10001|NOMIS|MIS|mid|T1|MIS BODS SAP
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/virtualMachines/T1PWL1NTVQX0001|NOMIS|MIS|web|T1|MIS AppServer Weblogic
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Network/networkInterfaces/T1PDLZ4QE9C0001-nic|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Network/networkInterfaces/T1PRWUXT5N90001-nic|NOMIS|NOMIS|test|T1|Client Access Testing
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Network/networkInterfaces/T1PWL1KW5M10001-nic|NOMIS|MIS|mid|T1|MIS BODS SAP
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Network/networkInterfaces/T1PWL1NTVQX0001-nic|NOMIS|MIS|web|T1|MIS AppServer Weblogic
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Storage/storageAccounts/t1pdlz4qe9cbootdiags|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Storage/storageAccounts/t1prwuxt5n9bootdiags|NOMIS|NOMIS|test|T1|Client Access Testing
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Storage/storageAccounts/t1pwl1kw5m1bootdiags|NOMIS|MIS|mid|T1|MIS BODS SAP
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Storage/storageAccounts/t1pwl1ntvqxbootdiags|NOMIS|MIS|web|T1|MIS AppServer Weblogic
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/availabilitySets/MGMOLdevops-as|FixNGo|Management|cicd|devtest|Jenkins Slave
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/availabilitySets/MGMOLO11Y-as|FixNGo|Management|monitoring|devtest|Prometheus
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/availabilitySets/MGMRLFFQKXR-AV|FixNGo|Management|access|devtest|jumpbox ssh Bastion DR
