@@ -92,7 +92,9 @@ jobs:
           checkflag: ${{ steps.parseinput.outputs.checkflag }}
         run: |
           echo "Set aztagscli cmdline args [checkflag=${checkflag}]"
-          args="-a -y"
+          # Don't update resource groups.  This way we can just use
+          # a tag contributor SP
+          args="--minscope 5 -a -y"
           # add dryrun if checkflag is set
           if [[ "${checkflag}" != "false" ]]; then
             args="${args} -d"

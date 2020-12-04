@@ -17,15 +17,18 @@ get_file() {
   local dir=$1
   local file=$2
   while [[ $dir != '.' ]]; do
-    if [ -e $dir/$file ]; then
+    if [[ -e $dir/$file ]]; then
       echo $dir/$file
       return
     fi
     dir=$(dirname $dir)
   done
+  if [[ -e ./$file ]]; then
+    echo $file
+  fi
 }
 
-excludeids=$(get_file "$dir" exclude-ids.csv)
+excludeids=$(find "$dir" -name exclude-ids.csv)
 if [[ ! -z $excludeids ]]; then
   excludeids="--excludeids $excludeids"
 fi
@@ -37,7 +40,5 @@ fi
 
 files=$(find $dir -name '*.txt')
 
-echo python3 $aztagscli $tagsupport $excludeids $@ ${files}
-python3 $aztagscli $tagsupport $excludeids $@ ${files}
-
-
+echo python3 $aztagscli $tagsupport $excludeids $@ -- ${files}
+python3 $aztagscli $tagsupport $excludeids $@ -- ${files}
