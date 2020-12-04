@@ -9,8 +9,6 @@ MODE=DEL
 # MODE=all
 
 dir=$1
-shift 1
-tags=$@
 
 if [[ -z "$dir" ]]; then
   echo "Usage: $0 <directory> [<tag1> .. <tagN>]"
@@ -24,6 +22,9 @@ fi
 
 filename=$dir/tags
 
+shift 1
+tags=$@
+
 if [[ -z $tags ]]; then
   savetags=""
 else
@@ -35,5 +36,5 @@ else
   filename=${filename}.txt
 fi
 
-./aztagscli-helper.sh $dir --changetypes "$MODE" -v --savetagsfile "$filename" $savetags --
+./aztagscli-helper.sh $dir --changetypes "$MODE" -v --savetagsfile "$filename" $savetags
 
