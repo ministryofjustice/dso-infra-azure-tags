@@ -77,7 +77,7 @@ parser.add_argument('--tagsupport',
                     help=('Filename containing resources that support tags, '
                           'if not specified download automatically'))
 parser.add_argument('--excludeids',
-                    nargs='?',
+                    nargs='+',
                     help='Filename containing list of IDs to exclude')
 parser.add_argument('--limit',
                     nargs='+',
@@ -104,6 +104,18 @@ parser.add_argument('--maxerrors',
                     nargs='?',
                     default=10,
                     help='Bail out after this number of update errors')
+parser.add_argument('--minscope',
+                    type=int,
+                    nargs='?',
+                    help=('Limit update to resources IDs that have >= forward '
+                          'slashes than this value.  Set to 5 to ignore '
+                          'resource groups'))
+parser.add_argument('--maxscope',
+                    type=int,
+                    nargs='?',
+                    help=('Limit update to resources IDs that have <= forward '
+                          'slashes than this value.  Set to 4 to limit to '
+                          'resource groups'))
 parser.add_argument('--changetypes',
                     nargs='?',
                     default='inc',
@@ -120,14 +132,17 @@ args = parser.parse_args()
 
 aztags = AzTags(change_types_str=args.changetypes,
                 filter_ids=args.limit,
-                verbose=args.verbose)
+                verbose=args.verbose,
+                min_scope=args.minscope,
+                max_scope=args.maxscope)
 
 # figure out which resources are taggable
 aztags.load_supported_tags(args.tagsupport)
 
 # exclude IDs that are problematic, e.g. fail on az cli commands
 if args.excludeids:
-    aztags.load_excluded_ids(args.excludeids)
+    for excludeids in args.excludeids:
+        aztags.load_excluded_ids(excludeids)
 
 # load the desired tag state
 aztags.add_csvs(args.tagfile)
