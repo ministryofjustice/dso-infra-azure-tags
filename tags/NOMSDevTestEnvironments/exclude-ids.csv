@@ -1,13 +1,2 @@
 id
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/mgmnw0030/extensions/VMSnapshot
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/mgmnw0041/extensions/VMSnapshot
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-TEST-LogAnalytics/providers/Microsoft.Automation/automationAccounts/NOMS-TEST-LogAnalytics/runbooks/AzureAutomationTutorial
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-TEST-LogAnalytics/providers/Microsoft.Automation/automationAccounts/NOMS-TEST-LogAnalytics/runbooks/AzureAutomationTutorialScript
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-TEST-LogAnalytics/providers/Microsoft.Automation/automationAccounts/NOMS-TEST-LogAnalytics/runbooks/AzureClassicAutomationTutorial
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-TEST-LogAnalytics/providers/Microsoft.Automation/automationAccounts/NOMS-TEST-LogAnalytics/runbooks/AzureClassicAutomationTutorialScript
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-TEST-LogAnalytics/providers/Microsoft.Automation/automationAccounts/NOMS-TEST-LogAnalytics/runbooks/AzureSAIngestionChild-MS-Mgmt-SA
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-TEST-LogAnalytics/providers/Microsoft.Automation/automationAccounts/NOMS-TEST-LogAnalytics/runbooks/AzureSAIngestionParent-MS-Mgmt-SA
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-TEST-LogAnalytics/providers/Microsoft.Automation/automationAccounts/NOMS-TEST-LogAnalytics/runbooks/AzureStorageMetricsEnabler-MS-Mgmt-SA
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-TEST-LogAnalytics/providers/Microsoft.Automation/automationAccounts/NOMS-TEST-LogAnalytics/runbooks/CleanSolution-MS-Mgmt-SA
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-TEST-LogAnalytics/providers/Microsoft.Automation/automationAccounts/NOMS-TEST-LogAnalytics/runbooks/CreateSchedules-MS-Mgmt-SA
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-PRISONNOMIS/providers/Microsoft.Compute/virtualMachines/T2PAL0040/extensions/customScript

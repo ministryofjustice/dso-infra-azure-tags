@@ -38,6 +38,7 @@ import urllib.request
 import csv
 import re
 import os
+import time
 
 # timout AZ CLI commands after this
 AZCLI_TIMEOUT_SECS = 300
@@ -69,7 +70,9 @@ class AzTags:
     def __init__(self,
                  change_types_str='inc',
                  filter_ids=None,
-                 verbose=None):
+                 verbose=None,
+                 min_scope=None,
+                 max_scope=None):
         """ Initialise AzTags object
 
         Parameters:
@@ -81,6 +84,13 @@ class AzTags:
                                     regexs within this list of strings
             verbose:                Enable extra debug.
                                     The higher the number, the more debug
+            min_scope:              If defined, only resource IDs that have >=
+                                    forward slashes than this value will be
+                                    updated.  Use to prevent resource-groups
+                                    from being updated.
+            max_scope:              If defined, only resource IDs that have <=
+                                    forward slashes than this value will be
+                                    updated.
         """
 
         (ok, change_types) = self.__str_to_change_types(change_types_str)
@@ -92,6 +102,10 @@ class AzTags:
 
         # level of verbosity (1,2,3 etc...)
         self.__verbose = verbose
+
+        # limits which resources to update (scope = number of / in ID)
+        self.__min_scope = min_scope
+        self.__max_scope = max_scope
 
         # dictionary of resources that support tags (downloaded from github)
         # [providerName/resourceType] = Boolean
@@ -207,7 +221,7 @@ class AzTags:
 
     def load_excluded_ids(self, filename):
         ''' load CSV containing excluded resource IDs '''
-        print('Parsing exclude file')
+        print('Parsing exclude file {}'.format(filename))
         f = open(filename, 'r')
         text = f.read()
         header = True
@@ -257,6 +271,12 @@ class AzTags:
 
         print_id = self.__get_printable_id(case_sensitive_id)
 
+        scope = self.__get_resource_scope(case_sensitive_id)
+        if self.__min_scope and scope < self.__min_scope:
+            return (False, 4, 'SKIPPING resource less than minscope')
+        if self.__max_scope and scope > self.__max_scope:
+            return (False, 4, 'SKIPPING resource exceeds maxscope')
+
         if case_sensitive_id in self.__excluded_ids:
             return (False, 2, 'SKIPPING excluded resource')
         if print_id in self.__excluded_ids:
@@ -280,10 +300,6 @@ class AzTags:
             return (False, None, ('WARNING ignoring resource as type not '
                                   'found in supported tag CSV [{}]').format(
                                       provider_resource))
-
-        if '|' in case_sensitive_id:
-            # otherwise az cli command fails
-            return (False, 1, 'SKIPPING resource id containing "|"')
 
         return (self.__supported_tags[provider_resource], 2,
                 'SKIPPING untaggable resource')
@@ -952,19 +968,9 @@ class AzTags:
             len(self.__not_taggable_resources), total_id_count, debug))
         return total_id_count
 
-    def __az_update_tag(self, case_sensitive_id, taglist, incremental_mode,
-                        dryrun, debugprefix=''):
-        """ Update tags for the given resource using az cli
-
-        Parameters:
-            case_sensitive_id  - resource ID to update
-            taglist      - list of tag=value to update
-            incremental  - update in incremental mode (i.e. don't delete any)
-            dryrun       - if true, display the az cli cmdline only
-            debugprefix  - prefix debug with this
-        """
-
-        resource_id = self.__case_sensitive_ids[case_sensitive_id]
+    def __get_az_resource_tag_cmdline(self, resource_id, taglist,
+                                      incremental_mode):
+        ''' Get cmdline for updating tags using 'az resource tag' '''
         cmdline = ['az', 'resource', 'tag']
         if incremental_mode:
             cmdline += ['--is-incremental']
@@ -973,7 +979,36 @@ class AzTags:
             cmdline += taglist
         else:
             cmdline += ['']
+        return cmdline
 
+    def __get_az_tag_cmdline(self, resource_id, taglist, incremental_mode):
+        ''' Get cmdline for updating tags using 'az tag' '''
+        cmdline = ['az', 'tag', 'update', '--operation']
+        if incremental_mode:
+            cmdline += ['Merge']
+        else:
+            cmdline += ['Replace']
+        cmdline += ['--resource-id', resource_id, '--tags']
+        if taglist:
+            cmdline += taglist
+        else:
+            cmdline += ['']
+        return cmdline
+
+    def __az_update_tag(self, case_sensitive_id, taglist, incremental_mode,
+                        dryrun, debugprefix=''):
+        ''' Update tags for the given resource '''
+        resource_id = self.__case_sensitive_ids[case_sensitive_id]
+
+        # use "az tag" for resources and "az resource tag" for resource groups"
+        # Because "az tag" will tag all child resources under a resource group
+        # but not the actual resource group itself.
+        if resource_id.count('/') > 5:
+            cmdline = self.__get_az_tag_cmdline(resource_id, taglist,
+                                                incremental_mode)
+        else:
+            cmdline = self.__get_az_resource_tag_cmdline(resource_id, taglist,
+                                                         incremental_mode)
         print('[{}] {}'.format(debugprefix, ' '.join(cmdline)))
         if dryrun:
             return True
@@ -1039,6 +1074,10 @@ class AzTags:
                 sub_id, case_sensitive_id, change_types, False)
             self.__az_update_tag(case_sensitive_id, taglist,
                                  False, dryrun, debugprefix)
+            # Sometimes if you re-add the new tags too quick the tag
+            # casing change doesn't apply.  Sleep a bit to try and avoid this
+            if not dryrun:
+                time.sleep(10)
 
             change_types = [TAG_ADD, TAG_UPDATE, TAG_LEAVE]
             if TAG_DEL in self.__change_types:

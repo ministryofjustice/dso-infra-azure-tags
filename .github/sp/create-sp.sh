@@ -11,10 +11,11 @@ fi
 SPFILE=sp
 SPNAME=dso-infra-azure-tags
 SECRETNAME=General-GitHub-DSOInfraAzureTags-SP
+ROLE="Tag Contributor" # Contributor required for resource group tag changes 
 
 create_sp() {
-  echo az ad sp create-for-rbac -n "http://$SPNAME" --role "Tag Contributor" --scopes ${IDS} --sdk-auth' > ' $SPFILE
-  az ad sp create-for-rbac -n "http://$SPNAME" --role "Tag Contributor" --scopes ${IDS} --sdk-auth > $SPFILE
+  echo az ad sp create-for-rbac -n "http://$SPNAME" --role "$ROLE" --scopes ${IDS} --sdk-auth' > ' $SPFILE
+  az ad sp create-for-rbac -n "http://$SPNAME" --role "$ROLE" --scopes ${IDS} --sdk-auth > $SPFILE
 }
 
 upload_to_keyvault() {
@@ -34,25 +35,8 @@ upload_to_keyvault() {
 
 upload_to_github() {
   cat $SPFILE
-  echo "Please upload to github"
-  #if [[ -z $GITHUB_CREDS ]]; then
-  #  echo "Please set GITHUB_CREDS environment variable"
-  #  echo " e.g. export GITHUB_CREDS=myusername:myPAT"
-  #  exit 1
-  #fi
-
-  # TODO: should be automated.....  SEE
-  # https://vaibhavsagar.com/blog/2020/05/04/github-secrets-api/
-
-  #curl \ 
-  # TODO token
-  #  -H "Accept: application/vnd.github.v3+json" \
-  #  https://api.github.com/repos/ministryofjustice/dso-infra-azure-tag/actions/secrets/public-key
-
-  #curl \
-  #  -u $GITHUB_CREDS \
-  #  -H "Accept: application/vnd.github.v3+json" \
-  #  https://api.github.com/repos/ministryofjustice/dso-infra-azure-tags/actions/secrets
+  echo "Please upload to github.  You can use Agoney's snazzy script"
+  echo python ../../dso-useful-stuff/github-api/upsert_repo_secret.py --secret_url https://dso-passwords-prod.vault.azure.net/secrets/General-GitHub-$SECRETNAME dso-infra-azure-tags AZURE_CREDENTIALS
 }
 
 SPFILE=$(mktemp)
