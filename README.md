@@ -83,6 +83,28 @@ rm tags.resourceGroup.txt
 ./aztagscli-helper . -a --changetypes all
 ```
 
+## Azure DSO tags
+
+The majority of resources are not in terraform so this repo is used to apply tag
+changes.  The "Azure DSO" googlesheet is used as the source data for defining
+the service, application, component, environment and description for each
+resource.
+
+In particular:
+- The `subscriptionOverview` tab defines default tags for subscriptions 
+- The `rgstags` tab defines default tags for resource groups
+- The `endpoints` tab defines tags for load balancers and app gateways
+- The `environments` tab defines tags for VMs
+- The `resourcetagsOverride` defines tags for individual resources
+
+Download the subscriptionOverview, rgstags and resourcetags tabs "TSVs" into ~/Downloads
+Run the `generate-from-azure-dso-sheet.sh` to update the tag files in this repo.
+
+Terraform: Keep terraform in sync with any changes.  In particular:
+- The `hmpps-fixngo-terraform` repo
+- The `dso-infra-azure-fixngo` repo
+- The `nomis-api-terraform-azure` repo.
+
 ## PyDoc
 
 ```
