@@ -29,6 +29,9 @@ get_file() {
 }
 
 excludeids=$(find "$dir" -name exclude-ids.csv)
+if [[ -z $excludeids ]]; then
+  excludeids=$(get_file "$dir" exclude-ids.csv)
+fi
 if [[ ! -z $excludeids ]]; then
   excludeids="--excludeids $excludeids"
 fi
