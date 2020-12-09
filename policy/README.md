@@ -7,6 +7,18 @@ An initiative (or set-definition) that enforces `service`, `application` and
 pre-determined list.  And assignments for each of the DSO subscriptions that
 uses these tags.
 
+The pre-determined list can be automatically derived from the tags currently
+in Azure.  
+```
+# ensure AZ logged in
+./generate-parameters.sh > assignmentassignment/azurepolicyassignment.parameters.json
+```
+
+## Pipeline
+
+The policy pipeline automatically applies changes following a completed 
+pull request
+
 ## Definition
 
 A generic `Require a tag and restrict value on resources` policy definition to
