@@ -11,7 +11,7 @@ The pre-determined list can be automatically derived from the tags currently
 in Azure.  
 ```
 # ensure AZ logged in
-./generate-parameters.sh > assignmentassignment/azurepolicyassignment.parameters.json
+./generate-parameters.sh > assignment/azurepolicyassignment.parameters.json
 ```
 
 ## Pipeline
