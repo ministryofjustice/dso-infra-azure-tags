@@ -1,0 +1,5 @@
+policy_set_name="/providers/Microsoft.Management/managementgroups/747381f4-e81f-4a43-bf68-ced6a1e14edf/providers/Microsoft.Authorization/policySetDefinitions/DSOTagsInitiative"
+policy_assignment_name="NOMSDevTestEnvironmentsDSOTagsInitiative"
+policy_assignment_display_name="NOMS Dev & Test Environments DSO Tags Initiative"
+policy_assignment_enforcement_mode="DoNotEnforce"
+policy_assignment_scope="/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb"

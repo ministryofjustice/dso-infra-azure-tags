@@ -1,0 +1,52 @@
+{
+  "serviceTagValues": {
+    "value": [
+      "CAFM",
+      "CSR",
+      "FixNGo",
+      "Misc",
+      "NOMIS",
+      "NonCore",
+      "OASys",
+      "Unknown"
+    ]
+  },
+  "applicationTagValues": {
+    "value": [
+      "BookASecureMove",
+      "CAFM",
+      "CAFMAssetMgmt",
+      "CAFMInternal",
+      "CAFMPlanetFM",
+      "CAFMTraining",
+      "CSR",
+      "HMPPSInformationReport",
+      "MIS",
+      "Management",
+      "NDH",
+      "NOMIS",
+      "Network",
+      "NonCore",
+      "OASys",
+      "ONR",
+      "OR",
+      "Transit",
+      "Uncategorised",
+      "Unknown"
+    ]
+  },
+  "environmentNameTagValues": {
+    "value": [
+      "DR",
+      "T1",
+      "T2",
+      "T3",
+      "devtest",
+      "lsast",
+      "preprod",
+      "prod",
+      "syscon",
+      "poc"
+    ]
+  }
+}
