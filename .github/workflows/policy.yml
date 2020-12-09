@@ -51,7 +51,7 @@ jobs:
             # any other push - deploy with check flag set
             checkflag="true"
           fi
-          if [[ checkflag == "false" ]]; then
+          if [[ "${checkflag}" == "false" ]]; then
             echo "::set-output name=policyaction::create"
           else
             echo "::set-output name=policyaction::show"
