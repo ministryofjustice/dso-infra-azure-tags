@@ -1,0 +1,6 @@
+# create definition in "Tenant Root Group" management group so accessible by all subs
+policy_set_name="DSOTagsInitiative"
+policy_set_display_name="DSO resource tag Initiative"
+policy_set_description="Ensure a set of tags are defined on resources to allow effective management of HMPPS azure estate"
+policy_set_management_group="747381f4-e81f-4a43-bf68-ced6a1e14edf"
+policy_set_metadata="category=Tags"

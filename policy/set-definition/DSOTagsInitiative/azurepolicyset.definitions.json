@@ -1,0 +1,35 @@
+[
+  {
+    "policyDefinitionId": "/providers/Microsoft.Management/managementgroups/747381f4-e81f-4a43-bf68-ced6a1e14edf/providers/Microsoft.Authorization/policyDefinitions/RequireTagAndRestrictValueOnResources",
+    "parameters": {
+      "tagName": {
+        "value": "service"
+      },
+      "tagValues": {
+        "value": "[parameters('serviceTagValues')]"
+      }
+    }
+  },
+  {
+    "policyDefinitionId": "/providers/Microsoft.Management/managementgroups/747381f4-e81f-4a43-bf68-ced6a1e14edf/providers/Microsoft.Authorization/policyDefinitions/RequireTagAndRestrictValueOnResources",
+    "parameters": {
+      "tagName": {
+        "value": "application"
+      },
+      "tagValues": {
+        "value": "[parameters('applicationTagValues')]"
+      }
+    }
+  },
+  {
+    "policyDefinitionId": "/providers/Microsoft.Management/managementgroups/747381f4-e81f-4a43-bf68-ced6a1e14edf/providers/Microsoft.Authorization/policyDefinitions/RequireTagAndRestrictValueOnResources",
+    "parameters": {
+      "tagName": {
+        "value": "environment_name"
+      },
+      "tagValues": {
+        "value": "[parameters('environmentNameTagValues')]"
+      }
+    }
+  }
+]
