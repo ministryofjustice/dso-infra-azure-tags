@@ -23,7 +23,7 @@ jobs:
   # e.g. manually or by push/pull request.
   # The first job figures out the parameters based on trigger type.
   # The second job runs ansible for each environment
-  prepare-tags:
+  process-policies:
     runs-on:
       - ubuntu-latest
     outputs:
