@@ -4,15 +4,20 @@
       "CAFM",
       "CSR",
       "FixNGo",
+      "HWPV",
       "Misc",
       "NOMIS",
+      "NOMISAPI",
       "NonCore",
+      "OASYS",
       "OASys",
-      "Unknown"
+      "Unknown",
+      "WMT"
     ]
   },
   "applicationTagValues": {
     "value": [
+      "Batchload",
       "BookASecureMove",
       "CAFM",
       "CAFMAssetMgmt",
@@ -20,19 +25,29 @@
       "CAFMPlanetFM",
       "CAFMTraining",
       "CSR",
+      "CheckMyDiaryAPI",
       "HMPPSInformationReport",
+      "HPA",
+      "HWPV",
+      "HWPVMgmt",
+      "KeyWorker",
+      "Licences",
       "MIS",
       "Management",
       "NDH",
+      "NDelius",
       "NOMIS",
+      "NOMISAPI",
       "Network",
       "NonCore",
+      "OASYS",
       "OASys",
       "ONR",
       "OR",
+      "RSR",
       "Transit",
-      "Uncategorised",
-      "Unknown"
+      "Unknown",
+      "WMT"
     ]
   },
   "environmentNameTagValues": {
@@ -43,10 +58,10 @@
       "T3",
       "devtest",
       "lsast",
+      "poc",
       "preprod",
       "prod",
-      "syscon",
-      "poc"
+      "syscon"
     ]
   }
 }
