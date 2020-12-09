@@ -3,7 +3,7 @@
 set -e
 
 usage() {
-  echo "Usage: $0 create|update|delete|show [<dir1> .. <dirN>]"
+  echo "Usage: $0 create|delete|show [<dir1> .. <dirN>]"
   echo 
   echo "Manage policy assignments contained within given sub-directories, or all sub-directories if none specified"
 }
@@ -42,9 +42,6 @@ apply_policy_set_definition_assignment() {
   if [[ $action == "create" ]]; then
     echo az policy assignment create --name "$policy_assignment_name" --display-name "$policy_assignment_display_name" --enforcement-mode "$policy_assignment_enforcement_mode" --params azurepolicyassignment.parameters.json --policy-set-definition "$policy_set_name" --scope "$policy_assignment_scope"
     az policy assignment create --name "$policy_assignment_name" --display-name "$policy_assignment_display_name" --enforcement-mode "$policy_assignment_enforcement_mode" --params azurepolicyassignment.parameters.json --policy-set-definition "$policy_set_name" --scope "$policy_assignment_scope"
-  elif [[ $action == "update" ]]; then
-    echo az policy assignment update --name "$policy_assignment_name" --display-name "$policy_assignment_display_name" --enforcement-mode "$policy_assignment_enforcement_mode" --params azurepolicyassignment.parameters.json --policy-set-definition "$policy_set_name" --scope "$policy_assignment_scope"
-    az policy assignment update --name "$policy_assignment_name" --display-name "$policy_assignment_display_name" --enforcement-mode "$policy_assignment_enforcement_mode" --params azurepolicyassignment.parameters.json --policy-set-definition "$policy_set_name" --scope "$policy_assignment_scope"
   elif [[ $action == "delete" ]]; then
     echo az policy assignment delete --name "$policy_assignment_name" --scope "$policy_assignment_scope"
     az policy assignment delete --name "$policy_assignment_name" --scope "$policy_assignment_scope"

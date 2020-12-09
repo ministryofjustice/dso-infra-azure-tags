@@ -45,7 +45,8 @@
       "lsast",
       "preprod",
       "prod",
-      "syscon"
+      "syscon",
+      "poc"
     ]
   }
 }

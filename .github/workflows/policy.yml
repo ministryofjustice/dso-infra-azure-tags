@@ -51,10 +51,10 @@ jobs:
             # any other push - deploy with check flag set
             checkflag="true"
           fi
-          if [[ checkflag = "true" ]]; then
-            echo "::set-output name=policyaction::show"
+          if [[ checkflag == "false" ]]; then
+            echo "::set-output name=policyaction::create"
           else
-            echo "::set-output name=policyaction::update"
+            echo "::set-output name=policyaction::show"
           fi
 
       - name: Azure Login
