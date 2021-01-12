@@ -346,9 +346,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10054-nic|NOMIS|MIS|web|DR|MIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10055-nic|NOMIS|OR|web|DR|OR HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPWL10056-nic|NOMIS|OR|web|DR|OR HAProxy Node2
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.ManagedIdentity/userAssignedIdentities/hmpps-devtest-ukwest-appgw-managed-identity|FixNGo|Transit||devtest|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.ManagedIdentity/userAssignedIdentities/hmpps-preprod-ukwest-appgw-managed-identity|FixNGo|Transit||preprod|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.ManagedIdentity/userAssignedIdentities/hmpps-prod-ukwest-appgw-managed-identity|FixNGo|Transit||prod|
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.KeyVault/vaults/dso-preprod-certs|FixNGo|Management||preprod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/cafm.service.justice.gov.uk|CAFM|CAFM||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/csr.service.justice.gov.uk|CSR|CSR||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs/providers/Microsoft.Network/dnszones/nomis.service.justice.gov.uk|NOMIS|NOMIS||prod|
@@ -430,8 +428,8 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/disks/LSPWL00065data001|NOMIS|OR|web|lsast|OR HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/disks/LSPWL00065data002|NOMIS|OR|web|lsast|OR HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/disks/LSPWL00065root001|NOMIS|OR|web|lsast|OR HAProxy Node1
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/virtualMachines/LSPDL00070|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/virtualMachines/LSPDL00071|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS/providers/Microsoft.Compute/virtualMachines/LSPDL00070|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS/providers/Microsoft.Compute/virtualMachines/LSPDL00071|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/virtualMachines/LSPDL00072|NOMIS|NDH|data|lsast|NDH Oracle DB (NDHP,TRDATP)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/virtualMachines/LSPML00040|NOMIS|NDH|mid|lsast|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/virtualMachines/LSPML00042|NOMIS|NDH|mid|lsast|NDH EMS Tibco Node1
@@ -965,7 +963,9 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCWW00006-nic|CSR|CSR|web|prod|Web Server (Region5+6)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/availabilitySets/PDRDLNCADB-as|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/availabilitySets/PDRDWNCADB-as|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/availabilitySets/PDRWLNCAHA1-as|NonCore|NonCore|web|prod|HA Proxy reverse proxy for offloc
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/pdrdl00013-datadisk-000-20201217-162537|NonCore|NonCore|data|prod|Offloc file transfer processing node
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/pdrdl00013-datadisk-001-20201217-162537|NonCore|NonCore|data|prod|Offloc file transfer processing node
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/pdrdl00013-osdisk-20201217-162537|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDL00013data001|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDL00013data002|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDL00013root001|NonCore|NonCore|data|prod|Offloc file transfer processing node
@@ -973,17 +973,12 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDW00011data002|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDW00011root001|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDW0030-DISK11|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRWL00014data001|NonCore|NonCore|web|prod|HA Proxy reverse proxy for offloc
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRWL00014data002|NonCore|NonCore|web|prod|HA Proxy reverse proxy for offloc
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRWL00014root001|NonCore|NonCore|web|prod|HA Proxy reverse proxy for offloc
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/virtualMachines/PDRDL00013|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/virtualMachines/PDRDW00011|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/virtualMachines/PDRDW0030|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/virtualMachines/PDRWL00014|NonCore|NonCore|web|prod|HA Proxy reverse proxy for offloc
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/PDRDL00013-nic|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/PDRDW00011-nic|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/pdrdw003051|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/PDRWL00014-nic|NonCore|NonCore|web|prod|HA Proxy reverse proxy for offloc
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDODLOASOD-as|OASys|OASys|data|prod|OASys Audit Vault
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDODLOASODTP-as|OASys|OASys|data|prod|Training & Practice DB
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDODWOAWFS-as|OASys|OASys|data|prod|Windows File Share (BOE Data)

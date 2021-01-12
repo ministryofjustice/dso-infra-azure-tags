@@ -124,7 +124,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/disks/MGMRW0011root001|FixNGo|Management|access|devtest|RD jump server 6 (BO client tools)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/MGMCW0002|FixNGo|Management|domaincontroller|devtest|AD Server 1; NTP Source
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/MGMCW0015|FixNGo|Management|misc|devtest|Shared Access File Server
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/MGMNL00133|FixNGo|Transit|utility|devtest|Fortinet syslog forwarder
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-MGMT/providers/Microsoft.Compute/virtualMachines/MGMNL00133|FixNGo|Transit|utility|devtest|Fortinet syslog forwarder
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/MGMNW0030|FixNGo|Management|utility|devtest|wsus reachback facing
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/MGMNW0041|FixNGo|Management|utility|devtest|wsus internal facing
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/MGMNW0300|Unknown|Unknown|utility|devtest|PTTE - Load Runner Controller 1
@@ -413,6 +413,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/virtualMachines/T3CDL0021|CSR|CSR|data|T3|Oracle Database 2 (High Availability / Data Guard)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/virtualMachines/T3CWW0002|CSR|CSR|web|T3|Web Server (Region1+2)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/virtualMachines/T3CWW00031|CSR|CSR|web|T3|RUM / BSM Server (licenced bit of software but no longer in use.  SiteScope)
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Network/loadBalancers/T3-CSR-R2-LB|CSR|CSR|web|T3|
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Network/networkInterfaces/t3caw0010113|CSR|CSR|app|T3|Application Server (Region 1)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Network/networkInterfaces/t3cdl0021149|CSR|CSR|data|T3|Oracle Database 2 (High Availability / Data Guard)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Network/networkInterfaces/t3cww0002508|CSR|CSR|web|T3|Web Server (Region1+2)
