@@ -15,7 +15,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/keyworker-api-stage|Misc|KeyWorker||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/keyworker-service-dev|Misc|KeyWorker||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/keyworker-ui-dev|Misc|KeyWorker||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/libantestrg|FixNGo|Management||poc
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/licences-stage|Misc|Licences||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/MC_nomisapi-t2-rg_nomisapi-t2_ukwest|NOMISAPI|NOMISAPI||T2
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/MC_nomisapi-t3-rg_nomisapi-t3_ukwest|NOMISAPI|NOMISAPI||T3
