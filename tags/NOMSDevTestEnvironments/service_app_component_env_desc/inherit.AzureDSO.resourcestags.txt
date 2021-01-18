@@ -52,6 +52,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-syscon/providers/Microsoft.Network/networkInterfaces/T3PALFZ8K2Y0002-nic|NOMIS|NOMIS|web|T3|General Purpose Weblogic Test Server (Syscon)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/hmpps-devtest-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-devtest-ukwest-appgw1|FixNGo|Transit||devtest|
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/hmpps-devtest-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-devtest-ukwest-appgw2|FixNGo|Transit||devtest|
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_ukwest/flowLogs/Microsoft.Networkhmpps-devtest-ukwest-appgw-rghmpps-devtest-ukwest-appgw2-nsg|FixNGo|Transit||devtest|
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/availabilitySets/T1PDLZ4QE9C-AV|NOMIS|MIS|data|T1|NOMIS BIP Oracle DB
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/availabilitySets/T1PRWUXT5N9-AV|NOMIS|NOMIS|test|T1|Client Access Testing
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomis-bip-T1/providers/Microsoft.Compute/availabilitySets/T1PWL1KW5M1-AV|NOMIS|MIS|mid|T1|MIS BODS SAP
