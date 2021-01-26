@@ -1,2 +1,0 @@
-id|tags.service|tags.application|tags.environment_name
-/subscriptions/b9aa011b-7a41-46e1-8088-4a32e4bd92e0|NOMIS|Uncategorised|devtest

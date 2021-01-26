@@ -22,7 +22,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/DsoPackerImages|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/duplicitybackups|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/hmpps-devtest-ukwest-appgw-rg|FixNGo|Transit||devtest
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/hmpps-information-report-dev|Misc|HMPPSInformationReport||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/HMPPS-Misc-Storage|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/hmpps-network-tooling|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/modernisation-sandpit|FixNGo|Management||devtest

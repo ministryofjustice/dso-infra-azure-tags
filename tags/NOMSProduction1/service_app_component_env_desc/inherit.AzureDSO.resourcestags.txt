@@ -648,8 +648,8 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMNL00028|FixNGo|Transit|utility|prod|Fortinet syslog forwarder
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMNW0030|FixNGo|Management|utility|prod|wsus reachback facing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMNW0041|FixNGo|Management|utility|prod|wsus internal facing
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMOL00114|FixNGo|Management|monitoring|prod|Prometheus
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMOL00115|FixNGo|Management|monitoring|prod|Prometheus Blackbox Exporter
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/virtualMachines/PDMOL00114|FixNGo|Management|monitoring|prod|Prometheus
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/virtualMachines/PDMOL00115|FixNGo|Management|monitoring|prod|Prometheus Blackbox Exporter
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMOL00120|FixNGo|Management|cicd|prod|Jenkins
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMOL00121|FixNGo|Management|cicd|prod|Jenkins Slave
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMR2W00010|FixNGo|Management|access|prod|RD jump server (NOMIS IE & Java)
@@ -769,6 +769,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Network/networkInterfaces/DRMLX0050Nic0|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Network/networkInterfaces/DRMLX0050Nic1|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Network/publicIPAddresses/publicip-fortigate|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-er-fw-fortinet/providers/Microsoft.Storage/storageAccounts/drmlx0050bootdiag|FixNGo|Transit|network|DR|fortinet NGFW ExpressRoute primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-proxy-fw/providers/Microsoft.Compute/availabilitySets/DRMLX0052AvailSet|FixNGo|Transit|network|DR|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-proxy-fw/providers/Microsoft.Compute/disks/DRMLX0052_disk2_28af855312fa4bbe84c8105e2548bfc8|FixNGo|Transit|network|DR|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-dr-proxy-fw/providers/Microsoft.Compute/disks/DRMLX0052_OsDisk_1_07bbd26909514718b6716955bab9f373|FixNGo|Transit|network|DR|fortinet NGFW internet proxy 
@@ -801,7 +802,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-proxy-fw/providers/Microsoft.Network/networkInterfaces/PDMLX0052Nic0|FixNGo|Transit|network|prod|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-proxy-fw/providers/Microsoft.Network/networkInterfaces/PDMLX0052Nic1|FixNGo|Transit|network|prod|fortinet NGFW internet proxy 
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-transit-proxy-fw/providers/Microsoft.Network/publicIPAddresses/publicip-fortigate|FixNGo|Transit|network|prod|fortinet NGFW internet proxy 
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/availabilitySets/PDFWW3QCP66-AV|CAFM|CAFMTraining|web|prod|CAFM Web Training VM
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/availabilitySets/PDFWWCAFMHA-as|CAFM|CAFMAssetMgmt|web|prod|CAFM Asset Management
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/availabilitySets/PDFWWCFMWP-as|CAFM|CAFMPlanetFM|web|prod|CAFM Web Portal Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/availabilitySets/PDFWWCFMWS-as|CAFM|CAFMInternal|web|prod|RDS Web Access Server / RDS Gateway Server
@@ -830,7 +830,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/disks/PDFWW0004_OsDisk_1_9ee4a87f74d04ac8b2f4fbc2876ac1fa|CAFM|CAFMInternal|web|prod|RDS Web Access Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/disks/PDFWW0005_OsDisk_1_461f6d973f054109ae2e4a4f7395d407-restore-20171101|CAFM|CAFMPlanetFM|web|prod|CAFM Web Portal Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/disks/PDFWW0006_OsDisk_1_16f5acd7db3b48f2bfa7802e12a17eb8|CAFM|CAFMPlanetFM|web|prod|CAFM Web Portal Server
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/disks/PDFWW3QCP660001-OSDisk|CAFM|CAFMTraining|web|prod|CAFM Web Training VM
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-CAFM/providers/Microsoft.Compute/disks/pdfww3qcp660001-osdisk-20210120-102029|CAFM|CAFMTraining|web|prod|CAFM Web Training VM
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/disks/TempDB-CAFM|CAFM|CAFM|data|prod|SQL Resilient Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/disks/TempDB-restore-20171101|CAFM|CAFM|data|prod|SQL Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/disks/Trans-CAFM|CAFM|CAFM|data|prod|SQL Resilient Server
@@ -850,7 +850,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/virtualMachines/PDFWW0004|CAFM|CAFMInternal|web|prod|RDS Web Access Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/virtualMachines/PDFWW0005|CAFM|CAFMPlanetFM|web|prod|CAFM Web Portal Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/virtualMachines/PDFWW0006|CAFM|CAFMPlanetFM|web|prod|CAFM Web Portal Server
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Compute/virtualMachines/PDFWW3QCP660001|CAFM|CAFMTraining|web|prod|CAFM Web Training VM
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-CAFM/providers/Microsoft.Compute/virtualMachines/PDFWW3QCP660001|CAFM|CAFMTraining|web|prod|CAFM Web Training VM
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/loadBalancers/PDFLX0001-v2|CAFM|CAFMInternal|web|prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/loadBalancers/PDFLX0040-v2|CAFM|CAFMPlanetFM|web|prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-cafm/providers/Microsoft.Network/loadBalancers/PDFLX0041-v2|CAFM|CAFMAssetMgmt|web|prod|
