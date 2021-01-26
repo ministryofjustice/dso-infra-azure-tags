@@ -17,14 +17,12 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DsoPackerImages|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/fix-and-go-legacy-backups|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-dso-artifacts|FixNGo|Management||prod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-information-report-prod|Misc|HMPPSInformationReport||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-network-tooling|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-preprod-ukwest-appgw-rg|FixNGo|Transit||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-uksouth-appgw-rg|FixNGo|Transit||DR
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-ukwest-appgw-rg|FixNGo|Transit||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS|NOMIS|NOMIS||lsast
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS-TRAINING|NOMIS|NOMIS||lsast
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-home-office-cloudgateway|FixNGo|Transit||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/network-mojo-aws-tgw|FixNGo|Transit||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NOMS-Live|FixNGo|Network||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NOMS-Live-DR|FixNGo|Network||DR
@@ -98,3 +96,5 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/rg-pp-noms-azcopy-orabkup|NOMIS|NOMIS||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/rg-pp-noms-file-shares|NOMIS|NOMIS||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/securitydata|FixNGo|Management||prod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-dr-certs|FixNGo|Management||DR
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dashboards|FixNGo|Management||prod

@@ -1,10 +1,10 @@
 #!/bin/bash
 
 SOURCE_DIR=~/Downloads
-SOURCE_SUBFILE="Azure DSO - subscriptionOverview.tsv"
+#SOURCE_SUBFILE="Azure DSO - subscriptionOverview.tsv"
 SOURCE_RGFILE="Azure DSO - rgstags.tsv"
 SOURCE_RESFILE="Azure DSO - resourcestags.tsv"
-SUBFILE=inherit.AzureDSO.subscriptionOverview.txt
+#SUBFILE=inherit.AzureDSO.subscriptionOverview.txt
 RGFILE=inherit.AzureDSO.rgstags.txt
 RESFILE=inherit.AzureDSO.resourcestags.txt
 
@@ -45,16 +45,16 @@ filter_all_ids() {
 }
 
 # Use Azure DSO sheet and save as tsv the vmanalysis and rgtags tabs
-if [[ -e $SOURCE_DIR/"$SOURCE_SUBFILE" ]]; then
-  cat $SOURCE_DIR/"$SOURCE_SUBFILE" | cut  -f1,7,8,10 | sed -e $'s/\t/|/g' | grep -v '||' > $SUBFILE
-  dos2unix $SUBFILE
-  swap 'Subscription Id' 'id' $SUBFILE
-  gsed -i '2,$ s/^/\/subscriptions\//'  $SUBFILE
-  filter_all $SUBFILE $SUBFILE
-  filter_all_ids $SUBFILE subscription.txt
-else
-  echo $SOURCE_DIR/"$SOURCE_SUBFILE" does not exist
-fi
+#if [[ -e $SOURCE_DIR/"$SOURCE_SUBFILE" ]]; then
+#  cat $SOURCE_DIR/"$SOURCE_SUBFILE" | cut  -f1,7,8,10 | sed -e $'s/\t/|/g' | grep -v '||' > $SUBFILE
+#  dos2unix $SUBFILE
+#  swap 'Subscription Id' 'id' $SUBFILE
+#  gsed -i '2,$ s/^/\/subscriptions\//'  $SUBFILE
+#  filter_all $SUBFILE $SUBFILE
+#  filter_all_ids $SUBFILE subscription.txt
+#else
+#  echo $SOURCE_DIR/"$SOURCE_SUBFILE" does not exist
+#fi
 
 if [[ -e $SOURCE_DIR/"$SOURCE_RGFILE" ]]; then
   cat $SOURCE_DIR/"$SOURCE_RGFILE" | cut -f1,2,3,4,5 | sed -e $'s/\t/|/g' | grep -v '|||' > $RGFILE

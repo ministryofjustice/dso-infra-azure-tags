@@ -9,6 +9,11 @@ usage() {
 }
 
 get_setting() {
+  local optional=0
+  if [[ $1 == "--optional" ]]; then
+    optional=1
+    shift
+  fi
   local setting=$(grep "^$1=\"" $2 | cut -d\" -f2)
   if [[ -z $setting ]]; then
     setting=$(grep "^$1='" $2 | cut -d\' -f2)
@@ -16,7 +21,7 @@ get_setting() {
   if [[ -z $setting ]]; then
     setting=$(grep "^$1=" $2 | cut -d= -f2)
   fi
-  if [[ -z $setting ]]; then
+  if [[ $optional -eq 0 && -z $setting ]]; then
     echo "Setting [$1] not found in $2" >&2
   fi
   echo $setting
@@ -33,6 +38,7 @@ apply_policy_set_definition_assignment() {
   local policy_assignment_display_name=$(get_setting "policy_assignment_display_name" $dir/azurepolicyassignment.settings)
   local policy_assignment_enforcement_mode=$(get_setting "policy_assignment_enforcement_mode" $dir/azurepolicyassignment.settings)
   local policy_assignment_scope=$(get_setting "policy_assignment_scope" $dir/azurepolicyassignment.settings)
+  local policy_assignment_not_scopes=$(get_setting --optional "policy_assignment_not_scopes" $dir/azurepolicyassignment.settings)
   local policy_set_name=$(get_setting "policy_set_name" $dir/azurepolicyassignment.settings)
 
   if [[ -z $policy_assignment_name || -z $policy_assignment_display_name || -z $policy_assignment_enforcement_mode || -z $policy_assignment_scope || -z $policy_set_name ]]; then
@@ -40,8 +46,13 @@ apply_policy_set_definition_assignment() {
   fi
 
   if [[ $action == "create" ]]; then
-    echo az policy assignment create --name "$policy_assignment_name" --display-name "$policy_assignment_display_name" --enforcement-mode "$policy_assignment_enforcement_mode" --params azurepolicyassignment.parameters.json --policy-set-definition "$policy_set_name" --scope "$policy_assignment_scope"
-    az policy assignment create --name "$policy_assignment_name" --display-name "$policy_assignment_display_name" --enforcement-mode "$policy_assignment_enforcement_mode" --params azurepolicyassignment.parameters.json --policy-set-definition "$policy_set_name" --scope "$policy_assignment_scope"
+    if [[ -z $policy_assignment_not_scopes ]]; then
+      echo "az policy assignment create --name '$policy_assignment_name' --display-name '$policy_assignment_display_name' --enforcement-mode '$policy_assignment_enforcement_mode' --params azurepolicyassignment.parameters.json --policy-set-definition '$policy_set_name' --scope '$policy_assignment_scope'"
+      az policy assignment create --name "$policy_assignment_name" --display-name "$policy_assignment_display_name" --enforcement-mode "$policy_assignment_enforcement_mode" --params azurepolicyassignment.parameters.json --policy-set-definition "$policy_set_name" --scope "$policy_assignment_scope"
+    else
+      echo "az policy assignment create --name '$policy_assignment_name' --display-name '$policy_assignment_display_name' --enforcement-mode '$policy_assignment_enforcement_mode' --params azurepolicyassignment.parameters.json --policy-set-definition '$policy_set_name' --scope '$policy_assignment_scope' --not-scopes '$policy_assignment_not_scopes'"
+      az policy assignment create --name "$policy_assignment_name" --display-name "$policy_assignment_display_name" --enforcement-mode "$policy_assignment_enforcement_mode" --params azurepolicyassignment.parameters.json --policy-set-definition "$policy_set_name" --scope "$policy_assignment_scope" --not-scopes "$policy_assignment_not_scopes"
+    fi
   elif [[ $action == "delete" ]]; then
     echo az policy assignment delete --name "$policy_assignment_name" --scope "$policy_assignment_scope"
     az policy assignment delete --name "$policy_assignment_name" --scope "$policy_assignment_scope"

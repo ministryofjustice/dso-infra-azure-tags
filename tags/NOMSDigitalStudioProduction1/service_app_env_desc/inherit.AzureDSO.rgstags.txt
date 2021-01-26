@@ -26,7 +26,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/nomisapi-prod-rg|NOMISAPI|NOMISAPI||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/nomisapi-prod-shared-rg|NOMISAPI|NOMISAPI||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/o11y-app-gw-prod|FixNGo|Management||prod
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/oasys-appgw-ssl|OASys|OASys||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/oasys-poc-rg|OASys|OASys||poc
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/offloc-prod|NonCore|NonCore||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/poc-agw-cafm|CAFM|CAFM||poc
@@ -38,3 +37,4 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/tf-dso-infra-webops-azure-zones-prod|FixNGo|Management||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/webops-prod|FixNGo|Management||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/webops-test|FixNGo|Management||devtest
+/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/offloc-test|NonCore|NonCore||devtest

@@ -8,14 +8,12 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/Default-ActivityLogAlerts|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/DefaultResourceGroup-SUK|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/deliusapi-dev|Misc|NDelius||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/hwpv|HWPV|HWPV||prod
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/hwpv-dev|HWPV|HWPV||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/iis-stage|Misc|HPA||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/keyworker-api-dev|Misc|KeyWorker||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/keyworker-api-stage|Misc|KeyWorker||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/keyworker-service-dev|Misc|KeyWorker||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/keyworker-ui-dev|Misc|KeyWorker||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/libantestrg|FixNGo|Management||poc
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/licences-stage|Misc|Licences||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/MC_nomisapi-t2-rg_nomisapi-t2_ukwest|NOMISAPI|NOMISAPI||T2
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/MC_nomisapi-t3-rg_nomisapi-t3_ukwest|NOMISAPI|NOMISAPI||T3
@@ -31,7 +29,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/noms-loganalytics|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/o11y-app-gw-devtest|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/oasysappgwkvrg|OASys|OASys||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/oc-ollytest|FixNGo|Management||poc
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/offloc-stage|NonCore|NonCore||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/orlando-poc|FixNGo|Management||poc
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/rg-fortigate-backups-devtest|FixNGo|Transit||devtest

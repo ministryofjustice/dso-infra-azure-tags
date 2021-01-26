@@ -1172,6 +1172,7 @@ Microsoft.Token,stores/services,FALSE,FALSE
 Microsoft.Token,stores/services/tokens,FALSE,FALSE
 Microsoft.VirtualMachineImages,imageTemplates,TRUE,TRUE
 Microsoft.VirtualMachineImages,imageTemplates/runOutputs,FALSE,FALSE
+Microsoft.VisualStudio,account,TRUE,TRUE
 Microsoft.VMware,ArcZones,TRUE,TRUE
 Microsoft.VMware,ResourcePools,TRUE,TRUE
 Microsoft.VMware,VCenters,TRUE,TRUE
