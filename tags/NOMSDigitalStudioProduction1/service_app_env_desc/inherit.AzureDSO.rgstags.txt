@@ -25,7 +25,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/nomisapi-preprod-rg|NOMISAPI|NOMISAPI||preprod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/nomisapi-prod-rg|NOMISAPI|NOMISAPI||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/nomisapi-prod-shared-rg|NOMISAPI|NOMISAPI||prod
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/o11y-app-gw-prod|FixNGo|Management||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/oasys-poc-rg|OASys|OASys||poc
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/offloc-prod|NonCore|NonCore||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/poc-agw-cafm|CAFM|CAFM||poc

@@ -27,7 +27,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/nomisapi-t3-rg|NOMISAPI|NOMISAPI||T3
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/nomisapi-terraform_state_store-rg|NOMISAPI|NOMISAPI||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/noms-loganalytics|FixNGo|Management||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/o11y-app-gw-devtest|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/oasysappgwkvrg|OASys|OASys||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/offloc-stage|NonCore|NonCore||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/orlando-poc|FixNGo|Management||poc
