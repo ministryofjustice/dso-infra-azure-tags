@@ -965,22 +965,13 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCWW00004-nic|CSR|CSR|web|prod|Web Server (Region3+4)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCWW00005-nic|CSR|CSR|web|prod|Web Server (Region5+6)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-csr/providers/Microsoft.Network/networkInterfaces/PDCWW00006-nic|CSR|CSR|web|prod|Web Server (Region5+6)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/availabilitySets/PDRDLNCADB-as|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/availabilitySets/PDRDWNCADB-as|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/pdrdl00013-datadisk-000-20201217-162537|NonCore|NonCore|data|prod|Offloc file transfer processing node
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/pdrdl00013-datadisk-001-20201217-162537|NonCore|NonCore|data|prod|Offloc file transfer processing node
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/pdrdl00013-osdisk-20201217-162537|NonCore|NonCore|data|prod|Offloc file transfer processing node
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDL00013data001|NonCore|NonCore|data|prod|Offloc file transfer processing node
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDL00013data002|NonCore|NonCore|data|prod|Offloc file transfer processing node
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDL00013root001|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDW00011data001|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDW00011data002|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDW00011root001|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/disks/PDRDW0030-DISK11|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/virtualMachines/PDRDL00013|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/virtualMachines/PDRDW00011|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Compute/virtualMachines/PDRDW0030|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/PDRDL00013-nic|NonCore|NonCore|data|prod|Offloc file transfer processing node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/PDRDW00011-nic|NonCore|NonCore|data|prod|NonCoreApps MS Access Environment
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-noncoreapps/providers/Microsoft.Network/networkInterfaces/pdrdw003051|NonCore|NonCore|data|prod|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Compute/availabilitySets/PDODLOASOD-as|OASys|OASys|data|prod|OASys Audit Vault

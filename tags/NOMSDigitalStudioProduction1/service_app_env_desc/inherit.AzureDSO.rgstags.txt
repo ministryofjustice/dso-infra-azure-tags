@@ -35,5 +35,4 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/tf-dso-infra-nomis-file-shares-prod|FixNGo|Management||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/tf-dso-infra-webops-azure-zones-prod|FixNGo|Management||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/webops-prod|FixNGo|Management||prod
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/webops-test|FixNGo|Management||devtest
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/offloc-test|NonCore|NonCore||devtest
