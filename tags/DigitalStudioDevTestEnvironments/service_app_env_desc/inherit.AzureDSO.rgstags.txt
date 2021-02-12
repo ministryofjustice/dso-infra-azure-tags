@@ -34,15 +34,12 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/rsr-dev|Misc|RSR||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/securitydata|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/test-nomis|NOMISAPI|NOMISAPI||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-azure-zones-dev|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-mgmt-webops-dev|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-nomis-file-shares-dev|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-nomis-file-shares-devtest|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-webops-azure-zones-dev|FixNGo|Management||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-webops-azure-zones-test|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-webops-mgmt-svcs-dev|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-jenkins-infra-devtest|FixNGo|Management||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-jenkins-poc-dev|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/webops-dev|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/webops-jenkins-migration-temp-dev|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/webops-shared-dns-devtest|FixNGo|Management||devtest

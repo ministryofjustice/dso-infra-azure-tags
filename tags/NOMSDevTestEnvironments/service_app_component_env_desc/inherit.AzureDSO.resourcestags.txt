@@ -238,7 +238,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/sd-prisonnomis/providers/Microsoft.Network/networkInterfaces/SDPWL0005-nic|NOMIS|NOMIS|web|syscon|General Purpose Application Server for Dev Env
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/sd-prisonnomis/providers/Microsoft.Storage/storageAccounts/sdpwl0004bootdiag|NOMIS|NOMIS|web|syscon|General Purpose Application Server for Dev Env
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/availabilitySets/T1RDWNCADB-as|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server 2
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/availabilitySets/T1RNLD-as|NonCore|NonCore|network|T1|Unknown Utility
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/disks/d-00abfc033a9d43ca9314fca7cd2e43e4-datadisk-000|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/disks/d-01a142b00f8842da8f4b69f2bfffb6cf-datadisk-006|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/disks/d-13ebe25c928547b7b61de8ff7fe5b76a-osdisk-000|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
@@ -257,15 +256,10 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/disks/T1RDW0002data001|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server 2
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/disks/T1RDW0002data002|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server 2
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/disks/T1RDW0002root001|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server 2
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/disks/T1RNL0003data001|NonCore|NonCore|network|T1|Unknown Utility
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/disks/T1RNL0003data002|NonCore|NonCore|network|T1|Unknown Utility
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/disks/T1RNL0003root001|NonCore|NonCore|network|T1|Unknown Utility
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/virtualMachines/T1RDW0001|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/virtualMachines/T1RDW0002|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server 2
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Compute/virtualMachines/T1RNL0003|NonCore|NonCore|network|T1|Unknown Utility
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Network/networkInterfaces/T1RDW0001-nic-40e95e3e66a54943be38d2acc2189a96|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server (Branston Staff Files/Offloc)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Network/networkInterfaces/T1RDW0002-nic|NonCore|NonCore|data|T1|NonCoreApps MS SQL Server 2
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-noncore/providers/Microsoft.Network/networkInterfaces/T1RNL0003-nic|NonCore|NonCore|network|T1|Unknown Utility
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-oasys/providers/Microsoft.Compute/availabilitySets/T1-OASys-App-AS|OASys|OASys|mid|T1|OASys BI Publisher
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-oasys/providers/Microsoft.Compute/availabilitySets/T1-OASys-Client-AS|OASys|OASys|web|T1|OASys Web Server
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-oasys/providers/Microsoft.Compute/availabilitySets/T1-OASys-DB-AS|OASys|OASys|data|T1|OASys and ONR Oracle DBMS Combined
@@ -385,7 +379,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-prisonnomis/providers/Microsoft.Network/networkInterfaces/t2pml0008565|NOMIS|NDH|mid|T2|NDH EMS Tibco Node1
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-prisonnomis/providers/Microsoft.Storage/storageAccounts/nomstestt2prisonnomis|NOMIS|NOMIS|web|T2|C-NOMIS AppServer Weblogic
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/availabilitySets/T3CWWC12WS-as|CSR|CSR|web|T3|Web Server (Region1+2)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/availabilitySets/T3CWWCSRWS-as|CSR|CSR|web|T3|RUM / BSM Server (licenced bit of software but no longer in use.  SiteScope)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/disks/T3CAW0010|CSR|CSR|app|T3|Application Server (Region 1)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/disks/T3CAW0010-APP-DISK1|CSR|CSR|app|T3|Application Server (Region 1)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/disks/T3CAW0010-APP-DISK2|CSR|CSR|app|T3|Application Server (Region 1)
@@ -407,12 +400,10 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/virtualMachines/T3CAW0010|CSR|CSR|app|T3|Application Server (Region 1)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/virtualMachines/T3CDL0021|CSR|CSR|data|T3|Oracle Database 2 (High Availability / Data Guard)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/virtualMachines/T3CWW0002|CSR|CSR|web|T3|Web Server (Region1+2)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Compute/virtualMachines/T3CWW00031|CSR|CSR|web|T3|RUM / BSM Server (licenced bit of software but no longer in use.  SiteScope)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Network/loadBalancers/T3-CSR-R2-LB|CSR|CSR|web|T3|
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Network/networkInterfaces/t3caw0010113|CSR|CSR|app|T3|Application Server (Region 1)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Network/networkInterfaces/t3cdl0021149|CSR|CSR|data|T3|Oracle Database 2 (High Availability / Data Guard)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Network/networkInterfaces/t3cww0002508|CSR|CSR|web|T3|Web Server (Region1+2)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Network/networkInterfaces/T3CWW00031-nic|CSR|CSR|web|T3|RUM / BSM Server (licenced bit of software but no longer in use.  SiteScope)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-csr/providers/Microsoft.Storage/storageAccounts/nomst3csrt3cd062615280|CSR|CSR|web|T3|Web Server (Region1+2)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-prisonnomis/providers/Microsoft.Compute/availabilitySets/T3P-DB-AS1|NOMIS|NOMIS|data|T3|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-prisonnomis/providers/Microsoft.Compute/availabilitySets/T3PWLCNOMA-as|NOMIS|NOMIS|web|T3|C-NOMIS AppServer Weblogic
