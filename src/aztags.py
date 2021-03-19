@@ -707,7 +707,8 @@ class AzTags:
         given subscription.  Compare the input CSVs with the actual resources
         and add discrepencies into the update list
         """
-        print("subscription: {} tag:{}".format(sub_id,tag))
+        #This was breaking here, so adding this to hopefully help out a bit with where it broke
+        print("subscription: {} tag:{}".format(sub_id, tag))
         # pivot indexed on resource_id with the given tag values as a columns
         tagpivot = pandas.pivot_table(
             df[df.x_sub_id == sub_id],
