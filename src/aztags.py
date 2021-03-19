@@ -707,7 +707,7 @@ class AzTags:
         given subscription.  Compare the input CSVs with the actual resources
         and add discrepencies into the update list
         """
-
+        print("subscription: {} tag:{}".format(sub_id,tag))
         # pivot indexed on resource_id with the given tag values as a columns
         tagpivot = pandas.pivot_table(
             df[df.x_sub_id == sub_id],
@@ -767,10 +767,8 @@ class AzTags:
             (tags, subspivot) = self.__get_subs_pivot(df)
 
             # iterate through all subscriptions
-            for sub_id in subspivot.index.values:
-                print("subscription:{}".format(sub_id))
-                for tag in tags:
-                    print("tag:{}".format(tag))
+            for sub_id in subspivot.index.values:                
+                for tag in tags:                    
                     self.__calculate_tag_changes_in_sub(df, sub_id, tag)
 
         # now all the tags have been added, we can calculate the ones no
