@@ -768,7 +768,9 @@ class AzTags:
 
             # iterate through all subscriptions
             for sub_id in subspivot.index.values:
+                print("subscription:{}".format(sub_id))
                 for tag in tags:
+                    print("tag:{}".format(tag))
                     self.__calculate_tag_changes_in_sub(df, sub_id, tag)
 
         # now all the tags have been added, we can calculate the ones no
