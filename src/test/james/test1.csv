@@ -1,0 +1,4 @@
+id,tags.service,tags.app
+/subscriptions/04d5a76d-7ae2-42ba-8127-bdf6f3d624a5/resourceGroups/james-borwick/providers/Microsoft.Network/publicIPAddresses/pip1,service1,app1
+/subscriptions/04d5a76d-7ae2-42ba-8127-bdf6f3d624a5/resourceGroups/james-borwick/providers/Microsoft.Network/publicIPAddresses/pip2,service1,app1
+/subscriptions/04d5a76d-7ae2-42ba-8127-bdf6f3d624a5/resourceGroups/james-borwick/providers/Microsoft.Network/publicIPAddresses/pip3,service1,app1

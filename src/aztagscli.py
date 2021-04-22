@@ -123,6 +123,9 @@ parser.add_argument('--changetypes',
                           'inc = incremental (add/updates only). '
                           'all = all changes.  Or any combination of '
                           'ADD UPDATE DEL, e.g. ADD,UPDATE'))
+parser.add_argument('--skiptags',
+                    nargs='+',
+                    help='List of tags. Skip resources which have these tags.')
 parser.add_argument('tagfile',
                     nargs='+',
                     help=('csv file with id and any number of tags.x, tags.y, '
@@ -134,7 +137,8 @@ aztags = AzTags(change_types_str=args.changetypes,
                 filter_ids=args.limit,
                 verbose=args.verbose,
                 min_scope=args.minscope,
-                max_scope=args.maxscope)
+                max_scope=args.maxscope,
+                skiptags=args.skiptags)
 
 # figure out which resources are taggable
 aztags.load_supported_tags(args.tagsupport)

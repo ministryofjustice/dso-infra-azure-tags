@@ -94,7 +94,7 @@ jobs:
           echo "Set aztagscli cmdline args [checkflag=${checkflag}]"
           # Don't update resource groups.  This way we can just use
           # a tag contributor SP
-          args="--minscope 5 -a -y"
+          args="--minscope 5 -a -y" # TODO: Add exclude tag thing here.
           # add dryrun if checkflag is set
           if [[ "${checkflag}" != "false" ]]; then
             args="${args} -d"

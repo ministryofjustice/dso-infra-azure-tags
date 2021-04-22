@@ -72,7 +72,8 @@ class AzTags:
                  filter_ids=None,
                  verbose=None,
                  min_scope=None,
-                 max_scope=None):
+                 max_scope=None,
+                 skiptags=None):
         """ Initialise AzTags object
 
         Parameters:
@@ -91,6 +92,7 @@ class AzTags:
             max_scope:              If defined, only resource IDs that have <=
                                     forward slashes than this value will be
                                     updated.
+            skiptags:               List of tags. Skip resources which have these tags.
         """
 
         (ok, change_types) = self.__str_to_change_types(change_types_str)
@@ -260,7 +262,7 @@ class AzTags:
                     return True
         return False
 
-    def __is_resource_taggable(self, case_sensitive_id):
+    def __is_resource_taggable(self, case_sensitive_id, skiptags):
         """ check whether given resource id supports tagging
         Return (taggable, verbose_level_reason)
         Where:
@@ -287,6 +289,9 @@ class AzTags:
 
         if self.__get_resource_scope(case_sensitive_id) == 2:
             return (False, 2, 'SKIPPING subscription resource ID')
+
+        if skiptags in self.__tag_dict[case_sensitive_id]:
+            return (False, 2, 'SKIPPING resource has one or more skipped tags')
 
         if not case_sensitive_id in self.__resource_ids_type:
             return (False, None, 'WARNING ignoring resource with unknown type')
@@ -650,7 +655,7 @@ class AzTags:
             return
 
         # and does it support tagging?
-        (taggable, verbose, reason) = self.__is_resource_taggable(resource_id)
+        (taggable, verbose, reason) = self.__is_resource_taggable(resource_id, skiptags)
         if not taggable:
             self.__not_taggable_resources[resource_id] = (verbose, reason)
             return
@@ -875,7 +880,7 @@ class AzTags:
             print('EXISTING TAGS')
         tagcount = {}
         for resource_id in self.__tag_dict:
-            if self.__is_resource_taggable(resource_id)[0]:
+            if self.__is_resource_taggable(resource_id, skiptags)[0]:
                 print_id = self.__get_printable_id(resource_id)
 
                 if self.__verbose > 1:
