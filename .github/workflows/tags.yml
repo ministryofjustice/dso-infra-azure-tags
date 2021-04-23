@@ -95,7 +95,7 @@ jobs:
           # Don't update resource groups.  This way we can just use
           # a tag contributor SP. Resources with the "source_code"
           # tag will be skipped.
-          args="--minscope 5 -a --skiptags source_code -y"
+          args="--minscope 5 -a -y --skiptags source_code --"
           # add dryrun if checkflag is set
           if [[ "${checkflag}" != "false" ]]; then
             args="${args} -d"
