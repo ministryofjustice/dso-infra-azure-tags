@@ -85,6 +85,12 @@ rm tags.resourceGroup.txt
 ./aztagscli-helper . -a --changetypes all
 ```
 
+## skiptags
+
+The CLI option `--skiptags source_code` should always be used when applying tag changes.
+This will prevent overriding tags which have been applied via Terraform.
+The "source_code" tag should be present on all Terraform-managed resources.
+
 ## Azure DSO tags
 
 The majority of resources are not in terraform so this repo is used to apply tag
