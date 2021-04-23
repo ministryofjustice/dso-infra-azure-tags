@@ -298,7 +298,7 @@ class AzTags:
             for tag in self.__skiptags:
                 if tag in self.__tag_dict[case_sensitive_id]:
                     return (False, 2, ('SKIPPING resource has one or more'
-                                       'skipped tags'))
+                                       ' skipped tags'))
 
         if not case_sensitive_id in self.__resource_ids_type:
             return (False, None, 'WARNING ignoring resource with unknown type')
