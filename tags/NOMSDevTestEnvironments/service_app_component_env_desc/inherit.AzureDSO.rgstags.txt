@@ -65,9 +65,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomsfileupload|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMSMgmt-Proxy|FixNGo|Transit||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/PackerImages|FixNGo|Management||devtest
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/PD-CSR|CSR|CSR||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/PD-NonCoreApps|NonCore|NonCore||devtest
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/restore-zone|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/rg-tc-noms-azcopy-orabkup|NOMIS|NOMIS||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/rg-tc-noms-passwords|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/rsg-csr-demo|CSR|CSR||devtest

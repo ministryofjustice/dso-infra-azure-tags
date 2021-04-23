@@ -26,7 +26,7 @@ jobs:
       - name: Lint
         run: |
           sudo apt-get install -y pylint3
-          pylint3 --rcfile=src/.pylintrc src/*.py
+          pylint --rcfile=src/.pylintrc src/*.py
 
       - name: Test
         run: |

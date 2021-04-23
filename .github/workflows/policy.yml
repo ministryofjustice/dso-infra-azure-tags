@@ -60,7 +60,7 @@ jobs:
       - name: Azure Login
         uses: azure/login@v1.1
         with:
-          creds: ${{secrets.AZURE_CREDENTIALS}}
+          creds: ${{secrets.DSO_INFRA_AZURE_TAGS}}
 
       - name: Process policy definition
         env:

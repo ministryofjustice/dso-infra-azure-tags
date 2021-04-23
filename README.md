@@ -13,6 +13,10 @@ Contains policy definitions and related az cli commands for enforcing tagging.
 The `az tag` command is used for updating resource tags
 The `az resource tag` command is used for updating resource groups
 
+## Pipelines
+
+The  Azure AD App (Service Principal) used by this repo's pipeline is called dso-infra-azure-tags and is managed in the [dso-infra-azure-ad](https://github.com/ministryofjustice/dso-infra-azure-ad/tree/main/applications) repository
+
 ## Source
 
 See src/ directory.  Use `pydoc aztags` for documentation on code or 
