@@ -94,7 +94,7 @@ jobs:
           echo "Set aztagscli cmdline args [checkflag=${checkflag}]"
           # Don't update resource groups.  This way we can just use
           # a tag contributor SP. Resources with the "source_code"
-          # tag should be skipped.
+          # tag will be skipped.
           args="--minscope 5 -a --skiptags source_code -y"
           # add dryrun if checkflag is set
           if [[ "${checkflag}" != "false" ]]; then
