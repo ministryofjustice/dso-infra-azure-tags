@@ -92,7 +92,8 @@ class AzTags:
             max_scope:              If defined, only resource IDs that have <=
                                     forward slashes than this value will be
                                     updated.
-            skiptags:               List of tags. Skip resources which have these tags.
+            skiptags:               List of tags. Skip resources which have
+                                    these tags.
         """
 
         (ok, change_types) = self.__str_to_change_types(change_types_str)
@@ -296,7 +297,8 @@ class AzTags:
         if self.__skiptags:
             for tag in self.__skiptags:
                 if tag in self.__tag_dict[case_sensitive_id]:
-                    return (False, 2, 'SKIPPING resource has one or more skipped tags')
+                    return (False, 2, ('SKIPPING resource has one or more'
+                                       'skipped tags'))
 
         if not case_sensitive_id in self.__resource_ids_type:
             return (False, None, 'WARNING ignoring resource with unknown type')
