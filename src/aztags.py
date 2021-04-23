@@ -158,6 +158,9 @@ class AzTags:
         # all CSVs combined into single pandas dataframe
         self.__combined_df = None
 
+        # List of tags. Skip resources which have these tags.
+        self.__skiptags = skiptags
+
     def __get_tag_change_str(self, change_type):
         ''' return string representing the tag change type '''
         return TAG_CHANGE_STRS[change_type]
@@ -262,7 +265,7 @@ class AzTags:
                     return True
         return False
 
-    def __is_resource_taggable(self, case_sensitive_id, skiptags):
+    def __is_resource_taggable(self, case_sensitive_id):
         """ check whether given resource id supports tagging
         Return (taggable, verbose_level_reason)
         Where:
@@ -290,8 +293,10 @@ class AzTags:
         if self.__get_resource_scope(case_sensitive_id) == 2:
             return (False, 2, 'SKIPPING subscription resource ID')
 
-        if skiptags in self.__tag_dict[case_sensitive_id]:
-            return (False, 2, 'SKIPPING resource has one or more skipped tags')
+        if self.__skiptags:
+            for tag in self.__skiptags:
+                if tag in self.__tag_dict[case_sensitive_id]:
+                    return (False, 2, 'SKIPPING resource has one or more skipped tags')
 
         if not case_sensitive_id in self.__resource_ids_type:
             return (False, None, 'WARNING ignoring resource with unknown type')
@@ -655,7 +660,7 @@ class AzTags:
             return
 
         # and does it support tagging?
-        (taggable, verbose, reason) = self.__is_resource_taggable(resource_id, skiptags)
+        (taggable, verbose, reason) = self.__is_resource_taggable(resource_id)
         if not taggable:
             self.__not_taggable_resources[resource_id] = (verbose, reason)
             return
@@ -880,7 +885,7 @@ class AzTags:
             print('EXISTING TAGS')
         tagcount = {}
         for resource_id in self.__tag_dict:
-            if self.__is_resource_taggable(resource_id, skiptags)[0]:
+            if self.__is_resource_taggable(resource_id)[0]:
                 print_id = self.__get_printable_id(resource_id)
 
                 if self.__verbose > 1:
