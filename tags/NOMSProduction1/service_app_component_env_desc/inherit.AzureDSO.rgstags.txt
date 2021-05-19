@@ -1,5 +1,4 @@
 id|tags.service|tags.application|tags.component|tags.environment_name
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureadstaterg|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/AzureBackupRG_uksouth_1|FixNGo|Management||DR
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/AzureBackupRG_ukwest_1|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion|NOMIS|NOMIS||prod
@@ -12,10 +11,8 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS-Restores|NOMIS|NOMIS||DR
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-automation-sendgrid|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-certs|FixNGo|Management||prod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-iowait-test-terraform-state|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-terraform-state|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DsoPackerImages|FixNGo|Management||prod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/fix-and-go-legacy-backups|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-dso-artifacts|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-network-tooling|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-preprod-ukwest-appgw-rg|FixNGo|Transit||preprod
@@ -53,7 +50,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-PP-PrisonNOMIS|NOMIS|NOMIS||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Networking_HPE_NOMS_ER|FixNGo|Transit||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NetworkWatcherRG|FixNGo|Management||prod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast|NOMIS|MIS||lsast
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast|NOMIS|BI||lsast
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Live|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Live-DR|FixNGo|Management||DR
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live|FixNGo|Management||prod
@@ -61,7 +58,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-PROXY|FixNGo|Transit||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Restores|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-BackupVault|FixNGo|Management||prod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-CoolBackupStorage|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-KeyVault|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Prod-LogAnalytics|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Transit-DevTest-FW|FixNGo|Transit||prod
@@ -84,10 +80,8 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS-Restores|NOMIS|NOMIS||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-CAFM|CAFM|CAFM||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-CSR|CSR|CSR||preprod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-CSR-Restores|CSR|CSR||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-OASys|OASys|OASys||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS|NOMIS|NOMIS||preprod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/restore-zone|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/rg-fortigate-backups-dr|FixNGo|Transit||DR
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/rg-fortigate-backups-prod|FixNGo|Transit||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/rg-pd-noms-azcopy-orabkup|NOMIS|NOMIS||prod
@@ -95,6 +89,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/rg-pd-noms-passwords|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/rg-pp-noms-azcopy-orabkup|NOMIS|NOMIS||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/rg-pp-noms-file-shares|NOMIS|NOMIS||preprod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/securitydata|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-dr-certs|FixNGo|Management||DR
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dashboards|FixNGo|Management||prod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod|NOMIS|BI||preprod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod|NOMIS|BI||prod
