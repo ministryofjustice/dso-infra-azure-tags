@@ -1,0 +1,12 @@
+id
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/defaultresourcegroup-suk*
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Default-ActivityLogAlerts*
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/cloud-shell-storage-*
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dashboards*
+# Below VMs build with wrong name and without source_code tag.  Excluding for now as they were built with terraform..
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/availabilitySets/MGPRWLQ9ARG-AV*
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/disks/MGPRWLQ9ARG0001*
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/virtualMachines/MGPRWA3VV520001*
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/virtualMachines/MGPRWLQ9ARG0001*
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Network/networkInterfaces/MGPRWLQ9ARG0001*
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Storage/storageAccounts/mgprwlq9argbootdiags

@@ -119,9 +119,11 @@ class AzTags:
         self.__excluded_ids = {}
 
         # optional list of regexes to filter resource IDs by
-        # uses the case_sensitive_id for matching, i.e. resourcegroup name in
-        # lower case
-        self.__filter_ids = filter_ids
+        # convert to lower case to avoid any case issues
+        if filter_ids:
+            self.__filter_ids = [x.lower() for x in filter_ids]
+        else:
+            self.__filter_ids = filter_ids
 
         # annoyingly resourcegroup name isn't case sensitive.  This provides a
         # mapping between a case_sensitive_id (where resourcegroup) is changed
@@ -239,8 +241,8 @@ class AzTags:
                         format(row))
                 header = False
             else:
-                case_sensitive_id = self.__get_case_sensitive_id(row[0])
-                self.__excluded_ids[case_sensitive_id] = True
+                lowercase_id = row[0].lower()
+                self.__excluded_ids[lowercase_id] = True
 
     def __add_printable_id(self, case_sensitive_id, print_id):
         ''' associate a case_sensitive_id with original ID '''
@@ -260,9 +262,19 @@ class AzTags:
 
     def __is_resource_id_filtered_out(self, resource_id):
         ''' check if resource_id matches configured RegExes '''
+        resource_id_lowercase = resource_id.lower()
         if self.__filter_ids:
             for regex in self.__filter_ids:
-                if not re.search(regex, resource_id):
+                if not re.search(regex, resource_id_lowercase):
+                    return True
+        return False
+
+    def __is_resource_id_excluded(self, resource_id):
+        ''' check if resource_id matches configured RegExes '''
+        resource_id_lowercase = resource_id.lower()
+        if self.__excluded_ids:
+            for regex in self.__excluded_ids:
+                if re.search(regex, resource_id_lowercase):
                     return True
         return False
 
@@ -275,21 +287,16 @@ class AzTags:
             reason: why it can't be tagged
         """
 
-        print_id = self.__get_printable_id(case_sensitive_id)
-
         scope = self.__get_resource_scope(case_sensitive_id)
         if self.__min_scope and scope < self.__min_scope:
             return (False, 4, 'SKIPPING resource less than minscope')
         if self.__max_scope and scope > self.__max_scope:
             return (False, 4, 'SKIPPING resource exceeds maxscope')
 
-        if case_sensitive_id in self.__excluded_ids:
-            return (False, 2, 'SKIPPING excluded resource')
-        if print_id in self.__excluded_ids:
-            return (False, 2, 'SKIPPING excluded resource')
-
         if self.__is_resource_id_filtered_out(case_sensitive_id):
             return (False, 3, 'SKIPPING filtered out resource')
+        if self.__is_resource_id_excluded(case_sensitive_id):
+            return (False, 3, 'SKIPPING excluded resource')
 
         if self.__get_resource_scope(case_sensitive_id) == 2:
             return (False, 2, 'SKIPPING subscription resource ID')

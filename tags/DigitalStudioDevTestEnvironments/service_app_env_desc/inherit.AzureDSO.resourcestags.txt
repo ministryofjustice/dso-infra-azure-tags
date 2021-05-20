@@ -1,5 +1,4 @@
 id|tags.service|tags.application|tags.component|tags.environment_name|tags.description
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/checkmydiary-dev/providers/Microsoft.Network/applicationGateways/checkmydiary-dev|CSR|CheckMyDiaryAPI|web|devtest|
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/mgmt-app-gw-devtest/providers/Microsoft.Network/applicationGateways/mgmt-app-gw-devtest|FixNGo|Management|web|devtest|
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/ndelius-dev/providers/Microsoft.Network/applicationGateways/ndelius-dev|Misc|NDelius|web|devtest|
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/webops-shared-dns-devtest/providers/Microsoft.Network/dnszones/hwpv.hmpps.dsd.io|HWPV|HWPV||prod|

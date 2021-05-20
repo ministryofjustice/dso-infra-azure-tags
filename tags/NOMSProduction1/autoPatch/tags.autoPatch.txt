@@ -2,8 +2,8 @@ id|tags.autoPatch
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/virtualMachines/PCMCW0000|true
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/virtualMachines/PCMCW0011|true
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/virtualMachines/PCMCW0012|true
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/virtualMachines/PCMCW1011|true
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/virtualMachines/PCMCW1012|true
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/virtualMachines/pcmcw1011|true
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/virtualMachines/pcmcw1012|true
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/virtualMachines/PDMR2W00011|true
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/virtualMachines/PDMR2W00014|true
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/virtualMachines/PDMRW00007|true
