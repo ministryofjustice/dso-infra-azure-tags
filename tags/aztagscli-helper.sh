@@ -10,7 +10,8 @@ fi
 
 if [[ ! -e $dir ]]; then
   echo Directory $dir does not exist
-  exit 1
+  # return 0 for the use case where a subscription is removed and the pipeline tries to validate it
+  exit 0
 fi
 
 get_file() {
