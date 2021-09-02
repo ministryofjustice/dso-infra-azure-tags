@@ -1,5 +1,2 @@
 id|tags.service|tags.application|tags.component|tags.environment_name|tags.description
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/cafm-prod/providers/Microsoft.Network/applicationGateways/cafm-prod|CAFM|CAFMPlanetFM|web|prod|
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/mgmt-app-gw-prod/providers/Microsoft.Network/applicationGateways/mgmt-app-gw-prod|FixNGo|Management|web|prod|
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/ndelius-prod/providers/Microsoft.Network/applicationGateways/ndelius-prod|Misc|NDelius|web|prod|
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/nomisapi-prod-rg/providers/Microsoft.Network/applicationGateways/nomisapi-prod-appgw|NOMISAPI|NOMISAPI|web|prod|

@@ -17,14 +17,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/drdomaincontrollers/providers/Microsoft.Compute/virtualMachines/tc-mgt-dc-04|FixNGo|Management|domaincontroller|devtest|AD Server 4; NTP Source
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/drdomaincontrollers/providers/Microsoft.Network/networkInterfaces/dc03nic|FixNGo|Management|domaincontroller|devtest|AD Server 3; NTP Source
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/drdomaincontrollers/providers/Microsoft.Network/networkInterfaces/dc04nic|FixNGo|Management|domaincontroller|devtest|AD Server 4; NTP Source
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-dba/providers/Microsoft.Compute/availabilitySets/T3TDL9AWBKV-AV|NOMIS|NOMIS|data|T3|Dev/Test Database (DSO)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-dba/providers/Microsoft.Compute/disks/T3TDL9AWBKV0001-DataDisk-0|NOMIS|NOMIS|data|T3|Dev/Test Database (DSO)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-dba/providers/Microsoft.Compute/disks/T3TDL9AWBKV0001-DataDisk-1|NOMIS|NOMIS|data|T3|Dev/Test Database (DSO)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-dba/providers/Microsoft.Compute/disks/T3TDL9AWBKV0001-DataDisk-2|NOMIS|NOMIS|data|T3|Dev/Test Database (DSO)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-dba/providers/Microsoft.Compute/disks/T3TDL9AWBKV0001-OSDisk|NOMIS|NOMIS|data|T3|Dev/Test Database (DSO)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-dba/providers/Microsoft.Compute/virtualMachines/T3TDL9AWBKV0001|NOMIS|NOMIS|data|T3|Dev/Test Database (DSO)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-dba/providers/Microsoft.Network/networkInterfaces/T3TDL9AWBKV0001-nic|NOMIS|NOMIS|data|T3|Dev/Test Database (DSO)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-dba/providers/Microsoft.Storage/storageAccounts/t3tdl9awbkvbootdiags|NOMIS|NOMIS|data|T3|Dev/Test Database (DSO)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-sap-bip-t1/providers/Microsoft.Compute/availabilitySets/T1PRWK4DY1B-AV|NOMIS|BI|mid|T1|NOMIS MIS-ETL IPS/BODS
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-sap-bip-t1/providers/Microsoft.Compute/disks/T1PRWK4DY1B0001-DataDisk-0|NOMIS|BI|mid|T1|NOMIS MIS-ETL IPS/BODS
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-sap-bip-t1/providers/Microsoft.Compute/disks/T1PRWK4DY1B0001-DataDisk-1|NOMIS|BI|mid|T1|NOMIS MIS-ETL IPS/BODS
@@ -78,7 +70,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/availabilitySets/MGMRLR-as|FixNGo|Management|access|devtest|jumpbox ssh Bastion primary
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/availabilitySets/MGMRWD-as|FixNGo|Management|access|devtest|RD jump server 6 (BO client tools)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Compute/availabilitySets/MGPRW4RI2SN-AV|FixNGo|Management|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Compute/availabilitySets/MGPRWSZNGYB-AV|FixNGo|Management|test|devtest|Client Access Testing
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/availabilitySets/NOMS-Mgmt-JumpServer-Test-AS1|FixNGo|Management|misc|devtest|Shared Access File Server
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/disks/MGMCW0002-DISK1restore20171025|FixNGo|Management|domaincontroller|devtest|AD Server 1; NTP Source
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/disks/MGMCW0002-OS-DISKrestore20171025|FixNGo|Management|domaincontroller|devtest|AD Server 1; NTP Source
@@ -110,12 +101,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/disks/MGMRW0011data001|FixNGo|Management|access|devtest|RD jump server 6 (BO client tools)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/disks/MGMRW0011data002|FixNGo|Management|access|devtest|RD jump server 6 (BO client tools)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/disks/MGMRW0011root001|FixNGo|Management|access|devtest|RD jump server 6 (BO client tools)
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Compute/disks/MGPRW4RI2SN0001-DataDisk-0|FixNGo|Management|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Compute/disks/MGPRW4RI2SN0001-DataDisk-1|FixNGo|Management|test|devtest|Client Access Testing
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Compute/disks/MGPRW4RI2SN0001-OSDisk|FixNGo|Management|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Compute/disks/MGPRWSZNGYB0001-DataDisk-0|FixNGo|Management|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Compute/disks/MGPRWSZNGYB0001-DataDisk-1|FixNGo|Management|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-MGMT/providers/Microsoft.Compute/disks/MGPRWSZNGYB0001-OSDisk|FixNGo|Management|test|devtest|Client Access Testing
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/MGMCW0002|FixNGo|Management|domaincontroller|devtest|AD Server 1; NTP Source
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/MGMCW0015|FixNGo|Management|misc|devtest|Shared Access File Server
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-MGMT/providers/Microsoft.Compute/virtualMachines/MGMNL00133|FixNGo|Transit|utility|devtest|Fortinet syslog forwarder
@@ -133,7 +119,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/MGMRW0014|FixNGo|Management|access|devtest|RD jump server 8 (UAT)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Compute/virtualMachines/MGMRW0100|FixNGo|Management|test|devtest|Test Client Prison-NOMIS 1
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Compute/virtualMachines/MGPRW4RI2SN0001|FixNGo|Management|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Compute/virtualMachines/MGPRWSZNGYB0001|FixNGo|Management|test|devtest|Client Access Testing
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Network/networkInterfaces/mgmcw0002370|FixNGo|Management|domaincontroller|devtest|AD Server 1; NTP Source
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Network/networkInterfaces/mgmcw0015591|FixNGo|Management|misc|devtest|Shared Access File Server
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Network/networkInterfaces/MGMNL00133-nic|FixNGo|Transit|utility|devtest|Fortinet syslog forwarder
@@ -151,12 +136,9 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Network/networkInterfaces/mgmrw0014588|FixNGo|Management|access|devtest|RD jump server 8 (UAT)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Network/networkInterfaces/mgmrw0100860|FixNGo|Management|test|devtest|Test Client Prison-NOMIS 1
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Network/networkInterfaces/MGPRW4RI2SN0001-nic|FixNGo|Management|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Network/networkInterfaces/MGPRWSZNGYB0001-nic|FixNGo|Management|test|devtest|Client Access Testing
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Network/publicIPAddresses/JumpServer-DevTest-ip|FixNGo|Management|access|devtest|jumpbox ssh Bastion DR
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Storage/storageAccounts/mgmcw0002bootdiag|FixNGo|Management|domaincontroller|devtest|AD Server 1; NTP Source
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt/providers/Microsoft.Storage/storageAccounts/mgmrlffqkxrbootdiags|FixNGo|Management|access|devtest|jumpbox ssh Bastion DR
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Storage/storageAccounts/mgprw4ri2snbootdiags|FixNGo|Management|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/NOMS-Mgmt/providers/Microsoft.Storage/storageAccounts/mgprwszngybbootdiags|FixNGo|Management|test|devtest|Client Access Testing
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt-dr-proxy/providers/Microsoft.Compute/availabilitySets/MGMLX1050AvailSet|FixNGo|Transit|network|devtest|fortinet NGFW devtest proxy DR
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt-dr-proxy/providers/Microsoft.Compute/disks/MGMLX1050_disk2_c3d9df949ed24bad81a8a60bac51db5a|FixNGo|Transit|network|devtest|fortinet NGFW devtest proxy DR
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/noms-mgmt-dr-proxy/providers/Microsoft.Compute/disks/MGMLX1050_OsDisk_1_c1d7c65807164b6da85eba0a7d7d9ad3|FixNGo|Transit|network|devtest|fortinet NGFW devtest proxy DR
@@ -180,7 +162,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomsmgmt-proxy/providers/Microsoft.Network/networkInterfaces/MGMLX0051Nic1|FixNGo|Transit|network|devtest|fortinet NGFW devtest proxy
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomsmgmt-proxy/providers/Microsoft.Network/publicIPAddresses/Delius_NDH_Inbound|FixNGo|Transit|network|devtest|fortinet NGFW devtest proxy
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomsmgmt-proxy/providers/Microsoft.Network/publicIPAddresses/publicip-fortigate|FixNGo|Transit|network|devtest|fortinet NGFW devtest proxy
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/nomsmgmt-proxy/providers/Microsoft.Storage/storageAccounts/mgmlx0051storage|FixNGo|Transit|network|devtest|fortinet NGFW devtest proxy
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/sd-prisonnomis/providers/Microsoft.Compute/availabilitySets/SDPDLCNODB-as|NOMIS|NOMIS|data|syscon|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/sd-prisonnomis/providers/Microsoft.Compute/availabilitySets/SDPNLD-as|NOMIS|NOMIS|network|syscon|Syscon build and store releases here
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/sd-prisonnomis/providers/Microsoft.Compute/availabilitySets/SDPWLCNOMA-as|NOMIS|NOMIS|web|syscon|General Purpose Application Server for Dev Env
@@ -325,16 +306,15 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/disks/T2OWL0004data001|OASys|OASys|web|T2|OASys HA Proxy Node2
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/disks/T2OWL0004data002|OASys|OASys|web|T2|OASys HA Proxy Node2
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/disks/T2OWL0004root001|OASys|OASys|web|T2|OASys HA Proxy Node2
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/virtualMachines/T2OAL0001|OASys|OASys|web|T2|OASys Web Server
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/virtualMachines/T2OAL0002|OASys|OASys|web|T2|OASys Web Server
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/virtualMachines/T2OAL0003|OASys|ONR|web|T2|ONR Web Server
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/virtualMachines/T2ODL0009|OASys|OASys|data|T2|OASys and ONR Oracle DBMS Combined
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/virtualMachines/T2OML0005|OASys|OASys|mid|T2|BOE SAP
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/virtualMachines/T2OML0007|OASys|OASys|mid|T2|OASys BI Publisher
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/virtualMachines/T2OMW0006|OASys|OASys|mid|T2|BODS Server
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-OASys/providers/Microsoft.Compute/virtualMachines/T2OAL0001|OASys|OASys|web|T2|OASys Web Server
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-OASys/providers/Microsoft.Compute/virtualMachines/T2OAL0002|OASys|OASys|web|T2|OASys Web Server
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-OASys/providers/Microsoft.Compute/virtualMachines/T2OAL0003|OASys|ONR|web|T2|ONR Web Server
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-OASys/providers/Microsoft.Compute/virtualMachines/T2ODL0009|OASys|OASys|data|T2|OASys and ONR Oracle DBMS Combined
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-OASys/providers/Microsoft.Compute/virtualMachines/T2OML0005|OASys|OASys|mid|T2|BOE SAP
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-OASys/providers/Microsoft.Compute/virtualMachines/T2OML0007|OASys|OASys|mid|T2|OASys BI Publisher
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-OASys/providers/Microsoft.Compute/virtualMachines/T2OMW0006|OASys|OASys|mid|T2|BODS Server
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/virtualMachines/T2OWL0003|OASys|OASys|web|T2|OASys HA Proxy Node1
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Compute/virtualMachines/T2OWL0004|OASys|OASys|web|T2|OASys HA Proxy Node2
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-OASys/providers/Microsoft.Network/loadBalancers/t2-oasys-lb0001|OASys|OASys|web|T2|
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-OASys/providers/Microsoft.Compute/virtualMachines/T2OWL0004|OASys|OASys|web|T2|OASys HA Proxy Node2
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Network/networkInterfaces/t2oal0001271|OASys|OASys|web|T2|OASys Web Server
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Network/networkInterfaces/t2oal0002852|OASys|OASys|web|T2|OASys Web Server
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-oasys/providers/Microsoft.Network/networkInterfaces/t2oal0003899|OASys|ONR|web|T2|ONR Web Server
@@ -357,7 +337,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-prisonnomis/providers/Microsoft.Compute/virtualMachines/T2PDL0014|NOMIS|NDH|data|T2|NDH Oracle DB (NDHP,TRDATP)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-prisonnomis/providers/Microsoft.Compute/virtualMachines/T2PML0007|NOMIS|NDH|mid|T2|NDH Admin Tibco Node1
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-prisonnomis/providers/Microsoft.Compute/virtualMachines/T2PML0008|NOMIS|NDH|mid|T2|NDH EMS Tibco Node1
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-prisonnomis/providers/Microsoft.Network/applicationGateways/T2-PNOMIS-NOMIS-GW|NOMIS|NOMIS|web|T2|
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-prisonnomis/providers/Microsoft.Network/networkInterfaces/t2pal0040464|NOMIS|NOMIS|web|T2|C-NOMIS AppServer Weblogic
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-prisonnomis/providers/Microsoft.Network/networkInterfaces/t2pal0041998|NOMIS|NOMIS|web|T2|C-NOMIS AppServer Weblogic
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t2-prisonnomis/providers/Microsoft.Network/networkInterfaces/T2PDL0012-nic-97ef0d7b2a234df4895dcb60e93981ff|NOMIS|NOMIS|data|T2|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
@@ -407,12 +386,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-prisonnomis/providers/Microsoft.Compute/virtualMachines/T3PDL0070|NOMIS|NOMIS|data|T3|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-prisonnomis/providers/Microsoft.Compute/virtualMachines/T3PWL00001|NOMIS|NOMIS|web|T3|C-NOMIS AppServer Weblogic
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-prisonnomis/providers/Microsoft.Compute/virtualMachines/T3PWL00094|NOMIS|NOMIS|web|T3|C-NOMIS HAProxy Node1
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-prisonnomis/providers/Microsoft.Network/applicationGateways/T3-PNOMIS-NOMIS-GW|NOMIS|NOMIS|web|T3|
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-prisonnomis/providers/Microsoft.Network/loadBalancers/T3-PrisonNOMIS-NOMIS-LB1|NOMIS|NOMIS|web|T3|
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-prisonnomis/providers/Microsoft.Network/networkInterfaces/t3pdl0070283|NOMIS|NOMIS|data|T3|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-prisonnomis/providers/Microsoft.Network/networkInterfaces/T3PWL00001-nic|NOMIS|NOMIS|web|T3|C-NOMIS AppServer Weblogic
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t3-prisonnomis/providers/Microsoft.Network/networkInterfaces/T3PWL00094-nic|NOMIS|NOMIS|web|T3|C-NOMIS HAProxy Node1
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/test-pttp-enduser-rg/providers/Microsoft.Compute/disks/osdisk1|NOMIS|NOMIS|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/test-pttp-enduser-rg/providers/Microsoft.Compute/virtualMachines/test-pttp-enduser-vm1|NOMIS|NOMIS|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/test-pttp-enduser-rg/providers/Microsoft.Network/networkInterfaces/test-pttp-enduser-vm1-nic|NOMIS|NOMIS|test|devtest|Client Access Testing
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/test-pttp-enduser-rg/providers/Microsoft.Network/publicIPAddresses/test-pttp-enduser-publicip1|NOMIS|NOMIS|test|devtest|Client Access Testing

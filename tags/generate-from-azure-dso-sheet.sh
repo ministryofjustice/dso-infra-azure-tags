@@ -28,9 +28,6 @@ filter_all() {
   filter NOMSProduction1/service_app_component_env_desc $1 1d95dcda-65b2-4273-81df-eb979c6b547b $1
   filter NOMSDevTestEnvironments/service_app_component_env_desc $1 b1f3cebb-4988-4ff9-9259-f02ad7744fcb $1
   filter NOMSDigitalStudioProduction1/service_app_env_desc $1 a5ddf257-3b21-4ba9-a28c-ab30f751b383 $1
-  filter P-NOMISDSOdevelopment/service_app_env_desc $1 22b0ff4c-6d78-4964-ac2a-b7cda4a58755 $1
-  filter P-NOMISnonproduction/service_app_env_desc $1 b9aa011b-7a41-46e1-8088-4a32e4bd92e0 $1
-  filter P-NOMISproduction/service_app_env_desc $1 4bdc3aa7-2dbe-4031-aaa1-20456ed7b221 $1
   filter DigitalStudioDevTestEnvironments/service_app_env_desc $1 c27cfedb-f5e9-45e6-9642-0fad1a5c94e7 $1
 }
 
@@ -38,9 +35,6 @@ filter_all_ids() {
   filter_id NOMSProduction1 $1 1d95dcda-65b2-4273-81df-eb979c6b547b $2
   filter_id NOMSDevTestEnvironments $1 b1f3cebb-4988-4ff9-9259-f02ad7744fcb $2
   filter_id NOMSDigitalStudioProduction1 $1 a5ddf257-3b21-4ba9-a28c-ab30f751b383 $2
-  filter_id P-NOMISDSOdevelopment $1 22b0ff4c-6d78-4964-ac2a-b7cda4a58755 $2
-  filter_id P-NOMISnonproduction $1 b9aa011b-7a41-46e1-8088-4a32e4bd92e0 $2
-  filter_id P-NOMISproduction $1 4bdc3aa7-2dbe-4031-aaa1-20456ed7b221 $2
   filter_id DigitalStudioDevTestEnvironments $1 c27cfedb-f5e9-45e6-9642-0fad1a5c94e7 $2
 }
 

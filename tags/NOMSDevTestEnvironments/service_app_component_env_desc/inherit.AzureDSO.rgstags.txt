@@ -12,7 +12,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/DefaultResourceGroup-SUK|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/DomainControllers|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/DRDomainControllers|FixNGo|Management||DR
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-dba|NOMIS|NOMIS||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-dba-terraform-state|NOMIS|NOMIS||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-sap-bip-t1|NOMIS|NOMIS||T1
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-devtest-syscon|NOMIS|NOMIS||T3
@@ -24,7 +23,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/Network-NOMS-Mgmt-DR|FixNGo|Network||DR
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/Network-NOMS-Routes|FixNGo|Transit||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/Network-NOMS-Test|FixNGo|Network||devtest
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/Network-NOMS-Test-asr|FixNGo|Network||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/Network-NOMS-Test-DR|FixNGo|Network||DR
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/Network-NOMS-Transit-Live|FixNGo|Network||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/Network-NSG-NOMS-Mgmt|FixNGo|Network||devtest
@@ -62,7 +60,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/Security|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T1-NonCore|NonCore|NonCore||T1
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T1-OASys|OASys|OASys||T1
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/t1-oasys-db-alb|OASys|OASys||T1
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T1-OASys-Restores|OASys|OASys||T1
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T1-PNOMIS-Restores|NOMIS|NOMIS||T1
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T1-PrisonNOMIS|NOMIS|NOMIS||T1
@@ -74,7 +71,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T3-OAsys-Cold-Storage|OASys|OASys||T3
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T3-PrisonNOMIS|NOMIS|NOMIS||T3
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T3-PRISONNOMIS-asr|NOMIS|NOMIS||T3
-/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/test-pttp-enduser-rg|FixNGo|Transit||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/VS-dso-hmpps-devops-Group|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dso-certs|FixNGo|Management||devtest
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dashboards|FixNGo|Management||devtest
