@@ -1,6 +1,0 @@
-id|tags.service|tags.application|tags.component|tags.environment_name
-/subscriptions/4bdc3aa7-2dbe-4031-aaa1-20456ed7b221/resourceGroups/dso-infra-oasys-prod-tfstate|OASys|OASys||prod
-/subscriptions/4bdc3aa7-2dbe-4031-aaa1-20456ed7b221/resourceGroups/dso-infra-onr-prod-tfstate|OASys|ONR||prod
-/subscriptions/4bdc3aa7-2dbe-4031-aaa1-20456ed7b221/resourceGroups/NetworkWatcherRG|FixNGo|Management||prod
-/subscriptions/4bdc3aa7-2dbe-4031-aaa1-20456ed7b221/resourceGroups/oasys-prod|OASys|OASys||prod
-/subscriptions/4bdc3aa7-2dbe-4031-aaa1-20456ed7b221/resourceGroups/onr-prod|OASys|ONR||prod

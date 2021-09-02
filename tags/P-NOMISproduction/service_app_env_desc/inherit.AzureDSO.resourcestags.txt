@@ -1,3 +1,0 @@
-id|tags.service|tags.application|tags.component|tags.environment_name|tags.description
-/subscriptions/4bdc3aa7-2dbe-4031-aaa1-20456ed7b221/resourceGroups/oasys-prod/providers/Microsoft.Network/applicationGateways/oasys-prod|OASys|OASys|web|prod|
-/subscriptions/4bdc3aa7-2dbe-4031-aaa1-20456ed7b221/resourceGroups/onr-prod/providers/Microsoft.Network/applicationGateways/onr-prod|OASys|ONR|web|prod|
