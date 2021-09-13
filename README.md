@@ -8,8 +8,6 @@ be inherited from resourcegroup or subscription.
 
 Contains github action workflows for deployment of tag changes.
 
-Contains policy definitions and related az cli commands for enforcing tagging.
-
 The `az tag` command is used for updating resource tags
 The `az resource tag` command is used for updating resource groups
 
