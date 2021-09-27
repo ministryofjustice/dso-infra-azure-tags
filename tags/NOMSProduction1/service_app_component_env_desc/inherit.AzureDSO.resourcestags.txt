@@ -469,21 +469,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-DataDisk-0|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-DataDisk-1|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-OSDisk|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0002-DataDisk-0|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0002-DataDisk-1|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0002-OSDisk|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0003-DataDisk-0|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0003-DataDisk-1|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0003-OSDisk|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0004-DataDisk-0|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0004-DataDisk-1|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0004-OSDisk|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0005-DataDisk-0|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0005-DataDisk-1|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0005-OSDisk|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0006-DataDisk-0|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0006-DataDisk-1|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0006-OSDisk|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0001-DataDisk-0|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0001-DataDisk-1|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMWRZ10YV0001-OSDisk|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
@@ -496,48 +481,18 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-DataDisk-0|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-DataDisk-1|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-OSDisk|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0002-DataDisk-0|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0002-DataDisk-1|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0002-OSDisk|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0003-DataDisk-0|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0003-DataDisk-1|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0003-OSDisk|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0004-DataDisk-0|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0004-DataDisk-1|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0004-OSDisk|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0005-DataDisk-0|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0005-DataDisk-1|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0005-OSDisk|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMIS-BIP-LSAST/providers/Microsoft.Compute/virtualMachines/LSPDLHQX33I0001|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0001|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0002|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0003|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0004|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0005|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0006|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMIS-BIP-LSAST/providers/Microsoft.Compute/virtualMachines/LSPMWRZ10YV0001|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMIS-BIP-LSAST/providers/Microsoft.Compute/virtualMachines/LSPMWRZ10YV0002|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPRWRFDBP80001|NOMIS|BI|test|lsast|NOMIS Combined Reporting Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0001|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0002|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0003|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0004|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0005|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPDLHQX33I0001-nic|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0001-nic|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0002-nic|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0003-nic|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0004-nic|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0005-nic|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0006-nic|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMWRZ10YV0001-nic|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMWRZ10YV0002-nic|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPRWRFDBP80001-nic|NOMIS|BI|test|lsast|NOMIS Combined Reporting Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0001-nic|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0002-nic|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0003-nic|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0004-nic|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0005-nic|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Storage/storageAccounts/lspdlhqx33ibootdiags|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Storage/storageAccounts/lsprwrfdbp8bootdiags|NOMIS|BI|test|lsast|NOMIS Combined Reporting Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/availabilitySets/PPPDL2QGCPE-AV|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB
