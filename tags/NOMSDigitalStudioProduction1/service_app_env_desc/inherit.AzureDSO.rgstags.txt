@@ -14,7 +14,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/nomisapi-prod-shared-rg|NOMISAPI|NOMISAPI||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/offloc-prod|NonCore|NonCore||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/rg-fortigate-backups-dr|FixNGo|Transit||DR
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/rsr-prod|Misc|RSR||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/tf-dso-infra-webops-azure-zones-prod|FixNGo|Management||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/webops-prod|FixNGo|Management||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/offloc-test|NonCore|NonCore||devtest
