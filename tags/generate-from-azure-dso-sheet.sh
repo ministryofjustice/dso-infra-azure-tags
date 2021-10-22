@@ -63,7 +63,7 @@ if [[ -e $SOURCE_DIR/"$SOURCE_RESFILE" ]]; then
   dos2unix $RESFILE
   filter_all $RESFILE
 else
-  echo $SOURCE_DIR/"$SOURCE_SRESFILE" does not exist
+  echo $SOURCE_DIR/"$SOURCE_RESFILE" does not exist
 fi
 
 rm -f $SUBFILE

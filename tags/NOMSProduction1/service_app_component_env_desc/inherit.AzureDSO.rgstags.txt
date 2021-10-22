@@ -48,7 +48,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-PP-NonCore|NonCore|NonCore||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-PP-OASys|OASys|OASys||preprod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-PP-PrisonNOMIS|NOMIS|NOMIS||preprod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Networking_HPE_NOMS_ER|FixNGo|Transit||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NetworkWatcherRG|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast|NOMIS|BI||lsast
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Live|FixNGo|Management||prod
