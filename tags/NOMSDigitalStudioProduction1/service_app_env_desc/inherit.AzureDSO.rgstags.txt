@@ -6,7 +6,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/iis-prod|Misc|HPA||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/MC_nomisapi-preprod-rg_nomisapi-preprod_ukwest|NOMISAPI|NOMISAPI||preprod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/MC_nomisapi-prod-rg_nomisapi-prod_ukwest|NOMISAPI|NOMISAPI||prod
-/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/mgmt-app-gw-prod|FixNGo|Management||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/monitoring-prod|FixNGo|Management||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/NetworkWatcherRG|FixNGo|Management||prod
 /subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383/resourceGroups/nomisapi-preprod-rg|NOMISAPI|NOMISAPI||preprod
