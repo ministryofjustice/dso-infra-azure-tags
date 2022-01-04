@@ -1,7 +1,0 @@
-policy_set_name="/providers/Microsoft.Management/managementgroups/747381f4-e81f-4a43-bf68-ced6a1e14edf/providers/Microsoft.Authorization/policySetDefinitions/DSOTagsInitiative"
-policy_assignment_name="DigitalStudioDevTestEnvironmentsDSOTagsInitiative"
-policy_assignment_display_name="Digital Studio Dev & Test Environments DSO Tags Initiative"
-policy_assignment_enforcement_mode="DoNotEnforce"
-policy_assignment_scope="/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7"
-policy_assignment_not_scopes="/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourcegroups/visualstudioonline-a7e3d5c8761e4c58a72e6c3516c3bc2d/providers/microsoft.visualstudio/account/hmpps"
-policy_assignment_not_scopes="/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourcegroups/nomisapi-t3-rg/providers/microsoft.operationsmanagement/solutions/networkmonitoring(nomisapi-t3)"

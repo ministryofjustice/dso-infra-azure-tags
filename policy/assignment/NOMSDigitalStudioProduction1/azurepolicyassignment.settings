@@ -1,5 +1,0 @@
-policy_set_name="/providers/Microsoft.Management/managementgroups/747381f4-e81f-4a43-bf68-ced6a1e14edf/providers/Microsoft.Authorization/policySetDefinitions/DSOTagsInitiative"
-policy_assignment_name="NOMSDigitalStudioProduction1DSOTagsInitiative"
-policy_assignment_display_name="NOMS Digital Studio Production 1 DSO Tags Initiative"
-policy_assignment_enforcement_mode="DoNotEnforce"
-policy_assignment_scope="/subscriptions/a5ddf257-3b21-4ba9-a28c-ab30f751b383"

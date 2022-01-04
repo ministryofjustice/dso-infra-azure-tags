@@ -93,8 +93,9 @@ jobs:
         run: |
           echo "Set aztagscli cmdline args [checkflag=${checkflag}]"
           # Don't update resource groups.  This way we can just use
-          # a tag contributor SP
-          args="--minscope 5 -a -y"
+          # a tag contributor SP. Resources with the "source_code"
+          # tag will be skipped.
+          args="--minscope 5 --skiptags source_code -a -y"
           # add dryrun if checkflag is set
           if [[ "${checkflag}" != "false" ]]; then
             args="${args} -d"
@@ -134,7 +135,7 @@ jobs:
       - name: Azure Login
         uses: azure/login@v1.1
         with:
-          creds: ${{secrets.AZURE_CREDENTIALS}}
+          creds: ${{secrets.DSO_INFRA_AZURE_TAGS}}
 
       - name: Install dependencies
         run: |

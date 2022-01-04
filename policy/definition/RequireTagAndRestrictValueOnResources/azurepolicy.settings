@@ -1,6 +1,0 @@
-# create definition in "Tenant Root Group" management group so accessible by all subs
-policy_name="RequireTagAndRestrictValueOnResources"
-policy_display_name="Require a tag and restrict value on resources"
-policy_description="Enforce a required tag and check its value matches any one of a given set of values.  Does not apply to resource groups"
-policy_management_group="747381f4-e81f-4a43-bf68-ced6a1e14edf"
-policy_metadata="category=Tags"

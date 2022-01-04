@@ -1,2 +1,6 @@
 id
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/defaultresourcegroup-suk*
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/Default-ActivityLogAlerts*
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/cloud-shell-storage-*
+/subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/dashboards*
 /subscriptions/b1f3cebb-4988-4ff9-9259-f02ad7744fcb/resourceGroups/T2-PRISONNOMIS/providers/Microsoft.Compute/virtualMachines/T2PAL0040/extensions/customScript

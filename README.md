@@ -8,10 +8,12 @@ be inherited from resourcegroup or subscription.
 
 Contains github action workflows for deployment of tag changes.
 
-Contains policy definitions and related az cli commands for enforcing tagging.
-
 The `az tag` command is used for updating resource tags
 The `az resource tag` command is used for updating resource groups
+
+## Pipelines
+
+The  Azure AD App (Service Principal) used by this repo's pipeline is called dso-infra-azure-tags and is managed in the [dso-infra-azure-ad](https://github.com/ministryofjustice/dso-infra-azure-ad/tree/main/applications) repository
 
 ## Source
 
@@ -84,6 +86,12 @@ rm tags.resourceGroup.txt
 # Apply the changes (non-incrementally, i.e. delete missing tags)
 ./aztagscli-helper . -a --changetypes all
 ```
+
+## skiptags
+
+The CLI option `--skiptags source_code` should always be used when applying tag changes.
+This will prevent overriding tags which have been applied via Terraform, as the "source_code" tag should be present on all Terraform-managed resources.
+The tags for Terraform-managed resources should be updated directly within Terraform. [This Confluence page](https://dsdmoj.atlassian.net/wiki/spaces/DSTT/pages/3173876256/Terraform+Git+Repos) lists all of our Terraform repos.
 
 ## Azure DSO tags
 
