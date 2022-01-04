@@ -22,7 +22,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-nomis-file-shares-dev|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-nomis-file-shares-devtest|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-webops-azure-zones-dev|FixNGo|Management||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/webops-dev|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/webops-shared-dns-devtest|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/wmt-integration|WMT|WMT||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/wmt-mgmt-nonprod|WMT|WMT||devtest
