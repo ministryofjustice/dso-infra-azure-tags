@@ -1,8 +1,4 @@
 id|tags.service|tags.application|tags.component|tags.environment_name
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/apvs-mgmt|HWPV|HWPVMgmt||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/avps-dev|HWPV|HWPV||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/bastion-dev|FixNGo|Management||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/cloud-shell-storage-westeurope|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/Default-ActivityLogAlerts|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/DefaultResourceGroup-SUK|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/iis-stage|Misc|HPA||devtest
@@ -10,7 +6,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/MC_nomisapi-t3-rg_nomisapi-t3_ukwest|NOMISAPI|NOMISAPI||T3
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/mgmt-app-gw-devtest|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/NetworkWatcherRG|FixNGo|Management||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/nomi-batchload-stage|Misc|Batchload||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/nomisapi-t2-rg|NOMISAPI|NOMISAPI||T2
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/nomisapi-t3-rg|NOMISAPI|NOMISAPI||T3
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/nomisapi-terraform_state_store-rg|NOMISAPI|NOMISAPI||devtest
@@ -18,10 +13,6 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/offloc-stage|NonCore|NonCore||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/rg-fortigate-backups-devtest|FixNGo|Transit||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/test-nomis|NOMISAPI|NOMISAPI||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-mgmt-webops-dev|FixNGo|Management||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-nomis-file-shares-dev|FixNGo|Management||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-nomis-file-shares-devtest|FixNGo|Management||devtest
-/subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/tf-dso-infra-webops-azure-zones-dev|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/webops-shared-dns-devtest|FixNGo|Management||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/wmt-integration|WMT|WMT||devtest
 /subscriptions/c27cfedb-f5e9-45e6-9642-0fad1a5c94e7/resourceGroups/wmt-mgmt-nonprod|WMT|WMT||devtest
