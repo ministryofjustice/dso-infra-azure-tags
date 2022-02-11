@@ -1,8 +1,8 @@
 id|tags.service|tags.application|tags.component|tags.environment_name|tags.description
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/LSPDL0070-DISK21|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/LSPDL0071-DISK21|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/PPPDL00016-DISK22|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/PPPDL00017-DISK21|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/LSPDL0070-DISK21|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/LSPDL0071-DISK21|NOMIS|MIS|data|lsast|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/PPPDL00016-DISK22|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/azureconsupmtion/providers/Microsoft.Compute/disks/PPPDL00017-DISK21|NOMIS|MIS|data|preprod|MIS and Audit Oracle DB (MIS,CNMAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-OASys/providers/Microsoft.Compute/availabilitySets/DRODLOASOD-as|OASys|OASys|data|DR|OASys Oracle DBMS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-OASys/providers/Microsoft.Compute/availabilitySets/DROMLOABIP-as|OASys|OASys|mid|DR|OASys BI Publisher
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-OASys/providers/Microsoft.Compute/availabilitySets/DROWLOASHA1-as|OASys|OASys|ha|DR|OASys HA Proxy Node1
@@ -73,32 +73,32 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10031-nic|OASys|OASys|ha|DR|OASys HA Proxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10032-nic|OASys|ONR|ha|DR|ONR HA Proxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-oasys/providers/Microsoft.Network/networkInterfaces/DROWL10033-nic|OASys|ONR|ha|DR|ONR HA Proxy Node2
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/DRPDLPNDB1-as|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/DRPDLPNDB2-as|NOMIS|NDH|data|DR|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/DRPDLPNDB1-as|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/DRPDLPNDB2-as|NOMIS|NDH|data|DR|NDH Oracle DB (NDH,TRDAT)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/DRPDWPNWFS-as|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/DRPMLNDHAP-as|NOMIS|NDH|mid|DR|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/DRPMLNDHEM-as|NOMIS|NDH|mid|DR|NDH EMS Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/DRPMWNDHDS-as|NOMIS|NDH|mid|DR|NDH Windows Distribution Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/DRPWLCNOMA-as|NOMIS|NOMIS|web|DR|C-NOMIS AppServer Weblogic
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/DRPWLPNOMHA1-as|NOMIS|NOMIS|ha|DR|C-NOMIS HAProxy Node1
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-15|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-16|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-17|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-18|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036_data001-restore-20171110|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036_data002-restore-20171110|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036_root001-restore-20171110|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037-NEWDISK-ASM-10|NOMIS|MIS|data|DR|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037-NEWDISK-ASM-11|NOMIS|MIS|data|DR|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037-NEWDISK-ASM-12|NOMIS|MIS|data|DR|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037_data001|NOMIS|MIS|data|DR|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037_data002|NOMIS|MIS|data|DR|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037_root001|NOMIS|MIS|data|DR|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10038-DISK1|NOMIS|NDH|data|DR|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10038-DISK2|NOMIS|NDH|data|DR|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10038_data001|NOMIS|NDH|data|DR|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10038_data002|NOMIS|NDH|data|DR|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10038_root001|NOMIS|NDH|data|DR|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-15|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-16|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-17|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036-NEWDISK-ASM-18|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036_data001-restore-20171110|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036_data002-restore-20171110|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10036_root001-restore-20171110|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037-NEWDISK-ASM-10|NOMIS|MIS|data|DR|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037-NEWDISK-ASM-11|NOMIS|MIS|data|DR|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037-NEWDISK-ASM-12|NOMIS|MIS|data|DR|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037_data001|NOMIS|MIS|data|DR|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037_data002|NOMIS|MIS|data|DR|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10037_root001|NOMIS|MIS|data|DR|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10038-DISK1|NOMIS|NDH|data|DR|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10038-DISK2|NOMIS|NDH|data|DR|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10038_data001|NOMIS|NDH|data|DR|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10038_data002|NOMIS|NDH|data|DR|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDL10038_root001|NOMIS|NDH|data|DR|NDH Oracle DB (NDH,TRDAT)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDW10046-DISK1|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDW10046-DISK2|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPDW10046-DISK3|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
@@ -163,9 +163,9 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPWL10052_data001|NOMIS|NOMIS|ha|DR|C-NOMIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPWL10052_data002|NOMIS|NOMIS|ha|DR|C-NOMIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/DR-Prison-NOMIS/providers/Microsoft.Compute/disks/DRPWL10052_root001|NOMIS|NOMIS|ha|DR|C-NOMIS HAProxy Node2
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPDL10036|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPDL10037|NOMIS|MIS|data|DR|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPDL10038|NOMIS|NDH|data|DR|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPDL10036|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPDL10037|NOMIS|MIS|data|DR|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPDL10038|NOMIS|NDH|data|DR|NDH Oracle DB (NDH,TRDAT)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPDW10046|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPDW10057|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPML10025|NOMIS|NDH|mid|DR|NDH Admin Tibco Node1
@@ -184,9 +184,9 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPWL10051|NOMIS|NOMIS|ha|DR|C-NOMIS HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Compute/virtualMachines/DRPWL10052|NOMIS|NOMIS|ha|DR|C-NOMIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/loadBalancers/DR-PrisonNOMIS-NOMIS-LB1|NOMIS|NOMIS|web|DR|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDL10036-nic|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDL10037-nic|NOMIS|MIS|data|DR|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDL10038-nic|NOMIS|NDH|data|DR|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDL10036-nic|NOMIS|NOMIS|data|DR|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDL10037-nic|NOMIS|MIS|data|DR|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDL10038-nic|NOMIS|NDH|data|DR|NDH Oracle DB (NDH,TRDAT)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDW10046-nic|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPDW10057-nic|NOMIS|NOMIS|data|DR|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dr-prison-nomis/providers/Microsoft.Network/networkInterfaces/DRPML10025-nic|NOMIS|NDH|mid|DR|NDH Admin Tibco Node1
@@ -211,24 +211,24 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-ukwest-appgw1|FixNGo|Transit||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-ukwest-appgw2|FixNGo|Transit||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/hmpps-prod-ukwest-appgw-rg/providers/Microsoft.Network/applicationGateways/hmpps-prod-ukwest-appgw3|FixNGo|Transit||prod|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/LSPDLPNDB1-as|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/LSPDLPNDB1-as|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/LSPMLNDHAP-as|NOMIS|NDH|mid|lsast|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/LSPMLNDHEM-as|NOMIS|NDH|mid|lsast|NDH EMS Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/LSPWLCNOMA-as|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070-NEWDISK-10|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070-NEWDISK-11|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070-NEWDISK-12|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS/providers/Microsoft.Compute/disks/lspdl00070-newdisk-13|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070data001|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070data002|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070root001|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071-NEWDISK-10|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071-NEWDISK-11|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071-NEWDISK-12|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071-NEWDISK-13|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071data001|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071data002|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071root001-201804300-disk|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070-NEWDISK-10|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070-NEWDISK-11|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070-NEWDISK-12|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS/providers/Microsoft.Compute/disks/lspdl00070-newdisk-13|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070data001|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070data002|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00070root001|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071-NEWDISK-10|NOMIS|MIS|data|lsast|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071-NEWDISK-11|NOMIS|MIS|data|lsast|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071-NEWDISK-12|NOMIS|MIS|data|lsast|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071-NEWDISK-13|NOMIS|MIS|data|lsast|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071data001|NOMIS|MIS|data|lsast|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071data002|NOMIS|MIS|data|lsast|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPDL00071root001-201804300-disk|NOMIS|MIS|data|lsast|MIS Oracle DB (MIS)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPML00040data001|NOMIS|NDH|mid|lsast|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPML00040data002|NOMIS|NDH|mid|lsast|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPML00040root001|NOMIS|NDH|mid|lsast|NDH Admin Tibco Node1
@@ -238,13 +238,13 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPWL00011data001|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPWL00011data002|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/disks/LSPWL00011root001|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS/providers/Microsoft.Compute/virtualMachines/LSPDL00070|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/virtualMachines/LSPDL00071|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS/providers/Microsoft.Compute/virtualMachines/LSPDL00070|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-PRISON-NOMIS/providers/Microsoft.Compute/virtualMachines/LSPDL00071|NOMIS|MIS|data|lsast|MIS Oracle DB (MIS)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/virtualMachines/LSPML00040|NOMIS|NDH|mid|lsast|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Compute/virtualMachines/LSPML00042|NOMIS|NDH|mid|lsast|NDH EMS Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LS-Prison-NOMIS/providers/Microsoft.Compute/virtualMachines/LSPWL00011|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPDL00070-nic|NOMIS|NOMIS|data|lsast|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPDL00071-nic|NOMIS|MIS|data|lsast|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPDL00070-nic|NOMIS|NOMIS|data|lsast|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT,CNMTRN)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPDL00071-nic|NOMIS|MIS|data|lsast|MIS Oracle DB (MIS)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPML00040-nic|NOMIS|NDH|mid|lsast|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPML00042-nic|NOMIS|NDH|mid|lsast|NDH EMS Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/ls-prison-nomis/providers/Microsoft.Network/networkInterfaces/LSPWL00011-nic|NOMIS|NOMIS|web|lsast|C-NOMIS AppServer Weblogic
@@ -282,16 +282,16 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_ukwest/flowLogs/Microsoft.Networkhmpps-preprod-ukwest-appgw-rghmpps-preprod-ukwest-appgw1-nsg|FixNGo|Transit||preprod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_ukwest/flowLogs/Microsoft.Networkhmpps-prod-ukwest-appgw-rghmpps-prod-ukwest-appgw1-nsg|FixNGo|Transit||prod|
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_ukwest/flowLogs/Microsoft.Networkhmpps-prod-ukwest-appgw-rghmpps-prod-ukwest-appgw2-nsg|FixNGo|Transit||prod|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPDLHQX33I-AV|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPDLHQX33I-AV|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPMLIA64CU-AV|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPMWRZ10YV-AV|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPRWRFDBP8-AV|NOMIS|BI|test|lsast|NOMIS Combined Reporting Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/availabilitySets/LSPWLJZ5Q4L-AV|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-0|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-1|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-2|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/lspdlhqx33i0001-datadisk-3|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-OSDisk|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-0|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-1|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-DataDisk-2|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/lspdlhqx33i0001-datadisk-3|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPDLHQX33I0001-OSDisk|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-DataDisk-0|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-DataDisk-1|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPMLIA64CU0001-OSDisk|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
@@ -304,31 +304,31 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-DataDisk-0|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-DataDisk-1|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/disks/LSPWLJZ5Q4L0001-OSDisk|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPDLHQX33I0001|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPDLHQX33I0001|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMLIA64CU0001|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPMWRZ10YV0001|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPRWRFDBP80001|NOMIS|BI|test|lsast|NOMIS Combined Reporting Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Compute/virtualMachines/LSPWLJZ5Q4L0001|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPDLHQX33I0001-nic|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPDLHQX33I0001-nic|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMLIA64CU0001-nic|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPMWRZ10YV0001-nic|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPRWRFDBP80001-nic|NOMIS|BI|test|lsast|NOMIS Combined Reporting Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Network/networkInterfaces/LSPWLJZ5Q4L0001-nic|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Storage/storageAccounts/lspdlhqx33ibootdiags|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Storage/storageAccounts/lspdlhqx33ibootdiags|NOMIS|BI|data|lsast|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Storage/storageAccounts/lspmlia64cubootdiags|NOMIS|BI|mid|lsast|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Storage/storageAccounts/lspmwrz10yvbootdiags|NOMIS|BI|mid|lsast|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Storage/storageAccounts/lsprwrfdbp8bootdiags|NOMIS|BI|test|lsast|NOMIS Combined Reporting Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-lsast/providers/Microsoft.Storage/storageAccounts/lspwljz5q4lbootdiags|NOMIS|BI|web|lsast|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/availabilitySets/PPPDL2QGCPE-AV|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/availabilitySets/PPPDL2QGCPE-AV|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/availabilitySets/PPPMLH4HUJV-AV|NOMIS|BI|mid|preprod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/availabilitySets/PPPMW0HW7AX-AV|NOMIS|BI|mid|preprod|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/availabilitySets/PPPWL82SG2D-AV|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9) - Admin CMC
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/availabilitySets/PPPWLWVE79H-AV|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPDL2QGCPE0001-DataDisk-0|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPDL2QGCPE0001-DataDisk-1|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPDL2QGCPE0001-DataDisk-2|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/pppdl2qgcpe0001-datadisk-3|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPDL2QGCPE0001-OSDisk|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPDL2QGCPE0001-DataDisk-0|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPDL2QGCPE0001-DataDisk-1|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPDL2QGCPE0001-DataDisk-2|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/pppdl2qgcpe0001-datadisk-3|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPDL2QGCPE0001-OSDisk|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPMLH4HUJV0001-DataDisk-0|NOMIS|BI|mid|preprod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPMLH4HUJV0001-DataDisk-1|NOMIS|BI|mid|preprod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPMLH4HUJV0001-OSDisk|NOMIS|BI|mid|preprod|NOMIS Combined Reporting BOE SAP
@@ -350,7 +350,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPWLWVE79H0002-DataDisk-0|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPWLWVE79H0002-DataDisk-1|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/disks/PPPWLWVE79H0002-OSDisk|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/virtualMachines/PPPDL2QGCPE0001|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/virtualMachines/PPPDL2QGCPE0001|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/virtualMachines/PPPMLH4HUJV0001|NOMIS|BI|mid|preprod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/virtualMachines/PPPMLH4HUJV0002|NOMIS|BI|mid|preprod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/virtualMachines/PPPMLH4HUJV0003|NOMIS|BI|mid|preprod|NOMIS Combined Reporting BOE SAP
@@ -358,7 +358,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/virtualMachines/PPPWL82SG2D0001|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9) - Admin CMC
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/virtualMachines/PPPWLWVE79H0001|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Compute/virtualMachines/PPPWLWVE79H0002|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Network/networkInterfaces/PPPDL2QGCPE0001-nic|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Network/networkInterfaces/PPPDL2QGCPE0001-nic|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Network/networkInterfaces/PPPMLH4HUJV0001-nic|NOMIS|BI|mid|preprod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Network/networkInterfaces/PPPMLH4HUJV0002-nic|NOMIS|BI|mid|preprod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Network/networkInterfaces/PPPMLH4HUJV0003-nic|NOMIS|BI|mid|preprod|NOMIS Combined Reporting BOE SAP
@@ -366,23 +366,23 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Network/networkInterfaces/PPPWL82SG2D0001-nic|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9) - Admin CMC
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Network/networkInterfaces/PPPWLWVE79H0001-nic|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Network/networkInterfaces/PPPWLWVE79H0002-nic|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Storage/storageAccounts/pppdl2qgcpebootdiags|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Storage/storageAccounts/pppdl2qgcpebootdiags|NOMIS|BI|data|preprod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Storage/storageAccounts/pppmw0hw7axbootdiags|NOMIS|BI|mid|preprod|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-preprod/providers/Microsoft.Storage/storageAccounts/pppwl82sg2dbootdiags|NOMIS|BI|web|preprod|NOMIS Combined Reporting WebServer (Tomcat 9) - Admin CMC
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/availabilitySets/PDPDL39C893-AV|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/availabilitySets/PDPDL39C893-AV|NOMIS|BI|data|prod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/availabilitySets/PDPML0TUC0Y-AV|NOMIS|BI|mid|prod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/availabilitySets/PDPMW0P1UQL-AV|NOMIS|BI|mid|prod|NOMIS MIS-ETL IPS/BODS
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/availabilitySets/PDPWLHMENDT-AV|NOMIS|BI|web|prod|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/availabilitySets/PDPWLL4YGZA-AV|NOMIS|BI|web|prod|NOMIS Combined Reporting WebServer (Tomcat 9) - Admin CMC
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930001-DataDisk-0|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930001-DataDisk-1|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930001-DataDisk-2|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/pdpdl39c8930001-datadisk-3|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930001-OSDisk|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930002-DataDisk-0|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930002-DataDisk-1|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930002-DataDisk-2|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930002-OSDisk|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930001-DataDisk-0|NOMIS|BI|data|prod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930001-DataDisk-1|NOMIS|BI|data|prod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930001-DataDisk-2|NOMIS|BI|data|prod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/pdpdl39c8930001-datadisk-3|NOMIS|BI|data|prod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930001-OSDisk|NOMIS|BI|data|prod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930002-DataDisk-0|NOMIS|BI|data|prod|NOMIS BIP Oracle DB HA
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930002-DataDisk-1|NOMIS|BI|data|prod|NOMIS BIP Oracle DB HA
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930002-DataDisk-2|NOMIS|BI|data|prod|NOMIS BIP Oracle DB HA
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPDL39C8930002-OSDisk|NOMIS|BI|data|prod|NOMIS BIP Oracle DB HA
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPML0TUC0Y0001-DataDisk-0|NOMIS|BI|mid|prod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPML0TUC0Y0001-DataDisk-1|NOMIS|BI|mid|prod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPML0TUC0Y0001-OSDisk|NOMIS|BI|mid|prod|NOMIS Combined Reporting BOE SAP
@@ -422,8 +422,8 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPWLL4YGZA0001-DataDisk-0|NOMIS|BI|web|prod|NOMIS Combined Reporting WebServer (Tomcat 9) - Admin CMC
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPWLL4YGZA0001-DataDisk-1|NOMIS|BI|web|prod|NOMIS Combined Reporting WebServer (Tomcat 9) - Admin CMC
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/disks/PDPWLL4YGZA0001-OSDisk|NOMIS|BI|web|prod|NOMIS Combined Reporting WebServer (Tomcat 9) - Admin CMC
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/virtualMachines/PDPDL39C8930001|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/virtualMachines/PDPDL39C8930002|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/virtualMachines/PDPDL39C8930001|NOMIS|BI|data|prod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/virtualMachines/PDPDL39C8930002|NOMIS|BI|data|prod|NOMIS BIP Oracle DB HA
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/virtualMachines/PDPML0TUC0Y0001|NOMIS|BI|mid|prod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/virtualMachines/PDPML0TUC0Y0002|NOMIS|BI|mid|prod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/virtualMachines/PDPML0TUC0Y0003|NOMIS|BI|mid|prod|NOMIS Combined Reporting BOE SAP
@@ -437,8 +437,8 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/virtualMachines/PDPWLHMENDT0003|NOMIS|BI|web|prod|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/virtualMachines/PDPWLHMENDT0004|NOMIS|BI|web|prod|NOMIS Combined Reporting WebServer (Tomcat 9)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Compute/virtualMachines/PDPWLL4YGZA0001|NOMIS|BI|web|prod|NOMIS Combined Reporting WebServer (Tomcat 9) - Admin CMC
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Network/networkInterfaces/PDPDL39C8930001-nic|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Network/networkInterfaces/PDPDL39C8930002-nic|NOMIS|BI|data|prod|NOMIS BIP Oracle DB
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Network/networkInterfaces/PDPDL39C8930001-nic|NOMIS|BI|data|prod|NOMIS BIP Oracle DB (BIPSYS, BIPAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Network/networkInterfaces/PDPDL39C8930002-nic|NOMIS|BI|data|prod|NOMIS BIP Oracle DB HA
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Network/networkInterfaces/PDPML0TUC0Y0001-nic|NOMIS|BI|mid|prod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Network/networkInterfaces/PDPML0TUC0Y0002-nic|NOMIS|BI|mid|prod|NOMIS Combined Reporting BOE SAP
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/nomis-bip-prod/providers/Microsoft.Network/networkInterfaces/PDPML0TUC0Y0003-nic|NOMIS|BI|mid|prod|NOMIS Combined Reporting BOE SAP
@@ -459,6 +459,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Live/providers/Microsoft.Compute/disks/PCMCL00041_data004|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Live/providers/Microsoft.Compute/disks/pcmcl00041_data005|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Live/providers/Microsoft.Compute/disks/PCMCL00041_root001|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-LIVE/providers/Microsoft.Compute/disks/PCMCW0051_7f482632b9bd411e9954c70f29f4af32|FixNGo|Management|utility|prod|SMTP gateway server (for Offloc)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Compute/virtualMachines/PCMCL00041|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Compute/virtualMachines/PCMCW0051|FixNGo|Management|utility|prod|SMTP gateway server (for Offloc)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live/providers/Microsoft.Network/networkInterfaces/PCMCL00041-nic|FixNGo|Management|misc|prod|Oracle OEM Server monitoring
@@ -470,7 +471,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live-dr/providers/Microsoft.Compute/virtualMachines/DRMCL10029|FixNGo|Management|misc|DR|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-live-dr/providers/Microsoft.Network/networkInterfaces/DRMCL10029-nic|FixNGo|Management|misc|DR|Oracle OEM Server monitoring
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/availabilitySets/PCM-AD-AS1|FixNGo|Management|domaincontroller|prod|AD Server 2; NTP Source
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/availabilitySets/PDMR2WD-as|FixNGo|Management|remotedesktop|prod|RD jump server (NOMIS IE & Java)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/availabilitySets/PDMR2WD-as|FixNGo|Management|remotedesktop|prod|RD jump server (NOMIS IE & Java)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/availabilitySets/PDMRLR-as|FixNGo|Management|sshbastion|prod|jumpbox ssh Bastion primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/availabilitySets/PDMRWD-as|FixNGo|Management|remotedesktop|prod|RD jump server 2 (General access 1)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/availabilitySets/PDPRWZLQ6Z1-AV|NOMIS|NOMIS|test|prod|Client Access Testing
@@ -484,6 +485,12 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/disks/PDMNW0041-APP-DISK2|FixNGo|Management|utility|prod|wsus internal facing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/disks/PDMNW0041_DATA1_74E3CBED5B4B4ED79AE4B08A522B5154|FixNGo|Management|utility|prod|wsus internal facing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/disks/PDMNW0041_OsDisk_1_fa486142eed04c03a0093128ee142aa3|FixNGo|Management|utility|prod|wsus internal facing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMR2W00011_data001_2390ae28d9a34570978196c540147bbf|FixNGo|Management|remotedesktop|prod|RD jump server (NOMIS IE & Java)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMR2W00011_data002_7a9bf2ab707d4fd3b5eb711ebda71ee7|FixNGo|Management|remotedesktop|prod|RD jump server (NOMIS IE & Java)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMR2W00011_root001_6eeeef4d37b341e3912ec0bf3d3d7e82|FixNGo|Management|remotedesktop|prod|RD jump server (NOMIS IE & Java)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMR2W00014_data001_4368841225764a9f93141744eec7a267|FixNGo|Management|remotedesktop|prod|RD jump server 8 (NART Interface Access)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMR2W00014_data002_b567e53c48464abaaa992e8cec0a29c0|FixNGo|Management|remotedesktop|prod|RD jump server 8 (NART Interface Access)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMR2W00014_root001_2c663e3ae6b7458192afa898897ff99d|FixNGo|Management|remotedesktop|prod|RD jump server 8 (NART Interface Access)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/disks/PDMRL00109data001|FixNGo|Management|sshbastion|prod|jumpbox ssh Bastion primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/disks/PDMRL00109data002|FixNGo|Management|sshbastion|prod|jumpbox ssh Bastion primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/disks/PDMRL00109root001|FixNGo|Management|sshbastion|prod|jumpbox ssh Bastion primary
@@ -504,11 +511,17 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/disks/PDMRW00009_PDMRW00009-DISK5|FixNGo|Management|remotedesktop|prod|RD jump server 4 (DBA)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/disks/PDMRW00009_PDMRW00009-DISK6|FixNGo|Management|remotedesktop|prod|RD jump server 4 (DBA)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Compute/disks/PDMRW00009_root001|FixNGo|Management|remotedesktop|prod|RD jump server 4 (DBA)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMRW0001_ee379379f16645aca0d751f8b2432c3c|FixNGo|Management|remotedesktop|prod|RD gateway server and web access
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMRW0002-20170609-093650_2f992610d08f44e4ab0813ed03a79c6a|FixNGo|Management|remotedesktop|prod|RD session host
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMRW0002_98313826b61e4e5a905ef9b6a3191cbe|FixNGo|Management|remotedesktop|prod|RD session host
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMRW0003-20170609-100115_dd8dcd6aace74a32b2138a069cb998c4|FixNGo|Management|remotedesktop|prod|RD connection broker
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMRW0003_d1a1ef063de4447e930739db15b7d32e|FixNGo|Management|remotedesktop|prod|RD connection broker
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDMRW0004_3d988beba9f743269b5de50bb2d5b9cb|FixNGo|Management|remotedesktop|prod|RD licensing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/disks/PDPRWZLQ6Z10001-OSDisk|NOMIS|NOMIS|test|prod|Client Access Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PCMCW0011|FixNGo|Management|domaincontroller|prod|AD Server 1; NTP Source
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PCMCW0012|FixNGo|Management|domaincontroller|prod|AD Server 2; NTP Source
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMNW0041|FixNGo|Management|utility|prod|wsus internal facing
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMR2W00011|FixNGo|Management|remotedesktop|prod|RD jump server (NOMIS IE & Java)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE/providers/Microsoft.Compute/virtualMachines/PDMR2W00011|FixNGo|Management|remotedesktop|prod|RD jump server (NOMIS IE & Java)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMR2W00014|FixNGo|Management|remotedesktop|prod|RD jump server 8 (NART Interface Access)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMRL00109|FixNGo|Management|sshbastion|prod|jumpbox ssh Bastion primary
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMRW00007|FixNGo|Management|remotedesktop|prod|RD jump server 2 (General access 1)
@@ -519,7 +532,7 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMRW0003|FixNGo|Management|remotedesktop|prod|RD connection broker
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDMRW0004|FixNGo|Management|remotedesktop|prod|RD licensing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Compute/virtualMachines/PDPRWZLQ6Z10001|NOMIS|NOMIS|test|prod|Client Access Testing
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pcmcw001163|FixNGo|Management|domaincontroller|prod|AD Server 1; NTP Source
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Network/networkInterfaces/pcmcw001163|FixNGo|Management|domaincontroller|prod|AD Server 1; NTP Source
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pcmcw0012231|FixNGo|Management|domaincontroller|prod|AD Server 2; NTP Source
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/pdmnw0041369|FixNGo|Management|utility|prod|wsus internal facing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live/providers/Microsoft.Network/networkInterfaces/PDMR2W00011-nic|FixNGo|Management|remotedesktop|prod|RD jump server (NOMIS IE & Java)
@@ -535,13 +548,22 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Network/networkInterfaces/PDPRWZLQ6Z10001-nic|NOMIS|NOMIS|test|prod|Client Access Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live/providers/Microsoft.Storage/storageAccounts/pdprwzlq6z1bootdiags|NOMIS|NOMIS|test|prod|Client Access Testing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/availabilitySets/DRMRWRDJPS-as|FixNGo|Management|remotedesktop|DR|RD jump server 2 (General access 1)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/availabilitySets/DRMRWRDSCB-as|FixNGo|Management|remotedesktop|DR|RD connection broker
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/availabilitySets/DRMRWRDSCB-as|FixNGo|Management|remotedesktop|DR|RD connection broker
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/availabilitySets/DRMRWRDSGW-AS1|FixNGo|Management|remotedesktop|DR|RD gateway server and web access
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/availabilitySets/DRMRWRDSLS-as|FixNGo|Management|remotedesktop|DR|RD licensing
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/availabilitySets/DRMRWRDSSSH-as|FixNGo|Management|remotedesktop|DR|RD session host
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/availabilitySets/DRMRWRDSLS-as|FixNGo|Management|remotedesktop|DR|RD licensing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/noms-mgmt-live-dr/providers/Microsoft.Compute/availabilitySets/DRMRWRDSSSH-as|FixNGo|Management|remotedesktop|DR|RD session host
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/disks/DRMRW10001-restore-20171026|FixNGo|Management|remotedesktop|DR|RD gateway server and web access
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/disks/DRMRW10001data1-restore-20171026|FixNGo|Management|remotedesktop|DR|RD gateway server and web access
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/disks/DRMRW10001data2-restore-20171026|FixNGo|Management|remotedesktop|DR|RD gateway server and web access
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/disks/DRMRW10002_data001_89b01bcb31b14309b1a32894ab06ba50|FixNGo|Management|remotedesktop|DR|RD session host
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/disks/DRMRW10002_data002_e76d06636cd64a6eb13e7f0c7b180024|FixNGo|Management|remotedesktop|DR|RD session host
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/disks/DRMRW10002_root001_fe8955108a1a4e0a91906249903a4770|FixNGo|Management|remotedesktop|DR|RD session host
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/disks/DRMRW10003_data001_8b126d0c05cd461ca62d80e159b7ebeb|FixNGo|Management|remotedesktop|DR|RD connection broker
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/disks/DRMRW10003_data002_59c74c762cc84ef5a3a38ba7bd641569|FixNGo|Management|remotedesktop|DR|RD connection broker
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/disks/DRMRW10003_root001_4a6312899c2e4ba4bafef208b900240a|FixNGo|Management|remotedesktop|DR|RD connection broker
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/disks/DRMRW10004_data001_7185e2c7a3a54a0d95f141e6e3da6dca|FixNGo|Management|remotedesktop|DR|RD licensing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/disks/DRMRW10004_data002_c9538e76f44646fb9ac9ef57be97911f|FixNGo|Management|remotedesktop|DR|RD licensing
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-MGMT-LIVE-DR/providers/Microsoft.Compute/disks/DRMRW10004_root001_305ec57025ff4981be230c3350d7c9a4|FixNGo|Management|remotedesktop|DR|RD licensing
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/disks/DRMRW10007_data001|FixNGo|Management|remotedesktop|DR|RD jump server 2 (General access 1)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/disks/DRMRW10007_data002|FixNGo|Management|remotedesktop|DR|RD jump server 2 (General access 1)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-DR/providers/Microsoft.Compute/disks/DRMRW10007_root001|FixNGo|Management|remotedesktop|DR|RD jump server 2 (General access 1)
@@ -1000,67 +1022,67 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00033-nic|OASys|OASys|ha|prod|OASys HA Proxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00035-nic|OASys|OASys|ha|prod|Training HA Proxy Node
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-oasys/providers/Microsoft.Network/networkInterfaces/PDOWL00036-nic|OASys|OASys|ha|prod|Practice HA Proxy Node
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PDPDLPNDB1-as|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PDPDLPNDB2-as|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PDPDLPNDB1-as|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PDPDLPNDB2-as|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PDPDWPNWFS-as|NOMIS|NOMIS|data|prod|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PDPMLNDHAP-as|NOMIS|NDH|mid|prod|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PDPMLNDHEM-as|NOMIS|NDH|mid|prod|NDH EMS Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PDPMWNDHDS-as|NOMIS|NDH|mid|prod|NDH Windows Distribution Server
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PDPWLCNOMA-as|NOMIS|NOMIS|web|prod|C-NOMIS AppServer Weblogic
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PDPWLPNOMHA1-as|NOMIS|NOMIS|ha|prod|C-NOMIS HAProxy Node1
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/nomis-binary-fixed-disk|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-DISK21|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-DISK22|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-DISK23|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-DISK24|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-DISK3|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-19|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-20|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-21|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-22|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-23|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-24|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035_data001|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035_data002|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-DISK20|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-DISK21|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-DISK22|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-DISK23|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-DISK24|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-19|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-20|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-21|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-22|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-23|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-24|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036_data001|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036_data002|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036_root001|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-DISK20|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-DISK21|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-DISK22|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-NEWDISK-ASM-10|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-NEWDISK-ASM-11|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-NEWDISK-ASM-12|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-NEWDISK-ASM-8|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-NEWDISK-ASM-9|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037_data001|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037_data002|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037_root001|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-DISK20|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-DISK21|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-DISK22|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-DISK23|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-DISK24|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-15|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-16|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-17|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-18|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-19|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-20|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038_data001|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038_data002|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038_root001|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/nomis-binary-fixed-disk|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-DISK21|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-DISK22|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-DISK23|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-DISK24|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-DISK3|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-19|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-20|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-21|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-22|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-23|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035-NEWDISK-ASM-24|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035_data001|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00035_data002|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-DISK20|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-DISK21|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-DISK22|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-DISK23|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-DISK24|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-19|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-20|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-21|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-22|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-23|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036-NEWDISK-ASM-24|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036_data001|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036_data002|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00036_root001|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-DISK20|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-DISK21|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-DISK22|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-NEWDISK-ASM-10|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-NEWDISK-ASM-11|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-NEWDISK-ASM-12|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-NEWDISK-ASM-8|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037-NEWDISK-ASM-9|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037_data001|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037_data002|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00037_root001|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-DISK20|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-DISK21|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-DISK22|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-DISK23|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-DISK24|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-15|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-16|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-17|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-18|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-19|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038-NEWDISK-ASM-20|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038_data001|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038_data002|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00038_root001|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00062-DISK13|NOMIS|NOMIS|data|prod|C-NOMIS DB High-Availability/DataGuard
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00062-DISK14|NOMIS|NOMIS|data|prod|C-NOMIS DB High-Availability/DataGuard
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPDL00062-DISK15|NOMIS|NOMIS|data|prod|C-NOMIS DB High-Availability/DataGuard
@@ -1121,11 +1143,11 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPWL00052_data001|NOMIS|NOMIS|ha|prod|C-NOMIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPWL00052_data002|NOMIS|NOMIS|ha|prod|C-NOMIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PDPWL00052_root001|NOMIS|NOMIS|ha|prod|C-NOMIS HAProxy Node2
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016-NEWDISK-12|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPDL00035|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPDL00036|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPDL00037|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPDL00038|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PD-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016-NEWDISK-12|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPDL00035|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPDL00036|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPDL00037|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPDL00038|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPDL00062|NOMIS|NOMIS|data|prod|C-NOMIS DB High-Availability/DataGuard
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPDW00057|NOMIS|NOMIS|data|prod|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPML00025|NOMIS|NDH|mid|prod|NDH Admin Tibco Node1
@@ -1143,10 +1165,10 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPWL00051|NOMIS|NOMIS|ha|prod|C-NOMIS HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Compute/virtualMachines/PDPWL00052|NOMIS|NOMIS|ha|prod|C-NOMIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/loadBalancers/PD-PrisonNOMIS-NOMIS-LB1-v2|NOMIS|NOMIS|web|prod|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00035-nic|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00036-nic|NOMIS|MIS|data|prod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00037-nic|NOMIS|NDH|data|prod|NDH Oracle DB (NDHP,TRDATP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00038-nic|NOMIS|NOMIS|data|prod|Audit (CNMAUDP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00035-nic|NOMIS|NOMIS|data|prod|C-NOMIS Oracle DB (CNOM)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00036-nic|NOMIS|MIS|data|prod|MIS Oracle DB (MIS)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00037-nic|NOMIS|NDH|data|prod|NDH Oracle DB (NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00038-nic|NOMIS|NOMIS|data|prod|Audit (CNMAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDL00062-nic|NOMIS|NOMIS|data|prod|C-NOMIS DB High-Availability/DataGuard
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPDW00057-nic|NOMIS|NOMIS|data|prod|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-prison-nomis/providers/Microsoft.Network/networkInterfaces/PDPML00025-nic|NOMIS|NDH|mid|prod|NDH Admin Tibco Node1
@@ -1452,26 +1474,26 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00031-nic|OASys|OASys|ha|preprod|OASys HA Proxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00032-nic|OASys|ONR|ha|preprod|ONR HA Proxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-oasys/providers/Microsoft.Network/networkInterfaces/PPOWL00033-nic|OASys|ONR|ha|preprod|ONR HA Proxy Node2
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PPPDLPNDB1-as|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PPPDLPNDB1-as|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PPPDWPNWFS-as|NOMIS|NOMIS|data|preprod|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PPPMLNDHAP-as|NOMIS|NDH|mid|preprod|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PPPMLNDHEM-as|NOMIS|NDH|mid|preprod|NDH EMS Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PPPWLCNOMA-as|NOMIS|NOMIS|web|preprod|C-NOMIS AppServer Weblogic
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/availabilitySets/PPPWLPNOMHA1-as|NOMIS|NOMIS|ha|preprod|C-NOMIS HAProxy Node1
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016-DISK21|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016-NEWDISK-11|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016-NEWDISK-13|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-PRISON-NOMIS/providers/Microsoft.Compute/disks/pppdl00016-newdisk-14|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016_data001|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016_data002|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016_root001|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017-NEWDISK-10|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017-NEWDISK-11|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017-NEWDISK-12|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/pppdl00017-newdisk-13|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017_data001|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017_data002|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017_root001|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016-DISK21|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016-NEWDISK-11|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016-NEWDISK-13|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-PRISON-NOMIS/providers/Microsoft.Compute/disks/pppdl00016-newdisk-14|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016_data001|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016_data002|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00016_root001|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017-NEWDISK-10|NOMIS|MIS|data|preprod|MIS and Audit Oracle DB (MIS,CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017-NEWDISK-11|NOMIS|MIS|data|preprod|MIS and Audit Oracle DB (MIS,CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017-NEWDISK-12|NOMIS|MIS|data|preprod|MIS and Audit Oracle DB (MIS,CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/pppdl00017-newdisk-13|NOMIS|MIS|data|preprod|MIS and Audit Oracle DB (MIS,CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017_data001|NOMIS|MIS|data|preprod|MIS and Audit Oracle DB (MIS,CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017_data002|NOMIS|MIS|data|preprod|MIS and Audit Oracle DB (MIS,CNMAUD)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDL00017_root001|NOMIS|MIS|data|preprod|MIS and Audit Oracle DB (MIS,CNMAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDW00029-DISK1|NOMIS|NOMIS|data|preprod|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDW00029_data001|NOMIS|NOMIS|data|preprod|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPDW00029_data002|NOMIS|NOMIS|data|preprod|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
@@ -1497,8 +1519,8 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPWL00052_data001|NOMIS|NOMIS|ha|preprod|C-NOMIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPWL00052_data002|NOMIS|NOMIS|ha|preprod|C-NOMIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-Prison-NOMIS/providers/Microsoft.Compute/disks/PPPWL00052_root001|NOMIS|NOMIS|ha|preprod|C-NOMIS HAProxy Node2
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-PRISON-NOMIS/providers/Microsoft.Compute/virtualMachines/PPPDL00016|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/virtualMachines/PPPDL00017|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PP-PRISON-NOMIS/providers/Microsoft.Compute/virtualMachines/PPPDL00016|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/virtualMachines/PPPDL00017|NOMIS|MIS|data|preprod|MIS and Audit Oracle DB (MIS,CNMAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/virtualMachines/PPPDW00029|NOMIS|NOMIS|data|preprod|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/virtualMachines/PPPML00007|NOMIS|NDH|mid|preprod|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/virtualMachines/PPPML00009|NOMIS|NDH|mid|preprod|NDH EMS Tibco Node1
@@ -1508,8 +1530,8 @@ id|tags.service|tags.application|tags.component|tags.environment_name|tags.descr
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/virtualMachines/PPPWL00051|NOMIS|NOMIS|ha|preprod|C-NOMIS HAProxy Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Compute/virtualMachines/PPPWL00052|NOMIS|NOMIS|ha|preprod|C-NOMIS HAProxy Node2
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/loadBalancers/PP-PrisonNOMIS-NOMIS-LB1-v2|NOMIS|NOMIS|web|preprod|
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPDL00016-nic|NOMIS|NOMIS|data|preprod|C-NOMIS Oracle DB (CNOMP,ORAUDP,ORSYSP)
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPDL00017-nic|NOMIS|MIS|data|preprod|MIS Oracle DB (MISP,MISAUDP,MISSYSP)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPDL00016-nic|NOMIS|NOMIS|data|preprod|C-NOMIS and NDH Oracle DB (CNOM,NDH,TRDAT)
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPDL00017-nic|NOMIS|MIS|data|preprod|MIS and Audit Oracle DB (MIS,CNMAUD)
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPDW00029-nic|NOMIS|NOMIS|data|preprod|Windows File Share Server (BOE Data) - Offloc - Contingency Reports
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPML00007-nic|NOMIS|NDH|mid|preprod|NDH Admin Tibco Node1
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pp-prison-nomis/providers/Microsoft.Network/networkInterfaces/PPPML00009-nic|NOMIS|NDH|mid|preprod|NDH EMS Tibco Node1
