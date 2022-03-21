@@ -95,6 +95,9 @@ id|tags.service|tags.application|tags.component|tags.environment_name
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/PINS-installs|NonCore|NonCore||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-TVM|FixNGo|Rapid7||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/OASYS-AV-PP|OASys|OASys||preprod
-/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/NOMS-Mgmt-Live-ServiceNow|FixNGo|ServiceNow||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-aad-logs|FixNGo|Management||prod
 /subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/LogAnalyticsDefaultResources|FixNGo|Management||prod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/pd-lss|NonCore|LSS||prod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Network-NSG-PD-LSS|NonCore|LSS||prod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/Rapid7_tvm_server|FixNGo|Management||prod
+/subscriptions/1d95dcda-65b2-4273-81df-eb979c6b547b/resourceGroups/dso-boot-diagnostics|FixNGo|Management||prod
