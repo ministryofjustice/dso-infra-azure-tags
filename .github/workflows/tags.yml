@@ -36,14 +36,15 @@ jobs:
       env_matrix: ${{ steps.setupenv.outputs.env_matrix }}
     steps:
       - name: Clone repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
 
       # since this is a public repo, use specific version of this action
       # to ensure it can't be used to steal secrets
       - name: Get list of committed files
         id: files
         if: ${{ github.event_name != 'workflow_dispatch' }}
-        uses: jitterbit/get-changed-files@b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42
+        uses: jitterbit/get-changed-files@b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42 # v1
         with:
           format: 'space-delimited'
 
@@ -130,10 +131,11 @@ jobs:
       - ubuntu-latest
     steps:
       - name: Clone repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
 
       - name: Azure Login
-        uses: azure/login@v1.1
+        uses: azure/login@e15b166166a8746d1a47596803bd8c1b595455cf # v1.6.0
         with:
           creds: ${{secrets.DSO_INFRA_AZURE_TAGS}}
 
